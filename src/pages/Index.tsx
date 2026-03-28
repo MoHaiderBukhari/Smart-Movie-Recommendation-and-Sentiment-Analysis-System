@@ -122,7 +122,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="border-t border-border py-8 text-center">
-        <p className="text-sm text-muted-foreground">CineMatch — Powered by Content-Based Filtering & VADER Sentiment Analysis</p>
+        <p className="text-sm text-muted-foreground">Smart Movie Recommendation and Sentiment Analysis System — Powered by Content-Based Filtering & VADER</p>
       </footer>
 
       {/* Movie Detail Modal */}
