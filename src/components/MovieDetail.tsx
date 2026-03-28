@@ -1,6 +1,7 @@
-import { X } from "lucide-react";
+import { X, Bookmark } from "lucide-react";
 import type { Movie } from "@/data/movies";
 import { analyzeSentiment, getRecommendations } from "@/data/movies";
+import { useWatchlist } from "@/hooks/use-watchlist";
 import SentimentChart from "./SentimentChart";
 import MovieCard from "./MovieCard";
 
@@ -13,6 +14,8 @@ interface MovieDetailProps {
 const MovieDetail = ({ movie, onClose, onSelectMovie }: MovieDetailProps) => {
   const sentiment = analyzeSentiment(movie);
   const recommendations = getRecommendations(movie.id, 4);
+  const { toggle, has } = useWatchlist();
+  const saved = has(movie.id);
 
   return (
     <div className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-background/80 backdrop-blur-sm p-4 pt-20 pb-10 animate-fade-in">
@@ -46,6 +49,17 @@ const MovieDetail = ({ movie, onClose, onSelectMovie }: MovieDetailProps) => {
               <span className="text-muted-foreground text-sm">/ 10</span>
             </div>
             <p className="text-sm text-muted-foreground mt-4 leading-relaxed">{movie.overview}</p>
+            <button
+              onClick={() => toggle(movie.id)}
+              className={`mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                saved
+                  ? "bg-primary text-primary-foreground"
+                  : "bg-secondary text-secondary-foreground hover:bg-accent hover:text-accent-foreground"
+              }`}
+            >
+              <Bookmark className={`w-4 h-4 ${saved ? "fill-current" : ""}`} />
+              {saved ? "In Watchlist" : "Add to Watchlist"}
+            </button>
           </div>
         </div>
 
