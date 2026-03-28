@@ -1,7 +1,8 @@
 import { useState, useMemo } from "react";
-import { Film } from "lucide-react";
+import { Film, Bookmark } from "lucide-react";
 import type { Movie } from "@/data/movies";
 import { movies } from "@/data/movies";
+import { useWatchlist } from "@/hooks/use-watchlist";
 import HeroSection from "@/components/HeroSection";
 import MovieCard from "@/components/MovieCard";
 import MovieDetail from "@/components/MovieDetail";
