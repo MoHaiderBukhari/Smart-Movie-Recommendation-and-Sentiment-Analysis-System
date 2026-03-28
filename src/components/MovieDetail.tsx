@@ -49,6 +49,17 @@ const MovieDetail = ({ movie, onClose, onSelectMovie }: MovieDetailProps) => {
               <span className="text-muted-foreground text-sm">/ 10</span>
             </div>
             <p className="text-sm text-muted-foreground mt-4 leading-relaxed">{movie.overview}</p>
+            <button
+              onClick={() => toggle(movie.id)}
+              className={`mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                saved
+                  ? "bg-primary text-primary-foreground"
+                  : "bg-secondary text-secondary-foreground hover:bg-accent hover:text-accent-foreground"
+              }`}
+            >
+              <Bookmark className={`w-4 h-4 ${saved ? "fill-current" : ""}`} />
+              {saved ? "In Watchlist" : "Add to Watchlist"}
+            </button>
           </div>
         </div>
 
