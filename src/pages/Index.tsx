@@ -34,7 +34,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Film className="w-6 h-6 text-primary" />
-            <span className="font-display text-lg font-bold text-foreground">CineMatch</span>
+            <span className="font-display text-lg font-bold text-foreground">SMRSA</span>
           </div>
           <p className="text-xs text-muted-foreground hidden sm:block">Smart Movie Recommendations & Sentiment Analysis</p>
         </div>
