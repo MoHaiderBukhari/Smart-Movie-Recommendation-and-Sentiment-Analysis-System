@@ -22,6 +22,7 @@ const Index = () => {
 
   const trending = [...movies].sort((a, b) => b.rating - a.rating).slice(0, 8);
 
+  const filteredMovies = useMemo(
     () => activeGenre ? movies.filter((m) => m.genres.includes(activeGenre)) : movies,
     [activeGenre]
   );
