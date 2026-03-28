@@ -14,6 +14,8 @@ interface MovieDetailProps {
 const MovieDetail = ({ movie, onClose, onSelectMovie }: MovieDetailProps) => {
   const sentiment = analyzeSentiment(movie);
   const recommendations = getRecommendations(movie.id, 4);
+  const { toggle, has } = useWatchlist();
+  const saved = has(movie.id);
 
   return (
     <div className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-background/80 backdrop-blur-sm p-4 pt-20 pb-10 animate-fade-in">
