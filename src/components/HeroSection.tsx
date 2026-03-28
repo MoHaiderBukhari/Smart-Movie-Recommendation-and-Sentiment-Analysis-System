@@ -30,8 +30,10 @@ const HeroSection = ({ onSelectMovie }: HeroSectionProps) => {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/5 blur-3xl" />
       </div>
 
-      <h1 className="relative font-display text-5xl sm:text-7xl font-bold tracking-tight">
-        <span className="text-gradient-gold">CineMatch</span>
+      <h1 className="relative font-display text-3xl sm:text-5xl font-bold tracking-tight text-center">
+        <span className="text-gradient-gold">Smart Movie Recommendation</span>
+        <br />
+        <span className="text-gradient-gold">&amp; Sentiment Analysis</span>
       </h1>
       <p className="relative mt-4 text-lg text-muted-foreground max-w-md">
         Discover your next favorite film with AI-powered recommendations & sentiment analysis

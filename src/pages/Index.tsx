@@ -34,7 +34,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Film className="w-6 h-6 text-primary" />
-            <span className="font-display text-lg font-bold text-foreground">CineMatch</span>
+            <span className="font-display text-lg font-bold text-foreground">SMRSA</span>
           </div>
           <p className="text-xs text-muted-foreground hidden sm:block">Smart Movie Recommendations & Sentiment Analysis</p>
         </div>
@@ -122,7 +122,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="border-t border-border py-8 text-center">
-        <p className="text-sm text-muted-foreground">CineMatch — Powered by Content-Based Filtering & VADER Sentiment Analysis</p>
+        <p className="text-sm text-muted-foreground">Smart Movie Recommendation and Sentiment Analysis System — Powered by Content-Based Filtering & VADER</p>
       </footer>
 
       {/* Movie Detail Modal */}
