@@ -20,7 +20,8 @@ const Index = () => {
     [watchlist]
   );
 
-  const filteredMovies = useMemo(
+  const trending = [...movies].sort((a, b) => b.rating - a.rating).slice(0, 8);
+
     () => activeGenre ? movies.filter((m) => m.genres.includes(activeGenre)) : movies,
     [activeGenre]
   );
