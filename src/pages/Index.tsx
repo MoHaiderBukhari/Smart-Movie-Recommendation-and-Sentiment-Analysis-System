@@ -13,7 +13,12 @@ const Index = () => {
   const [selectedMovie, setSelectedMovie] = useState<Movie | null>(null);
   const [activeGenre, setActiveGenre] = useState<string | null>(null);
 
-  const trending = [...movies].sort((a, b) => b.rating - a.rating).slice(0, 8);
+  const { watchlist } = useWatchlist();
+
+  const watchlistMovies = useMemo(
+    () => movies.filter((m) => watchlist.includes(m.id)),
+    [watchlist]
+  );
 
   const filteredMovies = useMemo(
     () => activeGenre ? movies.filter((m) => m.genres.includes(activeGenre)) : movies,
