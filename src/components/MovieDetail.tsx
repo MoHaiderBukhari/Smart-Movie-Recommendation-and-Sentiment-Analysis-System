@@ -1,6 +1,7 @@
-import { X } from "lucide-react";
+import { X, Bookmark } from "lucide-react";
 import type { Movie } from "@/data/movies";
 import { analyzeSentiment, getRecommendations } from "@/data/movies";
+import { useWatchlist } from "@/hooks/use-watchlist";
 import SentimentChart from "./SentimentChart";
 import MovieCard from "./MovieCard";
 
