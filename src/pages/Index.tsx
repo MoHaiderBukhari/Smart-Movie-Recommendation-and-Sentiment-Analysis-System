@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { Film } from "lucide-react";
 import type { Movie } from "@/data/movies";
 import { movies } from "@/data/movies";
@@ -6,10 +6,18 @@ import HeroSection from "@/components/HeroSection";
 import MovieCard from "@/components/MovieCard";
 import MovieDetail from "@/components/MovieDetail";
 
+const allGenres = Array.from(new Set(movies.flatMap((m) => m.genres))).sort();
+
 const Index = () => {
   const [selectedMovie, setSelectedMovie] = useState<Movie | null>(null);
+  const [activeGenre, setActiveGenre] = useState<string | null>(null);
 
   const trending = [...movies].sort((a, b) => b.rating - a.rating).slice(0, 8);
+
+  const filteredMovies = useMemo(
+    () => activeGenre ? movies.filter((m) => m.genres.includes(activeGenre)) : movies,
+    [activeGenre]
+  );
 
   return (
     <div className="min-h-screen bg-background">
@@ -47,11 +55,42 @@ const Index = () => {
           <h2 className="font-display text-2xl font-semibold text-foreground">All Movies</h2>
           <div className="h-px flex-1 bg-border" />
         </div>
+
+        {/* Genre Filters */}
+        <div className="flex flex-wrap gap-2 mb-8">
+          <button
+            onClick={() => setActiveGenre(null)}
+            className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors border ${
+              activeGenre === null
+                ? "bg-primary text-primary-foreground border-primary"
+                : "bg-secondary text-secondary-foreground border-border hover:bg-accent hover:text-accent-foreground"
+            }`}
+          >
+            All
+          </button>
+          {allGenres.map((genre) => (
+            <button
+              key={genre}
+              onClick={() => setActiveGenre(genre === activeGenre ? null : genre)}
+              className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors border ${
+                activeGenre === genre
+                  ? "bg-primary text-primary-foreground border-primary"
+                  : "bg-secondary text-secondary-foreground border-border hover:bg-accent hover:text-accent-foreground"
+              }`}
+            >
+              {genre}
+            </button>
+          ))}
+        </div>
+
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5">
-          {movies.map((movie, i) => (
+          {filteredMovies.map((movie, i) => (
             <MovieCard key={movie.id} movie={movie} onClick={setSelectedMovie} index={i} />
           ))}
         </div>
+        {filteredMovies.length === 0 && (
+          <p className="text-center text-muted-foreground py-12">No movies found for this genre.</p>
+        )}
       </section>
 
       {/* Footer */}
