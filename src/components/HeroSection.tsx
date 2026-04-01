@@ -52,22 +52,45 @@ const HeroSection = ({ onSelectMovie }: HeroSectionProps) => {
             className="w-full pl-12 pr-4 py-4 rounded-xl bg-card border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-shadow"
           />
         </div>
-        {showResults && filtered.length > 0 && (
-          <div className="absolute top-full mt-2 w-full bg-card border border-border rounded-xl shadow-xl overflow-hidden z-20">
-            {filtered.map((m) => (
-              <button
-                key={m.id}
-                onClick={() => { onSelectMovie(m); setQuery(""); setShowResults(false); }}
-                className="flex items-center gap-3 w-full px-4 py-3 text-left hover:bg-secondary transition-colors"
-              >
-                <img src={m.poster} alt={m.title} className="w-8 h-12 rounded object-cover" />
-                <div>
-                  <p className="text-sm font-medium text-foreground">{m.title}</p>
-                  <p className="text-xs text-muted-foreground">{m.year} · {m.genres.join(", ")}</p>
-                </div>
-                <span className="ml-auto text-primary text-sm font-semibold">★ {m.rating}</span>
-              </button>
-            ))}
+        {showResults && query.length > 0 && (
+          <div className="absolute top-full mt-2 w-full bg-card border border-border rounded-xl shadow-xl overflow-hidden z-20 max-h-80 overflow-y-auto">
+            {filtered.length > 0 ? (
+              filtered.slice(0, 8).map((m) => {
+                const sentimentLabel = m.reviews.length > 0
+                  ? m.reviews.filter(r => r.sentiment === "positive").length > m.reviews.length / 2
+                    ? "Mostly Positive"
+                    : m.reviews.filter(r => r.sentiment === "negative").length > m.reviews.length / 2
+                      ? "Mostly Negative"
+                      : "Mixed"
+                  : "No Reviews";
+                const sentimentColor = sentimentLabel === "Mostly Positive"
+                  ? "text-emerald-400"
+                  : sentimentLabel === "Mostly Negative"
+                    ? "text-destructive"
+                    : "text-primary";
+                return (
+                  <button
+                    key={m.id}
+                    onClick={() => { onSelectMovie(m); setQuery(""); setShowResults(false); }}
+                    className="flex items-start gap-3 w-full px-4 py-3 text-left hover:bg-secondary transition-colors border-b border-border last:border-b-0"
+                  >
+                    <img src={m.poster} alt={m.title} className="w-10 h-14 rounded object-cover flex-shrink-0" />
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm font-medium text-foreground truncate">{m.title}</p>
+                      <p className="text-xs text-muted-foreground">{m.year} · {m.genres.join(", ")}</p>
+                      <div className="flex items-center gap-2 mt-1">
+                        <span className="text-primary text-xs font-semibold">★ {m.rating}</span>
+                        <span className={`text-xs font-medium ${sentimentColor}`}>{sentimentLabel}</span>
+                      </div>
+                    </div>
+                  </button>
+                );
+              })
+            ) : (
+              <div className="px-4 py-6 text-center text-sm text-muted-foreground">
+                No movies found for "{query}"
+              </div>
+            )}
           </div>
         )}
       </div>
