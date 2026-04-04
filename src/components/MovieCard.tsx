@@ -1,4 +1,5 @@
 import { Bookmark } from "lucide-react";
+import { useState } from "react";
 import type { Movie } from "@/data/movies";
 import { useWatchlist } from "@/hooks/use-watchlist";
 
