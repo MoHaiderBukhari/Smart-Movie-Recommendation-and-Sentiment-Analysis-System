@@ -2,6 +2,7 @@ import { Search } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 import type { Movie } from "@/data/movies";
 import { movies } from "@/data/movies";
+import MoviePoster from "./MoviePoster";
 
 interface HeroSectionProps {
   onSelectMovie: (movie: Movie) => void;
