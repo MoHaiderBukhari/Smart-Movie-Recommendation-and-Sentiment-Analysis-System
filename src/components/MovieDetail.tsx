@@ -1,4 +1,5 @@
 import { X, Bookmark } from "lucide-react";
+import MoviePoster from "./MoviePoster";
 import type { Movie } from "@/data/movies";
 import { analyzeSentiment, getRecommendations } from "@/data/movies";
 import { useWatchlist } from "@/hooks/use-watchlist";
