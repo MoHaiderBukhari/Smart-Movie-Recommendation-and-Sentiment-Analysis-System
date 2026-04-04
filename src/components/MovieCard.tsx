@@ -12,6 +12,7 @@ interface MovieCardProps {
 const MovieCard = ({ movie, onClick, index = 0 }: MovieCardProps) => {
   const { toggle, has } = useWatchlist();
   const saved = has(movie.id);
+  const [imgLoaded, setImgLoaded] = useState(false);
 
   return (
     <div
