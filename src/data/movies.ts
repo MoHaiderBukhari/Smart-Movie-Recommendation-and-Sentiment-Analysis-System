@@ -27,7 +27,7 @@ export const movies: Movie[] = [
     id: 1, title: "Inception", year: 2010,
     genres: ["Action", "Sci-Fi", "Thriller"],
     rating: 8.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Inception",
     overview: "A thief who steals corporate secrets through dream-sharing technology is given the task of planting an idea into the mind of a CEO.",
     reviews: [
       { text: "This film exceeded all expectations. Pure excellence.", sentiment: "positive", score: 0.69 },
@@ -41,7 +41,7 @@ export const movies: Movie[] = [
     id: 2, title: "The Dark Knight", year: 2008,
     genres: ["Action", "Crime", "Drama"],
     rating: 9.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=The%20Dark%20Knight",
     overview: "When the menace known as the Joker wreaks havoc on Gotham, Batman must accept one of the greatest tests to fight injustice.",
     reviews: [
       { text: "A frustrating watch with no payoff at the end.", sentiment: "negative", score: -0.61 },
@@ -55,7 +55,7 @@ export const movies: Movie[] = [
     id: 3, title: "Interstellar", year: 2014,
     genres: ["Adventure", "Drama", "Sci-Fi"],
     rating: 8.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Interstellar",
     overview: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity\'s survival.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.83 },
@@ -67,7 +67,7 @@ export const movies: Movie[] = [
     id: 4, title: "The Shawshank Redemption", year: 1994,
     genres: ["Drama"],
     rating: 9.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Shawshank%20Redemption",
     overview: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
     reviews: [
       { text: "Good in parts but doesn't fully come together.", sentiment: "neutral", score: 0.29 },
@@ -80,7 +80,7 @@ export const movies: Movie[] = [
     id: 5, title: "Pulp Fiction", year: 1994,
     genres: ["Crime", "Drama"],
     rating: 8.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Pulp%20Fiction",
     overview: "The lives of two mob hitmen, a boxer, a gangster and his wife intertwine in four tales of violence and redemption.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.66 },
@@ -93,7 +93,7 @@ export const movies: Movie[] = [
     id: 6, title: "The Matrix", year: 1999,
     genres: ["Action", "Sci-Fi"],
     rating: 8.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=The%20Matrix",
     overview: "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.68 },
@@ -106,7 +106,7 @@ export const movies: Movie[] = [
     id: 7, title: "Fight Club", year: 1999,
     genres: ["Drama", "Thriller"],
     rating: 8.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Fight%20Club",
     overview: "An insomniac office worker and a soap salesman form an underground fight club that evolves into something much more.",
     reviews: [
       { text: "The performances are electric and the script is sharp.", sentiment: "positive", score: 0.75 },
@@ -119,7 +119,7 @@ export const movies: Movie[] = [
     id: 8, title: "Forrest Gump", year: 1994,
     genres: ["Drama", "Romance"],
     rating: 8.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Forrest%20Gump",
     overview: "The story of a man with a low IQ who accomplishes great things in his life.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.79 },
@@ -132,7 +132,7 @@ export const movies: Movie[] = [
     id: 9, title: "The Godfather", year: 1972,
     genres: ["Crime", "Drama"],
     rating: 9.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=The%20Godfather",
     overview: "The aging patriarch of an organized crime dynasty transfers control of his empire to his reluctant youngest son.",
     reviews: [
       { text: "An ambitious effort that partially succeeds.", sentiment: "neutral", score: -0.02 },
@@ -146,7 +146,7 @@ export const movies: Movie[] = [
     id: 10, title: "The Godfather Part II", year: 1974,
     genres: ["Crime", "Drama"],
     rating: 9.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=The%20Godfather%20Part%20II",
     overview: "The early life and career of Vito Corleone is portrayed, while his son Michael expands and tightens his grip on the family crime syndicate.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: 0.34 },
@@ -160,7 +160,7 @@ export const movies: Movie[] = [
     id: 11, title: "Goodfellas", year: 1990,
     genres: ["Biography", "Crime", "Drama"],
     rating: 8.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Goodfellas",
     overview: "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen and his mob partners.",
     reviews: [
       { text: "Good in parts but doesn't fully come together.", sentiment: "neutral", score: 0.01 },
@@ -174,7 +174,7 @@ export const movies: Movie[] = [
     id: 12, title: "The Lord of the Rings: The Fellowship of the Ring", year: 2001,
     genres: ["Adventure", "Drama", "Fantasy"],
     rating: 8.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=The%20Lord%20of%20the%20Rings%3A%20The%20Fellowship%20of%20the%20Ring",
     overview: "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: 0.18 },
@@ -188,7 +188,7 @@ export const movies: Movie[] = [
     id: 13, title: "The Lord of the Rings: The Two Towers", year: 2002,
     genres: ["Adventure", "Drama", "Fantasy"],
     rating: 8.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=The%20Lord%20of%20the%20Rings%3A%20The%20Two%20Towers",
     overview: "While Frodo and Sam continue their quest, Aragorn, Legolas and Gimli pursue the Orcs who captured Merry and Pippin.",
     reviews: [
       { text: "Powerful, moving, and beautifully crafted in every way.", sentiment: "positive", score: 0.69 },
@@ -202,7 +202,7 @@ export const movies: Movie[] = [
     id: 14, title: "The Lord of the Rings: The Return of the King", year: 2003,
     genres: ["Adventure", "Drama", "Fantasy"],
     rating: 9.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=The%20Lord%20of%20the%20Rings%3A%20The%20Return%20of%20the%20King",
     overview: "Gandalf and Aragorn lead the World of Men against Sauron\'s army to draw his gaze from Frodo and Sam.",
     reviews: [
       { text: "The performances are electric and the script is sharp.", sentiment: "positive", score: 0.68 },
@@ -214,7 +214,7 @@ export const movies: Movie[] = [
     id: 15, title: "Schindler\'s List", year: 1993,
     genres: ["Biography", "Drama", "History"],
     rating: 9.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Schindler%5C%27s%20List",
     overview: "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce.",
     reviews: [
       { text: "A stunning achievement that pushes boundaries.", sentiment: "positive", score: 0.73 },
@@ -226,7 +226,7 @@ export const movies: Movie[] = [
     id: 16, title: "Saving Private Ryan", year: 1998,
     genres: ["Drama", "War"],
     rating: 8.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Saving%20Private%20Ryan",
     overview: "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
     reviews: [
       { text: "A tour de force of storytelling and visual artistry.", sentiment: "positive", score: 0.69 },
@@ -240,7 +240,7 @@ export const movies: Movie[] = [
     id: 17, title: "The Silence of the Lambs", year: 1991,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 8.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=The%20Silence%20of%20the%20Lambs",
     overview: "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to catch another serial killer.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: 0.31 },
@@ -254,7 +254,7 @@ export const movies: Movie[] = [
     id: 18, title: "Se7en", year: 1995,
     genres: ["Crime", "Drama", "Mystery"],
     rating: 8.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Se7en",
     overview: "Two detectives hunt a serial killer who uses the seven deadly sins as his motives.",
     reviews: [
       { text: "An ambitious effort that partially succeeds.", sentiment: "neutral", score: 0.18 },
@@ -268,7 +268,7 @@ export const movies: Movie[] = [
     id: 19, title: "The Usual Suspects", year: 1995,
     genres: ["Crime", "Drama", "Mystery"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=The%20Usual%20Suspects",
     overview: "A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat.",
     reviews: [
       { text: "A beautiful, thoughtful film that stays with you.", sentiment: "positive", score: 0.63 },
@@ -282,7 +282,7 @@ export const movies: Movie[] = [
     id: 20, title: "Gladiator", year: 2000,
     genres: ["Action", "Adventure", "Drama"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Gladiator",
     overview: "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family.",
     reviews: [
       { text: "Wasted potential with a weak script and poor direction.", sentiment: "negative", score: -0.25 },
@@ -296,7 +296,7 @@ export const movies: Movie[] = [
     id: 21, title: "The Departed", year: 2006,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=The%20Departed",
     overview: "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
     reviews: [
       { text: "A frustrating watch with no payoff at the end.", sentiment: "negative", score: -0.71 },
@@ -308,7 +308,7 @@ export const movies: Movie[] = [
     id: 22, title: "Whiplash", year: 2014,
     genres: ["Drama", "Music"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Whiplash",
     overview: "A promising young drummer enrolls at a music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing.",
     reviews: [
       { text: "Good in parts but doesn't fully come together.", sentiment: "neutral", score: 0.34 },
@@ -322,7 +322,7 @@ export const movies: Movie[] = [
     id: 23, title: "Django Unchained", year: 2012,
     genres: ["Drama", "Western"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Django%20Unchained",
     overview: "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
     reviews: [
       { text: "The dialogue is wooden and the acting is stiff.", sentiment: "negative", score: -0.66 },
@@ -335,7 +335,7 @@ export const movies: Movie[] = [
     id: 24, title: "The Prestige", year: 2006,
     genres: ["Drama", "Mystery", "Sci-Fi"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Prestige",
     overview: "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: -0.07 },
@@ -348,7 +348,7 @@ export const movies: Movie[] = [
     id: 25, title: "Memento", year: 2000,
     genres: ["Mystery", "Thriller"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/4338ca/eef2ff?text=Memento",
     overview: "A man with short-term memory loss attempts to track down his wife\'s murderer.",
     reviews: [
       { text: "A triumph of cinema. Every frame is perfection.", sentiment: "positive", score: 0.74 },
@@ -361,7 +361,7 @@ export const movies: Movie[] = [
     id: 26, title: "The Green Mile", year: 1999,
     genres: ["Crime", "Drama", "Fantasy"],
     rating: 8.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=The%20Green%20Mile",
     overview: "A death row corrections officer discovers that one of his inmates has a miraculous gift.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: 0.31 },
@@ -374,7 +374,7 @@ export const movies: Movie[] = [
     id: 27, title: "WALL·E", year: 2008,
     genres: ["Animation", "Adventure", "Family"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=WALL%C2%B7E",
     overview: "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: -0.02 },
@@ -387,7 +387,7 @@ export const movies: Movie[] = [
     id: 28, title: "Up", year: 2009,
     genres: ["Animation", "Adventure", "Comedy"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Up",
     overview: "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, unknowingly taking a young stowaway.",
     reviews: [
       { text: "Exceptional filmmaking at its finest. A must-watch.", sentiment: "positive", score: 0.75 },
@@ -399,7 +399,7 @@ export const movies: Movie[] = [
     id: 29, title: "Toy Story", year: 1995,
     genres: ["Animation", "Adventure", "Comedy"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Toy%20Story",
     overview: "A cowboy doll is profoundly threatened when a new spaceman figure supplants him as top toy in a boy\'s room.",
     reviews: [
       { text: "A masterpiece of cinema that will be remembered for generations.", sentiment: "positive", score: 0.64 },
@@ -413,7 +413,7 @@ export const movies: Movie[] = [
     id: 30, title: "Finding Nemo", year: 2003,
     genres: ["Animation", "Adventure", "Comedy"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Finding%20Nemo",
     overview: "After his son is captured, a timid clownfish sets out on a journey to bring him home.",
     reviews: [
       { text: "Brilliantly directed with outstanding performances throughout.", sentiment: "positive", score: 0.87 },
@@ -427,7 +427,7 @@ export const movies: Movie[] = [
     id: 31, title: "The Lion King", year: 1994,
     genres: ["Animation", "Adventure", "Drama"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=The%20Lion%20King",
     overview: "Lion prince Simba flees his kingdom only to learn the true meaning of responsibility and bravery.",
     reviews: [
       { text: "Overrated and self-indulgent. Not for everyone.", sentiment: "negative", score: -0.61 },
@@ -440,7 +440,7 @@ export const movies: Movie[] = [
     id: 32, title: "Spirited Away", year: 2001,
     genres: ["Animation", "Adventure", "Family"],
     rating: 8.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Spirited%20Away",
     overview: "During her family\'s move, a sulky 10-year-old girl wanders into a world ruled by gods, witches, and spirits.",
     reviews: [
       { text: "Disappointing and forgettable. Expected much more.", sentiment: "negative", score: -0.69 },
@@ -453,7 +453,7 @@ export const movies: Movie[] = [
     id: 33, title: "Jurassic Park", year: 1993,
     genres: ["Action", "Adventure", "Sci-Fi"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Jurassic%20Park",
     overview: "A pragmatic paleontologist visiting an almost complete theme park on an island is tasked with protecting a couple of kids.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.71 },
@@ -467,7 +467,7 @@ export const movies: Movie[] = [
     id: 34, title: "Back to the Future", year: 1985,
     genres: ["Adventure", "Comedy", "Sci-Fi"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Back%20to%20the%20Future",
     overview: "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past.",
     reviews: [
       { text: "Bold and ambitious storytelling done right.", sentiment: "positive", score: 0.67 },
@@ -479,7 +479,7 @@ export const movies: Movie[] = [
     id: 35, title: "Alien", year: 1979,
     genres: ["Horror", "Sci-Fi"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/991b1b/fef2f2?text=Alien",
     overview: "After a space merchant vessel receives an unknown transmission, the crew discovers a deadly life form.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: -0.06 },
@@ -491,7 +491,7 @@ export const movies: Movie[] = [
     id: 36, title: "Aliens", year: 1986,
     genres: ["Action", "Adventure", "Sci-Fi"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Aliens",
     overview: "Fifty-seven years after surviving an attack, Ellen Ripley is sent back to the planet where she encountered the hostile Alien.",
     reviews: [
       { text: "Riveting and deeply satisfying. Worth every minute.", sentiment: "positive", score: 0.85 },
@@ -504,7 +504,7 @@ export const movies: Movie[] = [
     id: 37, title: "The Terminator", year: 1984,
     genres: ["Action", "Sci-Fi"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=The%20Terminator",
     overview: "A human soldier is sent from 2029 to 1984 to stop a cyborg killing machine.",
     reviews: [
       { text: "An unforgettable cinematic experience. Highly recommended.", sentiment: "positive", score: 0.88 },
@@ -518,7 +518,7 @@ export const movies: Movie[] = [
     id: 38, title: "Terminator 2: Judgment Day", year: 1991,
     genres: ["Action", "Sci-Fi"],
     rating: 8.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Terminator%202%3A%20Judgment%20Day",
     overview: "A cyborg is sent from the future on a deadly mission to protect a young boy who is key to saving mankind.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.63 },
@@ -531,7 +531,7 @@ export const movies: Movie[] = [
     id: 39, title: "Blade Runner", year: 1982,
     genres: ["Action", "Drama", "Sci-Fi"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Blade%20Runner",
     overview: "A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.3 },
@@ -543,7 +543,7 @@ export const movies: Movie[] = [
     id: 40, title: "Blade Runner 2049", year: 2017,
     genres: ["Action", "Drama", "Mystery"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Blade%20Runner%202049",
     overview: "Young Blade Runner K\'s discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: 0.23 },
@@ -555,7 +555,7 @@ export const movies: Movie[] = [
     id: 41, title: "2001: A Space Odyssey", year: 1968,
     genres: ["Adventure", "Sci-Fi"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=2001%3A%20A%20Space%20Odyssey",
     overview: "After discovering a mysterious monolith beneath the Lunar surface, mankind sets off to find its origins with the help of HAL 9000.",
     reviews: [
       { text: "A stunning achievement that pushes boundaries.", sentiment: "positive", score: 0.78 },
@@ -568,7 +568,7 @@ export const movies: Movie[] = [
     id: 42, title: "The Thing", year: 1982,
     genres: ["Horror", "Mystery", "Sci-Fi"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/991b1b/fef2f2?text=The%20Thing",
     overview: "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.",
     reviews: [
       { text: "Overhyped and underwhelming. Not worth the time.", sentiment: "negative", score: -0.45 },
@@ -582,7 +582,7 @@ export const movies: Movie[] = [
     id: 43, title: "Psycho", year: 1960,
     genres: ["Horror", "Mystery", "Thriller"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/991b1b/fef2f2?text=Psycho",
     overview: "A secretary on the run checks into a remote motel run by a young man under the domination of his mother.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.62 },
@@ -594,7 +594,7 @@ export const movies: Movie[] = [
     id: 44, title: "The Shining", year: 1980,
     genres: ["Drama", "Horror"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Shining",
     overview: "A family heads to an isolated hotel for the winter where a sinister presence drives the father into violence.",
     reviews: [
       { text: "A masterpiece of cinema that will be remembered for generations.", sentiment: "positive", score: 0.84 },
@@ -606,7 +606,7 @@ export const movies: Movie[] = [
     id: 45, title: "A Clockwork Orange", year: 1971,
     genres: ["Crime", "Drama", "Sci-Fi"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=A%20Clockwork%20Orange",
     overview: "In a futuristic Britain, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: 0.15 },
@@ -619,7 +619,7 @@ export const movies: Movie[] = [
     id: 46, title: "Full Metal Jacket", year: 1987,
     genres: ["Drama", "War"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Full%20Metal%20Jacket",
     overview: "A pragmatic US Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits.",
     reviews: [
       { text: "Exceptional filmmaking at its finest. A must-watch.", sentiment: "positive", score: 0.63 },
@@ -632,7 +632,7 @@ export const movies: Movie[] = [
     id: 47, title: "Apocalypse Now", year: 1979,
     genres: ["Drama", "Mystery", "War"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Apocalypse%20Now",
     overview: "A US Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
     reviews: [
       { text: "A mixed bag with both strong and weak elements.", sentiment: "neutral", score: 0.12 },
@@ -646,7 +646,7 @@ export const movies: Movie[] = [
     id: 48, title: "Platoon", year: 1986,
     genres: ["Drama", "War"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Platoon",
     overview: "A young recruit in Vietnam faces a moral crisis when confronted with the horrors of war.",
     reviews: [
       { text: "Overrated and self-indulgent. Not for everyone.", sentiment: "negative", score: -0.71 },
@@ -660,7 +660,7 @@ export const movies: Movie[] = [
     id: 49, title: "The Pianist", year: 2002,
     genres: ["Biography", "Drama", "Music"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=The%20Pianist",
     overview: "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.",
     reviews: [
       { text: "A masterpiece of cinema that will be remembered for generations.", sentiment: "positive", score: 0.79 },
@@ -674,7 +674,7 @@ export const movies: Movie[] = [
     id: 50, title: "American Beauty", year: 1999,
     genres: ["Drama"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=American%20Beauty",
     overview: "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter\'s best friend.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.89 },
@@ -688,7 +688,7 @@ export const movies: Movie[] = [
     id: 51, title: "Titanic", year: 1997,
     genres: ["Drama", "Romance"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Titanic",
     overview: "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.73 },
@@ -701,7 +701,7 @@ export const movies: Movie[] = [
     id: 52, title: "The Truman Show", year: 1998,
     genres: ["Comedy", "Drama"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=The%20Truman%20Show",
     overview: "An insurance salesman discovers his whole life is actually a reality TV show.",
     reviews: [
       { text: "Bold and ambitious storytelling done right.", sentiment: "positive", score: 0.97 },
@@ -715,7 +715,7 @@ export const movies: Movie[] = [
     id: 53, title: "Eternal Sunshine of the Spotless Mind", year: 2004,
     genres: ["Drama", "Romance", "Sci-Fi"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Eternal%20Sunshine%20of%20the%20Spotless%20Mind",
     overview: "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.84 },
@@ -729,7 +729,7 @@ export const movies: Movie[] = [
     id: 54, title: "The Big Lebowski", year: 1998,
     genres: ["Comedy", "Crime"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=The%20Big%20Lebowski",
     overview: "Jeff Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug.",
     reviews: [
       { text: "Bold and ambitious storytelling done right.", sentiment: "positive", score: 0.84 },
@@ -742,7 +742,7 @@ export const movies: Movie[] = [
     id: 55, title: "No Country for Old Men", year: 2007,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=No%20Country%20for%20Old%20Men",
     overview: "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
     reviews: [
       { text: "A beautiful, thoughtful film that stays with you.", sentiment: "positive", score: 0.74 },
@@ -756,7 +756,7 @@ export const movies: Movie[] = [
     id: 56, title: "There Will Be Blood", year: 2007,
     genres: ["Drama"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=There%20Will%20Be%20Blood",
     overview: "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century petroleum prospector.",
     reviews: [
       { text: "An unforgettable cinematic experience. Highly recommended.", sentiment: "positive", score: 0.81 },
@@ -768,7 +768,7 @@ export const movies: Movie[] = [
     id: 57, title: "Mad Max: Fury Road", year: 2015,
     genres: ["Action", "Adventure", "Sci-Fi"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Mad%20Max%3A%20Fury%20Road",
     overview: "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland.",
     reviews: [
       { text: "Has moments of brilliance mixed with mediocrity.", sentiment: "neutral", score: -0.11 },
@@ -781,7 +781,7 @@ export const movies: Movie[] = [
     id: 58, title: "The Grand Budapest Hotel", year: 2014,
     genres: ["Adventure", "Comedy", "Crime"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=The%20Grand%20Budapest%20Hotel",
     overview: "A writer encounters the owner of an aging high-class hotel, who tells the tale of his early years serving as a lobby boy.",
     reviews: [
       { text: "This film exceeded all expectations. Pure excellence.", sentiment: "positive", score: 0.91 },
@@ -795,7 +795,7 @@ export const movies: Movie[] = [
     id: 59, title: "Birdman", year: 2014,
     genres: ["Comedy", "Drama"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Birdman",
     overview: "A washed-up superhero actor attempts to revive his fading career by writing, directing, and starring in a Broadway production.",
     reviews: [
       { text: "Too long, too slow, and ultimately pointless.", sentiment: "negative", score: -0.84 },
@@ -809,7 +809,7 @@ export const movies: Movie[] = [
     id: 60, title: "Moonlight", year: 2016,
     genres: ["Drama"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Moonlight",
     overview: "A young African-American man grapples with his identity and sexuality while growing up in a rough neighborhood of Miami.",
     reviews: [
       { text: "Riveting and deeply satisfying. Worth every minute.", sentiment: "positive", score: 0.95 },
@@ -821,7 +821,7 @@ export const movies: Movie[] = [
     id: 61, title: "Parasite", year: 2019,
     genres: ["Comedy", "Drama", "Thriller"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Parasite",
     overview: "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
     reviews: [
       { text: "A tour de force of storytelling and visual artistry.", sentiment: "positive", score: 0.93 },
@@ -834,7 +834,7 @@ export const movies: Movie[] = [
     id: 62, title: "Joker", year: 2019,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Joker",
     overview: "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society, beginning a slow descent into madness.",
     reviews: [
       { text: "Decent film with some good moments but nothing groundbreaking.", sentiment: "neutral", score: 0.18 },
@@ -847,7 +847,7 @@ export const movies: Movie[] = [
     id: 63, title: "1917", year: 2019,
     genres: ["Drama", "War"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=1917",
     overview: "Two young British soldiers during WWI are given a seemingly impossible mission to deliver a message that will stop 1,600 men from walking into a deadly trap.",
     reviews: [
       { text: "Shallow and hollow. Lacks any real substance.", sentiment: "negative", score: -0.7 },
@@ -860,7 +860,7 @@ export const movies: Movie[] = [
     id: 64, title: "Dune", year: 2021,
     genres: ["Action", "Adventure", "Drama"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Dune",
     overview: "Paul Atreides, a brilliant young man born into a great destiny, must travel to the most dangerous planet in the universe.",
     reviews: [
       { text: "Powerful, moving, and beautifully crafted in every way.", sentiment: "positive", score: 0.98 },
@@ -874,7 +874,7 @@ export const movies: Movie[] = [
     id: 65, title: "Everything Everywhere All at Once", year: 2022,
     genres: ["Action", "Adventure", "Comedy"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Everything%20Everywhere%20All%20at%20Once",
     overview: "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.75 },
@@ -886,7 +886,7 @@ export const movies: Movie[] = [
     id: 66, title: "Oppenheimer", year: 2023,
     genres: ["Biography", "Drama", "History"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Oppenheimer",
     overview: "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
     reviews: [
       { text: "A beautiful, thoughtful film that stays with you.", sentiment: "positive", score: 0.7 },
@@ -899,7 +899,7 @@ export const movies: Movie[] = [
     id: 67, title: "The Batman", year: 2022,
     genres: ["Action", "Crime", "Drama"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=The%20Batman",
     overview: "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate.",
     reviews: [
       { text: "A frustrating watch with no payoff at the end.", sentiment: "negative", score: -0.64 },
@@ -912,7 +912,7 @@ export const movies: Movie[] = [
     id: 68, title: "Spider-Man: Into the Spider-Verse", year: 2018,
     genres: ["Animation", "Action", "Adventure"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Spider-Man%3A%20Into%20the%20Spider-Verse",
     overview: "Teen Miles Morales becomes the Spider-Man of his reality and crosses paths with counterparts from other dimensions.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.04 },
@@ -925,7 +925,7 @@ export const movies: Movie[] = [
     id: 69, title: "Coco", year: 2017,
     genres: ["Animation", "Adventure", "Comedy"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Coco",
     overview: "Aspiring musician Miguel enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
     reviews: [
       { text: "Riveting and deeply satisfying. Worth every minute.", sentiment: "positive", score: 0.61 },
@@ -938,7 +938,7 @@ export const movies: Movie[] = [
     id: 70, title: "Inside Out", year: 2015,
     genres: ["Animation", "Adventure", "Comedy"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Inside%20Out",
     overview: "After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions conflict on how best to navigate a new city.",
     reviews: [
       { text: "An ambitious effort that partially succeeds.", sentiment: "neutral", score: 0.04 },
@@ -951,7 +951,7 @@ export const movies: Movie[] = [
     id: 71, title: "Ratatouille", year: 2007,
     genres: ["Animation", "Comedy", "Family"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Ratatouille",
     overview: "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
     reviews: [
       { text: "A tour de force of storytelling and visual artistry.", sentiment: "positive", score: 0.89 },
@@ -965,7 +965,7 @@ export const movies: Movie[] = [
     id: 72, title: "The Incredibles", year: 2004,
     genres: ["Animation", "Action", "Adventure"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=The%20Incredibles",
     overview: "A family of undercover superheroes tries to live the quiet suburban life, but are forced into action to save the world.",
     reviews: [
       { text: "A tedious experience from beginning to end.", sentiment: "negative", score: -0.77 },
@@ -978,7 +978,7 @@ export const movies: Movie[] = [
     id: 73, title: "Monsters, Inc.", year: 2001,
     genres: ["Animation", "Adventure", "Comedy"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Monsters%2C%20Inc.",
     overview: "In order to power the city, monsters have to scare children so that they scream, but they are actually more afraid of the children.",
     reviews: [
       { text: "A masterpiece of cinema that will be remembered for generations.", sentiment: "positive", score: 0.94 },
@@ -991,7 +991,7 @@ export const movies: Movie[] = [
     id: 74, title: "Shrek", year: 2001,
     genres: ["Animation", "Adventure", "Comedy"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Shrek",
     overview: "A mean lord exiles fairy tale creatures to the swamp of a grumpy ogre, who must go on a quest to rescue a princess.",
     reviews: [
       { text: "Too long, too slow, and ultimately pointless.", sentiment: "negative", score: -0.31 },
@@ -1004,7 +1004,7 @@ export const movies: Movie[] = [
     id: 75, title: "How to Train Your Dragon", year: 2010,
     genres: ["Animation", "Action", "Adventure"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=How%20to%20Train%20Your%20Dragon",
     overview: "A hapless young Viking who aspires to hunt dragons befriends one instead.",
     reviews: [
       { text: "A masterpiece of cinema that will be remembered for generations.", sentiment: "positive", score: 0.82 },
@@ -1018,7 +1018,7 @@ export const movies: Movie[] = [
     id: 76, title: "Frozen", year: 2013,
     genres: ["Animation", "Adventure", "Comedy"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Frozen",
     overview: "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice, her sister Anna teams up to save their kingdom.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: 0.16 },
@@ -1032,7 +1032,7 @@ export const movies: Movie[] = [
     id: 77, title: "Zootopia", year: 2016,
     genres: ["Animation", "Adventure", "Comedy"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Zootopia",
     overview: "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together.",
     reviews: [
       { text: "A mixed bag with both strong and weak elements.", sentiment: "neutral", score: 0.12 },
@@ -1046,7 +1046,7 @@ export const movies: Movie[] = [
     id: 78, title: "The Social Network", year: 2010,
     genres: ["Biography", "Drama"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=The%20Social%20Network",
     overview: "As Harvard student Mark Zuckerberg creates the social networking site that becomes Facebook, he is sued by two brothers who claim he stole their idea.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.33 },
@@ -1058,7 +1058,7 @@ export const movies: Movie[] = [
     id: 79, title: "Gone Girl", year: 2014,
     genres: ["Drama", "Mystery", "Thriller"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Gone%20Girl",
     overview: "With his wife\'s disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him.",
     reviews: [
       { text: "This film exceeded all expectations. Pure excellence.", sentiment: "positive", score: 0.82 },
@@ -1071,7 +1071,7 @@ export const movies: Movie[] = [
     id: 80, title: "Zodiac", year: 2007,
     genres: ["Crime", "Drama", "Mystery"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Zodiac",
     overview: "In the late 1960s/early 1970s, a San Francisco cartoonist becomes obsessed with tracking down the Zodiac Killer.",
     reviews: [
       { text: "Overrated and self-indulgent. Not for everyone.", sentiment: "negative", score: -0.32 },
@@ -1083,7 +1083,7 @@ export const movies: Movie[] = [
     id: 81, title: "Prisoners", year: 2013,
     genres: ["Crime", "Drama", "Mystery"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Prisoners",
     overview: "When the daughters of two families are abducted, a desperate father takes matters into his own hands.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: -0.1 },
@@ -1096,7 +1096,7 @@ export const movies: Movie[] = [
     id: 82, title: "Sicario", year: 2015,
     genres: ["Action", "Crime", "Drama"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Sicario",
     overview: "An idealistic FBI agent is enlisted by a government task force to aid in the escalating war against drugs at the border.",
     reviews: [
       { text: "The performances are electric and the script is sharp.", sentiment: "positive", score: 0.83 },
@@ -1110,7 +1110,7 @@ export const movies: Movie[] = [
     id: 83, title: "Arrival", year: 2016,
     genres: ["Drama", "Mystery", "Sci-Fi"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Arrival",
     overview: "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
     reviews: [
       { text: "Flawless execution from the entire cast and crew.", sentiment: "positive", score: 0.7 },
@@ -1124,7 +1124,7 @@ export const movies: Movie[] = [
     id: 84, title: "Ex Machina", year: 2014,
     genres: ["Drama", "Mystery", "Sci-Fi"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Ex%20Machina",
     overview: "A young programmer is selected to participate in a ground-breaking experiment in synthetic intelligence.",
     reviews: [
       { text: "Exceptional filmmaking at its finest. A must-watch.", sentiment: "positive", score: 0.91 },
@@ -1138,7 +1138,7 @@ export const movies: Movie[] = [
     id: 85, title: "Her", year: 2013,
     genres: ["Drama", "Romance", "Sci-Fi"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Her",
     overview: "In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.9 },
@@ -1150,7 +1150,7 @@ export const movies: Movie[] = [
     id: 86, title: "The Revenant", year: 2015,
     genres: ["Action", "Adventure", "Drama"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=The%20Revenant",
     overview: "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.78 },
@@ -1164,7 +1164,7 @@ export const movies: Movie[] = [
     id: 87, title: "The Wolf of Wall Street", year: 2013,
     genres: ["Biography", "Comedy", "Crime"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=The%20Wolf%20of%20Wall%20Street",
     overview: "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker to his fall involving crime and corruption.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.19 },
@@ -1177,7 +1177,7 @@ export const movies: Movie[] = [
     id: 88, title: "Catch Me If You Can", year: 2002,
     genres: ["Biography", "Crime", "Drama"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Catch%20Me%20If%20You%20Can",
     overview: "Barely 21, Frank Abagnale successfully conned millions of dollars\' worth of checks as a Pan Am pilot, doctor, and legal prosecutor.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.35 },
@@ -1191,7 +1191,7 @@ export const movies: Movie[] = [
     id: 89, title: "Casino Royale", year: 2006,
     genres: ["Action", "Adventure", "Thriller"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Casino%20Royale",
     overview: "Armed with a license to kill, Secret Agent James Bond sets out on his first mission as 007.",
     reviews: [
       { text: "Riveting and deeply satisfying. Worth every minute.", sentiment: "positive", score: 0.75 },
@@ -1203,7 +1203,7 @@ export const movies: Movie[] = [
     id: 90, title: "Skyfall", year: 2012,
     genres: ["Action", "Adventure", "Thriller"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Skyfall",
     overview: "Bond\'s loyalty to M is tested when her past comes back to haunt her, and MI6 comes under attack.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: -0.1 },
@@ -1217,7 +1217,7 @@ export const movies: Movie[] = [
     id: 91, title: "John Wick", year: 2014,
     genres: ["Action", "Crime", "Thriller"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=John%20Wick",
     overview: "An ex-hitman comes out of retirement to track down the gangsters that took everything from him.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.28 },
@@ -1231,7 +1231,7 @@ export const movies: Movie[] = [
     id: 92, title: "The Bourne Identity", year: 2002,
     genres: ["Action", "Mystery", "Thriller"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=The%20Bourne%20Identity",
     overview: "A man is picked up by a fishing boat, bullet-riddled and without memory, then begins to elude a team of assassins.",
     reviews: [
       { text: "A tedious experience from beginning to end.", sentiment: "negative", score: -0.6 },
@@ -1244,7 +1244,7 @@ export const movies: Movie[] = [
     id: 93, title: "Heat", year: 2005,
     genres: ["Action", "Crime", "Drama"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Heat",
     overview: "A group of professional bank robbers start to feel the heat from police when they unknowingly leave a clue at their latest heist.",
     reviews: [
       { text: "This film exceeded all expectations. Pure excellence.", sentiment: "positive", score: 0.87 },
@@ -1257,7 +1257,7 @@ export const movies: Movie[] = [
     id: 94, title: "Léon: The Professional", year: 1994,
     genres: ["Action", "Crime", "Drama"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=L%C3%A9on%3A%20The%20Professional",
     overview: "A professional assassin rescues a teenage girl whose parents are killed, and she wants to learn the trade.",
     reviews: [
       { text: "A beautiful, thoughtful film that stays with you.", sentiment: "positive", score: 0.68 },
@@ -1269,7 +1269,7 @@ export const movies: Movie[] = [
     id: 95, title: "City of God", year: 2002,
     genres: ["Crime", "Drama"],
     rating: 8.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=City%20of%20God",
     overview: "In the slums of Rio, two kids\' paths diverge as one struggles to become a photographer and the other a drug dealer.",
     reviews: [
       { text: "Shallow and hollow. Lacks any real substance.", sentiment: "negative", score: -0.86 },
@@ -1283,7 +1283,7 @@ export const movies: Movie[] = [
     id: 96, title: "Oldboy", year: 2003,
     genres: ["Action", "Drama", "Mystery"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Oldboy",
     overview: "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must track down his captor in five days.",
     reviews: [
       { text: "Bold and ambitious storytelling done right.", sentiment: "positive", score: 0.78 },
@@ -1296,7 +1296,7 @@ export const movies: Movie[] = [
     id: 97, title: "Amélie", year: 2001,
     genres: ["Comedy", "Romance"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Am%C3%A9lie",
     overview: "Amélie is an innocent and naive girl in Paris who decides to help those around her and, along the way, discovers love.",
     reviews: [
       { text: "A tour de force of storytelling and visual artistry.", sentiment: "positive", score: 0.6 },
@@ -1309,7 +1309,7 @@ export const movies: Movie[] = [
     id: 98, title: "Pan\'s Labyrinth", year: 2006,
     genres: ["Drama", "Fantasy", "War"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Pan%5C%27s%20Labyrinth",
     overview: "In the Falangist Spain of 1944, a girl fascinated with fairy-tales is sent along with her pregnant mother to live with her stepfather.",
     reviews: [
       { text: "A masterpiece of cinema that will be remembered for generations.", sentiment: "positive", score: 0.77 },
@@ -1323,7 +1323,7 @@ export const movies: Movie[] = [
     id: 99, title: "Life Is Beautiful", year: 1997,
     genres: ["Comedy", "Drama", "Romance"],
     rating: 8.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Life%20Is%20Beautiful",
     overview: "When an open-minded Jewish librarian and his son become victims of the Holocaust, he uses humor to shield his son from the horrors.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: 0.07 },
@@ -1337,7 +1337,7 @@ export const movies: Movie[] = [
     id: 100, title: "Cinema Paradiso", year: 1988,
     genres: ["Drama", "Romance"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Cinema%20Paradiso",
     overview: "A filmmaker recalls his childhood when falling in love with the pictures at the cinema of his hometown.",
     reviews: [
       { text: "Shallow and hollow. Lacks any real substance.", sentiment: "negative", score: -0.36 },
@@ -1351,7 +1351,7 @@ export const movies: Movie[] = [
     id: 101, title: "Requiem for a Dream", year: 2000,
     genres: ["Drama"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Requiem%20for%20a%20Dream",
     overview: "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.",
     reviews: [
       { text: "Has moments of brilliance mixed with mediocrity.", sentiment: "neutral", score: 0.19 },
@@ -1365,7 +1365,7 @@ export const movies: Movie[] = [
     id: 102, title: "Trainspotting", year: 1996,
     genres: ["Drama"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Trainspotting",
     overview: "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of drugs.",
     reviews: [
       { text: "Riveting and deeply satisfying. Worth every minute.", sentiment: "positive", score: 0.77 },
@@ -1379,7 +1379,7 @@ export const movies: Movie[] = [
     id: 103, title: "The Sixth Sense", year: 1999,
     genres: ["Drama", "Mystery", "Thriller"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Sixth%20Sense",
     overview: "A boy who communicates with spirits seeks the help of a disheartened child psychologist.",
     reviews: [
       { text: "Wasted potential with a weak script and poor direction.", sentiment: "negative", score: -0.48 },
@@ -1393,7 +1393,7 @@ export const movies: Movie[] = [
     id: 104, title: "American History X", year: 1998,
     genres: ["Crime", "Drama"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=American%20History%20X",
     overview: "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.95 },
@@ -1407,7 +1407,7 @@ export const movies: Movie[] = [
     id: 105, title: "Good Will Hunting", year: 1997,
     genres: ["Drama", "Romance"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Good%20Will%20Hunting",
     overview: "Will Hunting, a janitor at MIT, has a gift for mathematics, but needs help from a psychologist to find direction in his life.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.95 },
@@ -1420,7 +1420,7 @@ export const movies: Movie[] = [
     id: 106, title: "A Beautiful Mind", year: 2001,
     genres: ["Biography", "Drama"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=A%20Beautiful%20Mind",
     overview: "After John Nash, a brilliant mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish.",
     reviews: [
       { text: "An ambitious effort that partially succeeds.", sentiment: "neutral", score: -0.1 },
@@ -1434,7 +1434,7 @@ export const movies: Movie[] = [
     id: 107, title: "The Departed", year: 2006,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=The%20Departed",
     overview: "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang.",
     reviews: [
       { text: "A frustrating watch with no payoff at the end.", sentiment: "negative", score: -0.32 },
@@ -1446,7 +1446,7 @@ export const movies: Movie[] = [
     id: 108, title: "Inglourious Basterds", year: 2009,
     genres: ["Adventure", "Drama", "War"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Inglourious%20Basterds",
     overview: "In Nazi-occupied France, a group of Jewish-American soldiers known as \'The Basterds\' plan a revenge plot.",
     reviews: [
       { text: "An unforgettable cinematic experience. Highly recommended.", sentiment: "positive", score: 0.92 },
@@ -1459,7 +1459,7 @@ export const movies: Movie[] = [
     id: 109, title: "Kill Bill: Volume 1", year: 2003,
     genres: ["Action", "Crime", "Drama"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Kill%20Bill%3A%20Volume%201",
     overview: "After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: 0.12 },
@@ -1473,7 +1473,7 @@ export const movies: Movie[] = [
     id: 110, title: "Reservoir Dogs", year: 1992,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Reservoir%20Dogs",
     overview: "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: 0.29 },
@@ -1485,7 +1485,7 @@ export const movies: Movie[] = [
     id: 111, title: "12 Angry Men", year: 1957,
     genres: ["Crime", "Drama"],
     rating: 9.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=12%20Angry%20Men",
     overview: "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: -0.11 },
@@ -1499,7 +1499,7 @@ export const movies: Movie[] = [
     id: 112, title: "Rear Window", year: 1954,
     genres: ["Mystery", "Thriller"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/4338ca/eef2ff?text=Rear%20Window",
     overview: "A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.",
     reviews: [
       { text: "Flawless execution from the entire cast and crew.", sentiment: "positive", score: 0.98 },
@@ -1513,7 +1513,7 @@ export const movies: Movie[] = [
     id: 113, title: "Vertigo", year: 1958,
     genres: ["Mystery", "Romance", "Thriller"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/4338ca/eef2ff?text=Vertigo",
     overview: "A former San Francisco police detective juggles investigating his past and present after a woman who looks like a dead ringer for an old obsession appears.",
     reviews: [
       { text: "A masterpiece of cinema that will be remembered for generations.", sentiment: "positive", score: 0.94 },
@@ -1526,7 +1526,7 @@ export const movies: Movie[] = [
     id: 114, title: "North by Northwest", year: 1959,
     genres: ["Action", "Adventure", "Mystery"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=North%20by%20Northwest",
     overview: "A New York City advertising executive is mistaken for a government agent by foreign spies.",
     reviews: [
       { text: "A stunning achievement that pushes boundaries.", sentiment: "positive", score: 0.84 },
@@ -1538,7 +1538,7 @@ export const movies: Movie[] = [
     id: 115, title: "Casablanca", year: 1942,
     genres: ["Drama", "Romance", "War"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Casablanca",
     overview: "A cynical American expatriate struggles to decide whether or not he should help his former lover and her husband escape French Morocco.",
     reviews: [
       { text: "A mess of a film that fails on nearly every level.", sentiment: "negative", score: -0.4 },
@@ -1552,7 +1552,7 @@ export const movies: Movie[] = [
     id: 116, title: "It\'s a Wonderful Life", year: 1946,
     genres: ["Drama", "Family", "Fantasy"],
     rating: 8.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=It%5C%27s%20a%20Wonderful%20Life",
     overview: "An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed.",
     reviews: [
       { text: "Unengaging characters and a predictable storyline.", sentiment: "negative", score: -0.29 },
@@ -1566,7 +1566,7 @@ export const movies: Movie[] = [
     id: 117, title: "Citizen Kane", year: 1941,
     genres: ["Drama", "Mystery"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Citizen%20Kane",
     overview: "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance: \'Rosebud.\'",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.81 },
@@ -1579,7 +1579,7 @@ export const movies: Movie[] = [
     id: 118, title: "Sunset Boulevard", year: 1950,
     genres: ["Drama", "Film-Noir"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Sunset%20Boulevard",
     overview: "A screenwriter develops a dangerous relationship with a faded film star who refuses to accept that her glory days are behind her.",
     reviews: [
       { text: "Exceptional filmmaking at its finest. A must-watch.", sentiment: "positive", score: 0.62 },
@@ -1592,7 +1592,7 @@ export const movies: Movie[] = [
     id: 119, title: "Some Like It Hot", year: 1959,
     genres: ["Comedy", "Music", "Romance"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Some%20Like%20It%20Hot",
     overview: "After two male musicians witness a mob hit, they flee by joining an all-female band.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.93 },
@@ -1606,7 +1606,7 @@ export const movies: Movie[] = [
     id: 120, title: "Singin\' in the Rain", year: 1952,
     genres: ["Comedy", "Musical", "Romance"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Singin%5C%27%20in%20the%20Rain",
     overview: "A silent film star falls for a chorus girl just as he and his studio are trying to make the difficult transition to talking pictures.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.88 },
@@ -1620,7 +1620,7 @@ export const movies: Movie[] = [
     id: 121, title: "The Wizard of Oz", year: 1939,
     genres: ["Adventure", "Family", "Fantasy"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=The%20Wizard%20of%20Oz",
     overview: "Dorothy Gale is swept away from a farm in Kansas to a magical land of Oz and embarks on a quest to see the Wizard.",
     reviews: [
       { text: "Brilliantly directed with outstanding performances throughout.", sentiment: "positive", score: 0.88 },
@@ -1633,7 +1633,7 @@ export const movies: Movie[] = [
     id: 122, title: "Gone with the Wind", year: 1939,
     genres: ["Drama", "History", "Romance"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Gone%20with%20the%20Wind",
     overview: "A manipulative woman and a roguish man conduct a turbulent romance during the American Civil War and Reconstruction.",
     reviews: [
       { text: "Disappointing and forgettable. Expected much more.", sentiment: "negative", score: -0.8 },
@@ -1647,7 +1647,7 @@ export const movies: Movie[] = [
     id: 123, title: "Lawrence of Arabia", year: 1962,
     genres: ["Adventure", "Biography", "Drama"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Lawrence%20of%20Arabia",
     overview: "The story of T.E. Lawrence, the English officer who successfully united and led the diverse Arab tribes during World War I.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.82 },
@@ -1660,7 +1660,7 @@ export const movies: Movie[] = [
     id: 124, title: "Ben-Hur", year: 1959,
     genres: ["Adventure", "Drama", "History"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Ben-Hur",
     overview: "After a Jewish prince is betrayed and sent into slavery by a Roman friend, he regains his freedom and comes back for revenge.",
     reviews: [
       { text: "This film exceeded all expectations. Pure excellence.", sentiment: "positive", score: 0.87 },
@@ -1674,7 +1674,7 @@ export const movies: Movie[] = [
     id: 125, title: "The Bridge on the River Kwai", year: 1957,
     genres: ["Adventure", "Drama", "War"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=The%20Bridge%20on%20the%20River%20Kwai",
     overview: "British POWs are forced to build a railway bridge across the river Kwai for their Japanese captors.",
     reviews: [
       { text: "A mixed bag with both strong and weak elements.", sentiment: "neutral", score: 0.18 },
@@ -1688,7 +1688,7 @@ export const movies: Movie[] = [
     id: 126, title: "Spartacus", year: 1960,
     genres: ["Adventure", "Biography", "Drama"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Spartacus",
     overview: "The slave Spartacus leads a violent revolt against the decadent Roman Republic.",
     reviews: [
       { text: "The performances are electric and the script is sharp.", sentiment: "positive", score: 0.61 },
@@ -1700,7 +1700,7 @@ export const movies: Movie[] = [
     id: 127, title: "Rocky", year: 1976,
     genres: ["Drama", "Sport"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Rocky",
     overview: "A small-time boxer gets a supremely rare chance to fight a heavy-weight champion in a bout in which he strives to go the distance.",
     reviews: [
       { text: "Flawless execution from the entire cast and crew.", sentiment: "positive", score: 0.98 },
@@ -1712,7 +1712,7 @@ export const movies: Movie[] = [
     id: 128, title: "Raging Bull", year: 1980,
     genres: ["Biography", "Drama", "Sport"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Raging%20Bull",
     overview: "The life of boxer Jake LaMotta, whose violence and temper led to a title, but destroyed his life outside the ring.",
     reviews: [
       { text: "Too long, too slow, and ultimately pointless.", sentiment: "negative", score: -0.57 },
@@ -1725,7 +1725,7 @@ export const movies: Movie[] = [
     id: 129, title: "Taxi Driver", year: 1976,
     genres: ["Crime", "Drama"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Taxi%20Driver",
     overview: "A mentally unstable veteran works as a nighttime taxi driver in New York City, contemplating morally twisted salvation.",
     reviews: [
       { text: "An ambitious effort that partially succeeds.", sentiment: "neutral", score: -0.07 },
@@ -1737,7 +1737,7 @@ export const movies: Movie[] = [
     id: 130, title: "Scarface", year: 1983,
     genres: ["Crime", "Drama"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Scarface",
     overview: "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.7 },
@@ -1749,7 +1749,7 @@ export const movies: Movie[] = [
     id: 131, title: "The Exorcist", year: 1973,
     genres: ["Horror"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/991b1b/fef2f2?text=The%20Exorcist",
     overview: "When a 12-year-old girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her.",
     reviews: [
       { text: "A cinematic gem that deserves all the praise it gets.", sentiment: "positive", score: 0.87 },
@@ -1763,7 +1763,7 @@ export const movies: Movie[] = [
     id: 132, title: "Halloween", year: 1978,
     genres: ["Horror", "Thriller"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/991b1b/fef2f2?text=Halloween",
     overview: "Fifteen years after murdering his sister, Michael Myers escapes from a psychiatric hospital and returns to Haddonfield to kill again.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.71 },
@@ -1777,7 +1777,7 @@ export const movies: Movie[] = [
     id: 133, title: "A Nightmare on Elm Street", year: 1984,
     genres: ["Horror"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/991b1b/fef2f2?text=A%20Nightmare%20on%20Elm%20Street",
     overview: "The monstrous spirit of a slain child murderer seeks revenge by invading the dreams of teenagers whose parents were responsible for his death.",
     reviews: [
       { text: "Groundbreaking and innovative. Sets a new standard.", sentiment: "positive", score: 0.88 },
@@ -1791,7 +1791,7 @@ export const movies: Movie[] = [
     id: 134, title: "The Texas Chain Saw Massacre", year: 1974,
     genres: ["Horror"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/991b1b/fef2f2?text=The%20Texas%20Chain%20Saw%20Massacre",
     overview: "Five friends visiting their grandfather\'s old house are hunted by a chain-saw-wielding killer and his family of grave-robbing cannibals.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: -0.03 },
@@ -1804,7 +1804,7 @@ export const movies: Movie[] = [
     id: 135, title: "Jaws", year: 1975,
     genres: ["Adventure", "Drama", "Thriller"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Jaws",
     overview: "When a killer shark unleashes chaos on a beach community off Cape Cod, a local sheriff, a marine biologist, and a grizzled fisherman set out to stop it.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.96 },
@@ -1817,7 +1817,7 @@ export const movies: Movie[] = [
     id: 136, title: "E.T. the Extra-Terrestrial", year: 1982,
     genres: ["Family", "Sci-Fi"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/2563eb/eff6ff?text=E.T.%20the%20Extra-Terrestrial",
     overview: "A troubled child summons the courage to help a friendly alien escape Earth and return to his home world.",
     reviews: [
       { text: "A masterpiece of cinema that will be remembered for generations.", sentiment: "positive", score: 0.92 },
@@ -1830,7 +1830,7 @@ export const movies: Movie[] = [
     id: 137, title: "Raiders of the Lost Ark", year: 1981,
     genres: ["Action", "Adventure"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Raiders%20of%20the%20Lost%20Ark",
     overview: "In 1936, archaeologist Indiana Jones races against the Nazis to find the legendary Ark of the Covenant.",
     reviews: [
       { text: "Flawless execution from the entire cast and crew.", sentiment: "positive", score: 0.79 },
@@ -1844,7 +1844,7 @@ export const movies: Movie[] = [
     id: 138, title: "Indiana Jones and the Last Crusade", year: 1989,
     genres: ["Action", "Adventure"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Indiana%20Jones%20and%20the%20Last%20Crusade",
     overview: "Indiana Jones must save his father from the Nazis while searching for the Holy Grail.",
     reviews: [
       { text: "A beautiful, thoughtful film that stays with you.", sentiment: "positive", score: 0.75 },
@@ -1856,7 +1856,7 @@ export const movies: Movie[] = [
     id: 139, title: "Die Hard", year: 1988,
     genres: ["Action", "Thriller"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Die%20Hard",
     overview: "An NYPD officer tries to save his wife and several others taken hostage by German terrorists during a Christmas party.",
     reviews: [
       { text: "A frustrating watch with no payoff at the end.", sentiment: "negative", score: -0.8 },
@@ -1868,7 +1868,7 @@ export const movies: Movie[] = [
     id: 140, title: "Lethal Weapon", year: 1987,
     genres: ["Action", "Crime", "Thriller"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Lethal%20Weapon",
     overview: "Two newly paired cops who are complete opposites must put aside their differences in order to catch a gang of drug smugglers.",
     reviews: [
       { text: "An ambitious effort that partially succeeds.", sentiment: "neutral", score: 0.09 },
@@ -1882,7 +1882,7 @@ export const movies: Movie[] = [
     id: 141, title: "The Princess Bride", year: 1987,
     genres: ["Adventure", "Comedy", "Family"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=The%20Princess%20Bride",
     overview: "While home sick in bed, a young boy is read a story by his grandfather, embarking on an adventure.",
     reviews: [
       { text: "Good in parts but doesn't fully come together.", sentiment: "neutral", score: 0.14 },
@@ -1895,7 +1895,7 @@ export const movies: Movie[] = [
     id: 142, title: "Stand by Me", year: 1986,
     genres: ["Adventure", "Drama"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Stand%20by%20Me",
     overview: "After the death of one of his friends, a writer recounts a boyhood journey with his friends to find the body of a missing boy.",
     reviews: [
       { text: "A tour de force of storytelling and visual artistry.", sentiment: "positive", score: 0.67 },
@@ -1907,7 +1907,7 @@ export const movies: Movie[] = [
     id: 143, title: "Ferris Bueller\'s Day Off", year: 1986,
     genres: ["Comedy"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Ferris%20Bueller%5C%27s%20Day%20Off",
     overview: "A high school wise guy is determined to have a day off from school, despite what the principal thinks of that.",
     reviews: [
       { text: "Decent film with some good moments but nothing groundbreaking.", sentiment: "neutral", score: 0.2 },
@@ -1921,7 +1921,7 @@ export const movies: Movie[] = [
     id: 144, title: "The Breakfast Club", year: 1985,
     genres: ["Comedy", "Drama"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=The%20Breakfast%20Club",
     overview: "Five high school students from different walks of life endure a Saturday detention.",
     reviews: [
       { text: "A tedious experience from beginning to end.", sentiment: "negative", score: -0.41 },
@@ -1935,7 +1935,7 @@ export const movies: Movie[] = [
     id: 145, title: "Ghostbusters", year: 1984,
     genres: ["Action", "Comedy", "Fantasy"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Ghostbusters",
     overview: "Three former parapsychology professors set up shop as a unique ghost removal service.",
     reviews: [
       { text: "Shallow and hollow. Lacks any real substance.", sentiment: "negative", score: -0.34 },
@@ -1948,7 +1948,7 @@ export const movies: Movie[] = [
     id: 146, title: "Top Gun", year: 1986,
     genres: ["Action", "Drama"],
     rating: 6.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Top%20Gun",
     overview: "As students at the Navy\'s elite fighter weapons school compete to be best in the class, one daring young pilot learns a few things from a civilian instructor.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: 0.02 },
@@ -1961,7 +1961,7 @@ export const movies: Movie[] = [
     id: 147, title: "Beverly Hills Cop", year: 1984,
     genres: ["Action", "Comedy", "Crime"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Beverly%20Hills%20Cop",
     overview: "A freewheeling Detroit cop pursuing a murder investigation finds himself dealing with the very different culture of Beverly Hills.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: -0.03 },
@@ -1975,7 +1975,7 @@ export const movies: Movie[] = [
     id: 148, title: "RoboCop", year: 1987,
     genres: ["Action", "Crime", "Sci-Fi"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=RoboCop",
     overview: "In a dystopic and crime-ridden Detroit, a terminally wounded cop returns to the force as a powerful cyborg haunted by memories.",
     reviews: [
       { text: "The performances are electric and the script is sharp.", sentiment: "positive", score: 0.78 },
@@ -1987,7 +1987,7 @@ export const movies: Movie[] = [
     id: 149, title: "Total Recall", year: 1990,
     genres: ["Action", "Sci-Fi", "Thriller"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Total%20Recall",
     overview: "When a man goes in to have virtual vacation memories of the planet Mars implanted in his mind, an unexpected and harrowing series of events forces him to go to the planet for real.",
     reviews: [
       { text: "A frustrating watch with no payoff at the end.", sentiment: "negative", score: -0.38 },
@@ -2001,7 +2001,7 @@ export const movies: Movie[] = [
     id: 150, title: "Predator", year: 1987,
     genres: ["Action", "Adventure", "Horror"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Predator",
     overview: "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior.",
     reviews: [
       { text: "A cinematic gem that deserves all the praise it gets.", sentiment: "positive", score: 0.64 },
@@ -2013,7 +2013,7 @@ export const movies: Movie[] = [
     id: 151, title: "The Terminator", year: 1984,
     genres: ["Action", "Sci-Fi"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=The%20Terminator",
     overview: "A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine.",
     reviews: [
       { text: "Has moments of brilliance mixed with mediocrity.", sentiment: "neutral", score: -0.01 },
@@ -2025,7 +2025,7 @@ export const movies: Movie[] = [
     id: 152, title: "Groundhog Day", year: 1993,
     genres: ["Comedy", "Drama", "Fantasy"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Groundhog%20Day",
     overview: "A cynical TV weatherman finds himself reliving the same day over and over again when he goes to cover the annual Groundhog Day event.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: 0.13 },
@@ -2037,7 +2037,7 @@ export const movies: Movie[] = [
     id: 153, title: "Home Alone", year: 1990,
     genres: ["Comedy", "Family"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Home%20Alone",
     overview: "An eight-year-old troublemaker must protect his house from a pair of burglars when he is accidentally left home alone.",
     reviews: [
       { text: "Flawless execution from the entire cast and crew.", sentiment: "positive", score: 0.85 },
@@ -2051,7 +2051,7 @@ export const movies: Movie[] = [
     id: 154, title: "Mrs. Doubtfire", year: 1993,
     genres: ["Comedy", "Drama", "Family"],
     rating: 7.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Mrs.%20Doubtfire",
     overview: "After a bitter divorce, an actor disguises himself as a female housekeeper to spend time with his children.",
     reviews: [
       { text: "Powerful, moving, and beautifully crafted in every way.", sentiment: "positive", score: 0.62 },
@@ -2065,7 +2065,7 @@ export const movies: Movie[] = [
     id: 155, title: "Jumanji", year: 1995,
     genres: ["Adventure", "Comedy", "Family"],
     rating: 7.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Jumanji",
     overview: "When two kids find and play a magical board game, they release a man trapped in it for decades and a host of dangers.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.78 },
@@ -2077,7 +2077,7 @@ export const movies: Movie[] = [
     id: 156, title: "The Mask", year: 1994,
     genres: ["Action", "Comedy", "Crime"],
     rating: 6.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=The%20Mask",
     overview: "Bank clerk Stanley Ipkiss is transformed into a manic superhero when he wears a mysterious mask.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: 0.19 },
@@ -2091,7 +2091,7 @@ export const movies: Movie[] = [
     id: 157, title: "Ace Ventura: Pet Detective", year: 1994,
     genres: ["Comedy"],
     rating: 6.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Ace%20Ventura%3A%20Pet%20Detective",
     overview: "A goofy detective specializing in animals goes in search of the missing mascot of the Miami Dolphins.",
     reviews: [
       { text: "A beautiful, thoughtful film that stays with you.", sentiment: "positive", score: 0.77 },
@@ -2103,7 +2103,7 @@ export const movies: Movie[] = [
     id: 158, title: "Speed", year: 1994,
     genres: ["Action", "Adventure", "Crime"],
     rating: 7.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Speed",
     overview: "A young cop must prevent a bomb from exploding aboard a city bus.",
     reviews: [
       { text: "A beautiful, thoughtful film that stays with you.", sentiment: "positive", score: 0.76 },
@@ -2115,7 +2115,7 @@ export const movies: Movie[] = [
     id: 159, title: "The Fugitive", year: 1993,
     genres: ["Action", "Crime", "Drama"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=The%20Fugitive",
     overview: "Dr. Richard Kimble, unjustly accused of murdering his wife, must find the real killer while being pursued by a relentless U.S. Marshal.",
     reviews: [
       { text: "Good in parts but doesn't fully come together.", sentiment: "neutral", score: -0.11 },
@@ -2127,7 +2127,7 @@ export const movies: Movie[] = [
     id: 160, title: "Braveheart", year: 1995,
     genres: ["Biography", "Drama", "History"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Braveheart",
     overview: "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England.",
     reviews: [
       { text: "A stunning achievement that pushes boundaries.", sentiment: "positive", score: 0.67 },
@@ -2140,7 +2140,7 @@ export const movies: Movie[] = [
     id: 161, title: "The Fifth Element", year: 1997,
     genres: ["Action", "Adventure", "Sci-Fi"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=The%20Fifth%20Element",
     overview: "In the colorful future, a cab driver unwittingly becomes the central figure in the search for a legendary cosmic weapon.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: 0.18 },
@@ -2154,7 +2154,7 @@ export const movies: Movie[] = [
     id: 162, title: "Armageddon", year: 1998,
     genres: ["Action", "Adventure", "Sci-Fi"],
     rating: 6.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Armageddon",
     overview: "After discovering that an asteroid the size of Texas is going to impact Earth, NASA recruits a misfit team of deep-core drillers.",
     reviews: [
       { text: "Flawless execution from the entire cast and crew.", sentiment: "positive", score: 0.91 },
@@ -2168,7 +2168,7 @@ export const movies: Movie[] = [
     id: 163, title: "The Mummy", year: 1999,
     genres: ["Action", "Adventure", "Fantasy"],
     rating: 7.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=The%20Mummy",
     overview: "An American serves in the French Foreign Legion and stumbles upon an ancient tomb and accidentally awakens a mummy.",
     reviews: [
       { text: "Brilliantly directed with outstanding performances throughout.", sentiment: "positive", score: 0.77 },
@@ -2180,7 +2180,7 @@ export const movies: Movie[] = [
     id: 164, title: "Gladiator", year: 2000,
     genres: ["Action", "Adventure", "Drama"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Gladiator",
     overview: "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family.",
     reviews: [
       { text: "Brilliantly directed with outstanding performances throughout.", sentiment: "positive", score: 0.65 },
@@ -2194,7 +2194,7 @@ export const movies: Movie[] = [
     id: 165, title: "Cast Away", year: 2000,
     genres: ["Adventure", "Drama", "Romance"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Cast%20Away",
     overview: "A FedEx executive undergoes a physical and emotional transformation after crash landing on a deserted island.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.96 },
@@ -2207,7 +2207,7 @@ export const movies: Movie[] = [
     id: 166, title: "Crouching Tiger, Hidden Dragon", year: 2000,
     genres: ["Action", "Adventure", "Fantasy"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Crouching%20Tiger%2C%20Hidden%20Dragon",
     overview: "A young Chinese warrior steals a sword from a famed swordsman and then escapes into a world of romantic adventure.",
     reviews: [
       { text: "Unengaging characters and a predictable storyline.", sentiment: "negative", score: -0.8 },
@@ -2220,7 +2220,7 @@ export const movies: Movie[] = [
     id: 167, title: "Mulholland Drive", year: 2001,
     genres: ["Drama", "Mystery", "Thriller"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Mulholland%20Drive",
     overview: "After a car wreck on the winding Mulholland Drive renders a woman amnesiac, she and a perky Hollywood-hopeful search for clues.",
     reviews: [
       { text: "A stunning achievement that pushes boundaries.", sentiment: "positive", score: 0.81 },
@@ -2234,7 +2234,7 @@ export const movies: Movie[] = [
     id: 168, title: "Donnie Darko", year: 2001,
     genres: ["Drama", "Mystery", "Sci-Fi"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Donnie%20Darko",
     overview: "A troubled teenager is plagued by visions of a man in a large rabbit suit who manipulates him to commit crimes.",
     reviews: [
       { text: "Disappointing and forgettable. Expected much more.", sentiment: "negative", score: -0.29 },
@@ -2248,7 +2248,7 @@ export const movies: Movie[] = [
     id: 169, title: "Training Day", year: 2001,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Training%20Day",
     overview: "A rookie cop spends his first day on the job with a rogue detective who isn\'t what he appears to be.",
     reviews: [
       { text: "Has moments of brilliance mixed with mediocrity.", sentiment: "neutral", score: 0.31 },
@@ -2260,7 +2260,7 @@ export const movies: Movie[] = [
     id: 170, title: "Black Hawk Down", year: 2001,
     genres: ["Drama", "History", "War"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Black%20Hawk%20Down",
     overview: "The story of 160 elite U.S. soldiers who dropped into Mogadishu in October 1993 to capture two top lieutenants of a Somali warlord.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.85 },
@@ -2273,7 +2273,7 @@ export const movies: Movie[] = [
     id: 171, title: "A Beautiful Mind", year: 2001,
     genres: ["Biography", "Drama"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=A%20Beautiful%20Mind",
     overview: "The story of John Nash, a brilliant mathematician who struggles with schizophrenia.",
     reviews: [
       { text: "Brilliantly directed with outstanding performances throughout.", sentiment: "positive", score: 0.81 },
@@ -2286,7 +2286,7 @@ export const movies: Movie[] = [
     id: 172, title: "The Royal Tenenbaums", year: 2001,
     genres: ["Comedy", "Drama"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=The%20Royal%20Tenenbaums",
     overview: "The eccentric members of a dysfunctional family reluctantly gather under the same roof for various reasons.",
     reviews: [
       { text: "Powerful, moving, and beautifully crafted in every way.", sentiment: "positive", score: 0.79 },
@@ -2298,7 +2298,7 @@ export const movies: Movie[] = [
     id: 173, title: "Minority Report", year: 2002,
     genres: ["Action", "Crime", "Mystery"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Minority%20Report",
     overview: "In a future where a special police unit can arrest murderers before they commit their crimes, an officer from that unit is accused of a future murder.",
     reviews: [
       { text: "Has moments of brilliance mixed with mediocrity.", sentiment: "neutral", score: -0.07 },
@@ -2312,7 +2312,7 @@ export const movies: Movie[] = [
     id: 174, title: "Road to Perdition", year: 2002,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Road%20to%20Perdition",
     overview: "A mob enforcer\'s son witnesses a murder, forcing him and his father to take to the road, and his father to find redemption.",
     reviews: [
       { text: "A masterpiece of cinema that will be remembered for generations.", sentiment: "positive", score: 0.76 },
@@ -2326,7 +2326,7 @@ export const movies: Movie[] = [
     id: 175, title: "28 Days Later", year: 2002,
     genres: ["Drama", "Horror", "Sci-Fi"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=28%20Days%20Later",
     overview: "Four weeks after a mysterious, incurable virus spreads throughout the UK, a handful of survivors try to find sanctuary.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.76 },
@@ -2338,7 +2338,7 @@ export const movies: Movie[] = [
     id: 176, title: "The Ring", year: 2002,
     genres: ["Horror", "Mystery"],
     rating: 7.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/991b1b/fef2f2?text=The%20Ring",
     overview: "A journalist must investigate a mysterious videotape which seems to cause the death of anyone one week after watching it.",
     reviews: [
       { text: "An unforgettable cinematic experience. Highly recommended.", sentiment: "positive", score: 0.64 },
@@ -2352,7 +2352,7 @@ export const movies: Movie[] = [
     id: 177, title: "Lost in Translation", year: 2003,
     genres: ["Comedy", "Drama", "Romance"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Lost%20in%20Translation",
     overview: "A faded movie star and a neglected young woman form an unlikely bond after crossing paths in Tokyo.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.85 },
@@ -2366,7 +2366,7 @@ export const movies: Movie[] = [
     id: 178, title: "Mystic River", year: 2003,
     genres: ["Crime", "Drama", "Mystery"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Mystic%20River",
     overview: "The lives of three men who were childhood friends are shattered when one of them has a family tragedy.",
     reviews: [
       { text: "Tries too hard to be clever and fails miserably.", sentiment: "negative", score: -0.22 },
@@ -2379,7 +2379,7 @@ export const movies: Movie[] = [
     id: 179, title: "Master and Commander", year: 2003,
     genres: ["Action", "Adventure", "Drama"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Master%20and%20Commander",
     overview: "During the Napoleonic Wars, a brash British captain pushes his crew and ship to their limits in pursuit of a far-superior French war vessel.",
     reviews: [
       { text: "Good in parts but doesn't fully come together.", sentiment: "neutral", score: 0.18 },
@@ -2392,7 +2392,7 @@ export const movies: Movie[] = [
     id: 180, title: "Big Fish", year: 2003,
     genres: ["Adventure", "Drama", "Fantasy"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Big%20Fish",
     overview: "A frustrated son tries to determine the fact from fiction in his dying father\'s life.",
     reviews: [
       { text: "Powerful, moving, and beautifully crafted in every way.", sentiment: "positive", score: 0.82 },
@@ -2405,7 +2405,7 @@ export const movies: Movie[] = [
     id: 181, title: "Eternal Sunshine of the Spotless Mind", year: 2004,
     genres: ["Drama", "Romance", "Sci-Fi"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Eternal%20Sunshine%20of%20the%20Spotless%20Mind",
     overview: "A couple undergoes a procedure to erase each other from their memories when their relationship turns sour.",
     reviews: [
       { text: "A stunning achievement that pushes boundaries.", sentiment: "positive", score: 0.69 },
@@ -2418,7 +2418,7 @@ export const movies: Movie[] = [
     id: 182, title: "Million Dollar Baby", year: 2004,
     genres: ["Drama", "Sport"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Million%20Dollar%20Baby",
     overview: "A determined woman works with a hardened boxing trainer to become a professional in the sport.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.81 },
@@ -2431,7 +2431,7 @@ export const movies: Movie[] = [
     id: 183, title: "Hotel Rwanda", year: 2004,
     genres: ["Biography", "Drama", "History"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Hotel%20Rwanda",
     overview: "Paul Rusesabagina, a hotel manager, shelters over a thousand Tutsi refugees during their struggle against the Hutu militia in Rwanda.",
     reviews: [
       { text: "Flawless execution from the entire cast and crew.", sentiment: "positive", score: 0.87 },
@@ -2443,7 +2443,7 @@ export const movies: Movie[] = [
     id: 184, title: "Crash", year: 2004,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Crash",
     overview: "Los Angeles citizens with interrelated lives collide in intertwining stories of race, loss, and redemption.",
     reviews: [
       { text: "This film exceeded all expectations. Pure excellence.", sentiment: "positive", score: 0.64 },
@@ -2456,7 +2456,7 @@ export const movies: Movie[] = [
     id: 185, title: "Sideways", year: 2004,
     genres: ["Comedy", "Drama", "Romance"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Sideways",
     overview: "Two men reaching middle age with not much to show for it take a road trip through California\'s wine country.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: -0.14 },
@@ -2470,7 +2470,7 @@ export const movies: Movie[] = [
     id: 186, title: "Batman Begins", year: 2005,
     genres: ["Action", "Adventure"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Batman%20Begins",
     overview: "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
     reviews: [
       { text: "This film exceeded all expectations. Pure excellence.", sentiment: "positive", score: 0.76 },
@@ -2482,7 +2482,7 @@ export const movies: Movie[] = [
     id: 187, title: "Sin City", year: 2005,
     genres: ["Crime", "Thriller"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Sin%20City",
     overview: "A film that explores the dark and miserable town, Basin City, and tells the story of three different people.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.72 },
@@ -2494,7 +2494,7 @@ export const movies: Movie[] = [
     id: 188, title: "V for Vendetta", year: 2005,
     genres: ["Action", "Drama", "Sci-Fi"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=V%20for%20Vendetta",
     overview: "In a future British tyranny, a shadowy freedom fighter known only as \'V\' plots to overthrow it with the help of a young woman.",
     reviews: [
       { text: "Good in parts but doesn't fully come together.", sentiment: "neutral", score: -0.08 },
@@ -2507,7 +2507,7 @@ export const movies: Movie[] = [
     id: 189, title: "Walk the Line", year: 2005,
     genres: ["Biography", "Drama", "Music"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Walk%20the%20Line",
     overview: "A chronicle of country music legend Johnny Cash\'s life.",
     reviews: [
       { text: "This film exceeded all expectations. Pure excellence.", sentiment: "positive", score: 0.91 },
@@ -2519,7 +2519,7 @@ export const movies: Movie[] = [
     id: 190, title: "Munich", year: 2005,
     genres: ["Action", "Drama", "History"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Munich",
     overview: "After Black September\'s assassination of Israeli athletes at the 1972 Olympics, five men are chosen to eliminate the responsible individuals.",
     reviews: [
       { text: "Riveting and deeply satisfying. Worth every minute.", sentiment: "positive", score: 0.96 },
@@ -2533,7 +2533,7 @@ export const movies: Movie[] = [
     id: 191, title: "The Departed", year: 2006,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=The%20Departed",
     overview: "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang.",
     reviews: [
       { text: "A cinematic gem that deserves all the praise it gets.", sentiment: "positive", score: 0.78 },
@@ -2546,7 +2546,7 @@ export const movies: Movie[] = [
     id: 192, title: "Blood Diamond", year: 2006,
     genres: ["Adventure", "Drama", "Thriller"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Blood%20Diamond",
     overview: "A fisherman, a smuggler, and a syndicate of businessmen match wits over the possession of a priceless diamond.",
     reviews: [
       { text: "Shallow and hollow. Lacks any real substance.", sentiment: "negative", score: -0.84 },
@@ -2560,7 +2560,7 @@ export const movies: Movie[] = [
     id: 193, title: "Children of Men", year: 2006,
     genres: ["Action", "Drama", "Sci-Fi"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Children%20of%20Men",
     overview: "In 2027, in a chaotic world in which women have become somehow infertile, a former activist agrees to help transport a miraculously pregnant woman.",
     reviews: [
       { text: "A beautiful, thoughtful film that stays with you.", sentiment: "positive", score: 0.88 },
@@ -2572,7 +2572,7 @@ export const movies: Movie[] = [
     id: 194, title: "The Pursuit of Happyness", year: 2006,
     genres: ["Biography", "Drama"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=The%20Pursuit%20of%20Happyness",
     overview: "A struggling salesman takes custody of his son as he\'s poised to begin a life-changing professional career.",
     reviews: [
       { text: "A frustrating watch with no payoff at the end.", sentiment: "negative", score: -0.79 },
@@ -2586,7 +2586,7 @@ export const movies: Movie[] = [
     id: 195, title: "Little Miss Sunshine", year: 2006,
     genres: ["Comedy", "Drama"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Little%20Miss%20Sunshine",
     overview: "A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus.",
     reviews: [
       { text: "Riveting and deeply satisfying. Worth every minute.", sentiment: "positive", score: 0.87 },
@@ -2599,7 +2599,7 @@ export const movies: Movie[] = [
     id: 196, title: "Into the Wild", year: 2007,
     genres: ["Adventure", "Biography", "Drama"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Into%20the%20Wild",
     overview: "After graduating from Emory University, top student Christopher McCandless abandons his possessions and hitchhikes to Alaska.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: 0.11 },
@@ -2611,7 +2611,7 @@ export const movies: Movie[] = [
     id: 197, title: "Juno", year: 2007,
     genres: ["Comedy", "Drama"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Juno",
     overview: "Faced with an unplanned pregnancy, an offbeat young woman makes an unusual decision regarding her unborn child.",
     reviews: [
       { text: "A stunning achievement that pushes boundaries.", sentiment: "positive", score: 0.75 },
@@ -2625,7 +2625,7 @@ export const movies: Movie[] = [
     id: 198, title: "Superbad", year: 2007,
     genres: ["Comedy"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Superbad",
     overview: "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.",
     reviews: [
       { text: "A tour de force of storytelling and visual artistry.", sentiment: "positive", score: 0.7 },
@@ -2638,7 +2638,7 @@ export const movies: Movie[] = [
     id: 199, title: "Sweeney Todd", year: 2007,
     genres: ["Drama", "Horror", "Musical"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Sweeney%20Todd",
     overview: "The infamous story of Benjamin Barker, a.k.a Sweeney Todd, who sets up a barber shop in London.",
     reviews: [
       { text: "Tries too hard to be clever and fails miserably.", sentiment: "negative", score: -0.43 },
@@ -2651,7 +2651,7 @@ export const movies: Movie[] = [
     id: 200, title: "Atonement", year: 2007,
     genres: ["Drama", "Mystery", "Romance"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Atonement",
     overview: "Thirteen-year-old Briony Tallis irrevocably changes the course of several lives when she accuses her older sister\'s lover of a crime.",
     reviews: [
       { text: "Unengaging characters and a predictable storyline.", sentiment: "negative", score: -0.48 },
@@ -2663,7 +2663,7 @@ export const movies: Movie[] = [
     id: 201, title: "The Curious Case of Benjamin Button", year: 2008,
     genres: ["Drama", "Fantasy", "Romance"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Curious%20Case%20of%20Benjamin%20Button",
     overview: "Tells the story of Benjamin Button, a man who starts aging backwards.",
     reviews: [
       { text: "Too long, too slow, and ultimately pointless.", sentiment: "negative", score: -0.7 },
@@ -2675,7 +2675,7 @@ export const movies: Movie[] = [
     id: 202, title: "Slumdog Millionaire", year: 2008,
     genres: ["Crime", "Drama", "Romance"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Slumdog%20Millionaire",
     overview: "A Mumbai teenager reflects on his life after being accused of cheating on the Indian version of \'Who Wants to Be a Millionaire?\'",
     reviews: [
       { text: "An ambitious effort that partially succeeds.", sentiment: "neutral", score: 0.1 },
@@ -2687,7 +2687,7 @@ export const movies: Movie[] = [
     id: 203, title: "Iron Man", year: 2008,
     genres: ["Action", "Adventure", "Sci-Fi"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Iron%20Man",
     overview: "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
     reviews: [
       { text: "Powerful, moving, and beautifully crafted in every way.", sentiment: "positive", score: 0.71 },
@@ -2701,7 +2701,7 @@ export const movies: Movie[] = [
     id: 204, title: "Gran Torino", year: 2008,
     genres: ["Drama"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Gran%20Torino",
     overview: "Disgruntled Korean War veteran Walt Kowalski sets out to reform his neighbor, a Hmong teenager who tried to steal his prized possession.",
     reviews: [
       { text: "A tedious experience from beginning to end.", sentiment: "negative", score: -0.87 },
@@ -2714,7 +2714,7 @@ export const movies: Movie[] = [
     id: 205, title: "The Wrestler", year: 2008,
     genres: ["Drama", "Sport"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Wrestler",
     overview: "A faded professional wrestler must retire, but finds his quest for a new life outside the ring a dispiriting struggle.",
     reviews: [
       { text: "A tour de force of storytelling and visual artistry.", sentiment: "positive", score: 0.89 },
@@ -2726,7 +2726,7 @@ export const movies: Movie[] = [
     id: 206, title: "Inglourious Basterds", year: 2009,
     genres: ["Adventure", "Drama", "War"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Inglourious%20Basterds",
     overview: "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner\'s vengeful plans.",
     reviews: [
       { text: "A tedious experience from beginning to end.", sentiment: "negative", score: -0.76 },
@@ -2738,7 +2738,7 @@ export const movies: Movie[] = [
     id: 207, title: "District 9", year: 2009,
     genres: ["Action", "Sci-Fi", "Thriller"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=District%209",
     overview: "Violence ensues after an idealist humanitarian worker is exposed to an alien biotechnology.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: -0.01 },
@@ -2751,7 +2751,7 @@ export const movies: Movie[] = [
     id: 208, title: "Moon", year: 2009,
     genres: ["Drama", "Mystery", "Sci-Fi"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Moon",
     overview: "Astronaut Sam Bell has a quintessentially personal encounter toward the end of his three-year stint on the Moon.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: 0.2 },
@@ -2764,7 +2764,7 @@ export const movies: Movie[] = [
     id: 209, title: "The Hurt Locker", year: 2008,
     genres: ["Drama", "Thriller", "War"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Hurt%20Locker",
     overview: "During the Iraq War, a Sergeant recently assigned to an army bomb squad is at odds with his squad mates.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.75 },
@@ -2777,7 +2777,7 @@ export const movies: Movie[] = [
     id: 210, title: "Shutter Island", year: 2010,
     genres: ["Mystery", "Thriller"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/4338ca/eef2ff?text=Shutter%20Island",
     overview: "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",
     reviews: [
       { text: "The dialogue is wooden and the acting is stiff.", sentiment: "negative", score: -0.65 },
@@ -2790,7 +2790,7 @@ export const movies: Movie[] = [
     id: 211, title: "Black Swan", year: 2010,
     genres: ["Drama", "Thriller"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Black%20Swan",
     overview: "A committed dancer struggles to maintain her sanity after winning the lead role in a production of Tchaikovsky\'s \'Swan Lake.\'",
     reviews: [
       { text: "The performances are electric and the script is sharp.", sentiment: "positive", score: 0.9 },
@@ -2804,7 +2804,7 @@ export const movies: Movie[] = [
     id: 212, title: "127 Hours", year: 2010,
     genres: ["Adventure", "Biography", "Drama"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=127%20Hours",
     overview: "An adventurous mountain climber becomes trapped under a boulder while canyoneering alone near Moab, Utah.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: -0.07 },
@@ -2818,7 +2818,7 @@ export const movies: Movie[] = [
     id: 213, title: "The King\'s Speech", year: 2010,
     genres: ["Biography", "Drama", "History"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=The%20King%5C%27s%20Speech",
     overview: "The story of King George VI, his unexpected ascension to the throne and the speech therapist who helped him find his voice.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.87 },
@@ -2830,7 +2830,7 @@ export const movies: Movie[] = [
     id: 214, title: "True Grit", year: 2010,
     genres: ["Adventure", "Drama", "Western"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=True%20Grit",
     overview: "A stubborn teenager enlists the help of a tough U.S. Marshal to track down her father\'s murderer.",
     reviews: [
       { text: "Groundbreaking and innovative. Sets a new standard.", sentiment: "positive", score: 0.91 },
@@ -2842,7 +2842,7 @@ export const movies: Movie[] = [
     id: 215, title: "Drive", year: 2011,
     genres: ["Crime", "Drama"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Drive",
     overview: "A mysterious Hollywood stuntman and mechanic moonlights as a getaway driver and discovers that a contract has been put on him.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: 0.01 },
@@ -2856,7 +2856,7 @@ export const movies: Movie[] = [
     id: 216, title: "The Artist", year: 2011,
     genres: ["Comedy", "Drama", "Romance"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=The%20Artist",
     overview: "An egomaniacal film star develops a relationship with a young dancer against the backdrop of Hollywood\'s transition from silent films to talkies.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.95 },
@@ -2870,7 +2870,7 @@ export const movies: Movie[] = [
     id: 217, title: "Moneyball", year: 2011,
     genres: ["Biography", "Drama", "Sport"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Moneyball",
     overview: "Oakland A\'s general manager Billy Beane attempts to put together a winning team on a limited budget.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.83 },
@@ -2884,7 +2884,7 @@ export const movies: Movie[] = [
     id: 218, title: "Hugo", year: 2011,
     genres: ["Adventure", "Drama", "Family"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Hugo",
     overview: "In 1931 Paris, an orphan living in the walls of a train station is wrapped up in a mystery involving his late father and an automaton.",
     reviews: [
       { text: "Powerful, moving, and beautifully crafted in every way.", sentiment: "positive", score: 0.79 },
@@ -2898,7 +2898,7 @@ export const movies: Movie[] = [
     id: 219, title: "Argo", year: 2012,
     genres: ["Biography", "Drama", "Thriller"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Argo",
     overview: "Acting under the cover of a Hollywood producer scouting a location for a sci-fi film, a CIA agent launches a dangerous operation to rescue six Americans.",
     reviews: [
       { text: "The performances are electric and the script is sharp.", sentiment: "positive", score: 0.96 },
@@ -2912,7 +2912,7 @@ export const movies: Movie[] = [
     id: 220, title: "Life of Pi", year: 2012,
     genres: ["Adventure", "Drama", "Fantasy"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Life%20of%20Pi",
     overview: "A young man who survives a disaster at sea is hurtled into an epic journey of adventure and discovery with a Bengal tiger named Richard Parker.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: 0.17 },
@@ -2925,7 +2925,7 @@ export const movies: Movie[] = [
     id: 221, title: "Silver Linings Playbook", year: 2012,
     genres: ["Comedy", "Drama", "Romance"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Silver%20Linings%20Playbook",
     overview: "After a stint in a mental institution, Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife.",
     reviews: [
       { text: "A tedious experience from beginning to end.", sentiment: "negative", score: -0.32 },
@@ -2938,7 +2938,7 @@ export const movies: Movie[] = [
     id: 222, title: "Les Misérables", year: 2012,
     genres: ["Drama", "Musical", "Romance"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Les%20Mis%C3%A9rables",
     overview: "In 19th-century France, Jean Valjean, who for decades has been hunted by the ruthless policeman Javert after breaking parole, agrees to care for a factory worker\'s daughter.",
     reviews: [
       { text: "Pretentious and boring. Style over substance.", sentiment: "negative", score: -0.43 },
@@ -2952,7 +2952,7 @@ export const movies: Movie[] = [
     id: 223, title: "Gravity", year: 2013,
     genres: ["Drama", "Sci-Fi", "Thriller"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Gravity",
     overview: "Two astronauts work together to survive after an accident leaves them stranded in space.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: 0.22 },
@@ -2964,7 +2964,7 @@ export const movies: Movie[] = [
     id: 224, title: "12 Years a Slave", year: 2013,
     genres: ["Biography", "Drama", "History"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=12%20Years%20a%20Slave",
     overview: "In the antebellum United States, a free black man from upstate New York is kidnapped and sold into slavery.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: 0.1 },
@@ -2978,7 +2978,7 @@ export const movies: Movie[] = [
     id: 225, title: "Dallas Buyers Club", year: 2013,
     genres: ["Biography", "Drama"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Dallas%20Buyers%20Club",
     overview: "In 1985 Dallas, electrician Ron Woodroof discovers he is HIV-positive and begins to fight for access to alternative treatments.",
     reviews: [
       { text: "The performances are electric and the script is sharp.", sentiment: "positive", score: 0.74 },
@@ -2990,7 +2990,7 @@ export const movies: Movie[] = [
     id: 226, title: "Captain Phillips", year: 2013,
     genres: ["Action", "Biography", "Drama"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Captain%20Phillips",
     overview: "The true story of Captain Richard Phillips and the 2009 hijacking by Somali pirates of the US-flagged MV Maersk Alabama.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: -0.04 },
@@ -3004,7 +3004,7 @@ export const movies: Movie[] = [
     id: 227, title: "Rush", year: 2013,
     genres: ["Action", "Biography", "Drama"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Rush",
     overview: "The merciless rivalry between Formula One titans James Hunt and Niki Lauda.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: 0.24 },
@@ -3016,7 +3016,7 @@ export const movies: Movie[] = [
     id: 228, title: "Nightcrawler", year: 2014,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Nightcrawler",
     overview: "When a man stumbles upon the nighttime world of LA freelance crime journalism, he blurs the line between observer and participant.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: 0.08 },
@@ -3029,7 +3029,7 @@ export const movies: Movie[] = [
     id: 229, title: "Boyhood", year: 2014,
     genres: ["Drama"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Boyhood",
     overview: "The life of Mason, from early childhood to his arrival at college.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.84 },
@@ -3041,7 +3041,7 @@ export const movies: Movie[] = [
     id: 230, title: "Interstellar", year: 2014,
     genres: ["Adventure", "Drama", "Sci-Fi"],
     rating: 8.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Interstellar",
     overview: "A team of explorers travel through a wormhole in space to ensure humanity\'s survival.",
     reviews: [
       { text: "Exceptional filmmaking at its finest. A must-watch.", sentiment: "positive", score: 0.8 },
@@ -3055,7 +3055,7 @@ export const movies: Movie[] = [
     id: 231, title: "The Imitation Game", year: 2014,
     genres: ["Biography", "Drama", "Thriller"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=The%20Imitation%20Game",
     overview: "During World War II, mathematician Alan Turing tries to crack the enigma code with help from fellow mathematicians.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: 0.14 },
@@ -3068,7 +3068,7 @@ export const movies: Movie[] = [
     id: 232, title: "Birdman", year: 2014,
     genres: ["Comedy", "Drama"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Birdman",
     overview: "A washed-up superhero actor attempts to revive his career by writing and starring in a Broadway production.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.2 },
@@ -3081,7 +3081,7 @@ export const movies: Movie[] = [
     id: 233, title: "Spotlight", year: 2015,
     genres: ["Biography", "Crime", "Drama"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Spotlight",
     overview: "The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese.",
     reviews: [
       { text: "Groundbreaking and innovative. Sets a new standard.", sentiment: "positive", score: 0.75 },
@@ -3093,7 +3093,7 @@ export const movies: Movie[] = [
     id: 234, title: "The Martian", year: 2015,
     genres: ["Adventure", "Drama", "Sci-Fi"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=The%20Martian",
     overview: "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to survive.",
     reviews: [
       { text: "A triumph of cinema. Every frame is perfection.", sentiment: "positive", score: 0.91 },
@@ -3105,7 +3105,7 @@ export const movies: Movie[] = [
     id: 235, title: "Room", year: 2015,
     genres: ["Drama", "Thriller"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Room",
     overview: "Held captive for 7 years in an enclosed space, a woman and her young son finally gain their freedom.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.11 },
@@ -3117,7 +3117,7 @@ export const movies: Movie[] = [
     id: 236, title: "The Hateful Eight", year: 2015,
     genres: ["Crime", "Drama", "Mystery"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=The%20Hateful%20Eight",
     overview: "In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin inhabited by a collection of nefarious characters.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: -0.1 },
@@ -3131,7 +3131,7 @@ export const movies: Movie[] = [
     id: 237, title: "The Big Short", year: 2015,
     genres: ["Biography", "Comedy", "Drama"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=The%20Big%20Short",
     overview: "In 2006, a group of investors bet against the US mortgage market, uncovering its deep corruption.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: -0.14 },
@@ -3144,7 +3144,7 @@ export const movies: Movie[] = [
     id: 238, title: "La La Land", year: 2016,
     genres: ["Comedy", "Drama", "Musical"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=La%20La%20Land",
     overview: "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations.",
     reviews: [
       { text: "Flawless execution from the entire cast and crew.", sentiment: "positive", score: 0.79 },
@@ -3158,7 +3158,7 @@ export const movies: Movie[] = [
     id: 239, title: "Hacksaw Ridge", year: 2016,
     genres: ["Biography", "Drama", "History"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Hacksaw%20Ridge",
     overview: "WWII American Army Medic Desmond Doss, who served during the Battle of Okinawa, refuses to kill people.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.78 },
@@ -3171,7 +3171,7 @@ export const movies: Movie[] = [
     id: 240, title: "Manchester by the Sea", year: 2016,
     genres: ["Drama"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Manchester%20by%20the%20Sea",
     overview: "A depressed uncle is asked to take care of his teenage nephew after the boy\'s father dies.",
     reviews: [
       { text: "A mixed bag with both strong and weak elements.", sentiment: "neutral", score: 0.09 },
@@ -3184,7 +3184,7 @@ export const movies: Movie[] = [
     id: 241, title: "Lion", year: 2016,
     genres: ["Biography", "Drama"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Lion",
     overview: "A five-year-old Indian boy is adopted by an Australian couple after getting lost thousands of kilometers from home.",
     reviews: [
       { text: "The performances are electric and the script is sharp.", sentiment: "positive", score: 0.8 },
@@ -3197,7 +3197,7 @@ export const movies: Movie[] = [
     id: 242, title: "Hell or High Water", year: 2016,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Hell%20or%20High%20Water",
     overview: "A divorced father and his ex-con older brother resort to a desperate scheme in order to save their family\'s ranch in West Texas.",
     reviews: [
       { text: "A tedious experience from beginning to end.", sentiment: "negative", score: -0.63 },
@@ -3209,7 +3209,7 @@ export const movies: Movie[] = [
     id: 243, title: "Dunkirk", year: 2017,
     genres: ["Action", "Drama", "History"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Dunkirk",
     overview: "Allied soldiers from Belgium, the British Empire, and France are surrounded by the German Army and evacuated during a fierce battle.",
     reviews: [
       { text: "Decent film with some good moments but nothing groundbreaking.", sentiment: "neutral", score: 0.2 },
@@ -3222,7 +3222,7 @@ export const movies: Movie[] = [
     id: 244, title: "Get Out", year: 2017,
     genres: ["Horror", "Mystery", "Thriller"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/991b1b/fef2f2?text=Get%20Out",
     overview: "A young African-American visits his white girlfriend\'s parents for the weekend, where his simmering uneasiness about their reception deepens.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.62 },
@@ -3234,7 +3234,7 @@ export const movies: Movie[] = [
     id: 245, title: "Three Billboards Outside Ebbing, Missouri", year: 2017,
     genres: ["Comedy", "Crime", "Drama"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Three%20Billboards%20Outside%20Ebbing%2C%20Missouri",
     overview: "A mother personally challenges the local authorities to solve her daughter\'s murder when they fail to catch the culprit.",
     reviews: [
       { text: "An unforgettable cinematic experience. Highly recommended.", sentiment: "positive", score: 0.95 },
@@ -3246,7 +3246,7 @@ export const movies: Movie[] = [
     id: 246, title: "The Shape of Water", year: 2017,
     genres: ["Adventure", "Drama", "Fantasy"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=The%20Shape%20of%20Water",
     overview: "At a top-secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: 0.04 },
@@ -3260,7 +3260,7 @@ export const movies: Movie[] = [
     id: 247, title: "Baby Driver", year: 2017,
     genres: ["Action", "Crime", "Drama"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Baby%20Driver",
     overview: "After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.",
     reviews: [
       { text: "Shallow and hollow. Lacks any real substance.", sentiment: "negative", score: -0.47 },
@@ -3274,7 +3274,7 @@ export const movies: Movie[] = [
     id: 248, title: "Blade Runner 2049", year: 2017,
     genres: ["Action", "Drama", "Mystery"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Blade%20Runner%202049",
     overview: "Young Blade Runner K\'s discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard.",
     reviews: [
       { text: "A cinematic gem that deserves all the praise it gets.", sentiment: "positive", score: 0.68 },
@@ -3288,7 +3288,7 @@ export const movies: Movie[] = [
     id: 249, title: "Call Me by Your Name", year: 2017,
     genres: ["Drama", "Romance"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Call%20Me%20by%20Your%20Name",
     overview: "In 1980s Italy, romance blossoms between a seventeen-year-old student and the older man hired as his father\'s research assistant.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.73 },
@@ -3301,7 +3301,7 @@ export const movies: Movie[] = [
     id: 250, title: "Lady Bird", year: 2017,
     genres: ["Comedy", "Drama"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Lady%20Bird",
     overview: "In 2002, a culturally ambitious teenager has a strained relationship with her strong-willed mother.",
     reviews: [
       { text: "Overhyped and underwhelming. Not worth the time.", sentiment: "negative", score: -0.32 },
@@ -3314,7 +3314,7 @@ export const movies: Movie[] = [
     id: 251, title: "A Quiet Place", year: 2018,
     genres: ["Drama", "Horror", "Sci-Fi"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=A%20Quiet%20Place",
     overview: "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing.",
     reviews: [
       { text: "A tour de force of storytelling and visual artistry.", sentiment: "positive", score: 0.63 },
@@ -3327,7 +3327,7 @@ export const movies: Movie[] = [
     id: 252, title: "Black Panther", year: 2018,
     genres: ["Action", "Adventure", "Sci-Fi"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Black%20Panther",
     overview: "T\'Challa returns home to Wakanda to take his rightful place as king, but is challenged by a powerful adversary.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: 0.15 },
@@ -3340,7 +3340,7 @@ export const movies: Movie[] = [
     id: 253, title: "Bohemian Rhapsody", year: 2018,
     genres: ["Biography", "Drama", "Music"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Bohemian%20Rhapsody",
     overview: "The story of the legendary British rock band Queen and lead singer Freddie Mercury.",
     reviews: [
       { text: "Pretentious and boring. Style over substance.", sentiment: "negative", score: -0.73 },
@@ -3353,7 +3353,7 @@ export const movies: Movie[] = [
     id: 254, title: "Roma", year: 2018,
     genres: ["Drama"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Roma",
     overview: "A year in the life of a middle-class family\'s maid in Mexico City in the early 1970s.",
     reviews: [
       { text: "A mess of a film that fails on nearly every level.", sentiment: "negative", score: -0.83 },
@@ -3367,7 +3367,7 @@ export const movies: Movie[] = [
     id: 255, title: "A Star Is Born", year: 2018,
     genres: ["Drama", "Music", "Romance"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=A%20Star%20Is%20Born",
     overview: "A musician helps a young singer find fame as age and alcoholism send his own career into a downward spiral.",
     reviews: [
       { text: "A mixed bag with both strong and weak elements.", sentiment: "neutral", score: -0.06 },
@@ -3380,7 +3380,7 @@ export const movies: Movie[] = [
     id: 256, title: "Green Book", year: 2018,
     genres: ["Biography", "Comedy", "Drama"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Green%20Book",
     overview: "A working-class Italian-American bouncer becomes the driver for an African-American classical pianist on a tour of venues through the Jim Crow-era South.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.34 },
@@ -3393,7 +3393,7 @@ export const movies: Movie[] = [
     id: 257, title: "Avengers: Infinity War", year: 2018,
     genres: ["Action", "Adventure", "Sci-Fi"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Avengers%3A%20Infinity%20War",
     overview: "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos.",
     reviews: [
       { text: "Has moments of brilliance mixed with mediocrity.", sentiment: "neutral", score: -0.0 },
@@ -3407,7 +3407,7 @@ export const movies: Movie[] = [
     id: 258, title: "Avengers: Endgame", year: 2019,
     genres: ["Action", "Adventure", "Drama"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Avengers%3A%20Endgame",
     overview: "After the devastating events of Infinity War, the Avengers assemble once more in order to reverse Thanos\' actions.",
     reviews: [
       { text: "A stunning achievement that pushes boundaries.", sentiment: "positive", score: 0.63 },
@@ -3419,7 +3419,7 @@ export const movies: Movie[] = [
     id: 259, title: "Once Upon a Time in Hollywood", year: 2019,
     genres: ["Comedy", "Drama"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Once%20Upon%20a%20Time%20in%20Hollywood",
     overview: "A faded television actor and his stunt double strive to achieve fame and success in the final years of Hollywood\'s Golden Age.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: -0.11 },
@@ -3432,7 +3432,7 @@ export const movies: Movie[] = [
     id: 260, title: "Knives Out", year: 2019,
     genres: ["Comedy", "Crime", "Drama"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Knives%20Out",
     overview: "A detective investigates the death of a patriarch of an eccentric, combative family.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.66 },
@@ -3445,7 +3445,7 @@ export const movies: Movie[] = [
     id: 261, title: "Ford v Ferrari", year: 2019,
     genres: ["Action", "Biography", "Drama"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Ford%20v%20Ferrari",
     overview: "American car designer Carroll Shelby and driver Ken Miles battle corporate interference to build a revolutionary race car for Ford Motor Company.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: 0.04 },
@@ -3458,7 +3458,7 @@ export const movies: Movie[] = [
     id: 262, title: "Jojo Rabbit", year: 2019,
     genres: ["Comedy", "Drama", "War"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Jojo%20Rabbit",
     overview: "A young German boy discovers that his single mother is hiding a Jewish girl in their attic.",
     reviews: [
       { text: "A mixed bag with both strong and weak elements.", sentiment: "neutral", score: 0.2 },
@@ -3471,7 +3471,7 @@ export const movies: Movie[] = [
     id: 263, title: "The Lighthouse", year: 2019,
     genres: ["Drama", "Fantasy", "Horror"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Lighthouse",
     overview: "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: 0.34 },
@@ -3484,7 +3484,7 @@ export const movies: Movie[] = [
     id: 264, title: "Marriage Story", year: 2019,
     genres: ["Comedy", "Drama", "Romance"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Marriage%20Story",
     overview: "Noah Baumbach\'s incisive and compassionate look at a marriage breaking up and a family staying together.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.22 },
@@ -3496,7 +3496,7 @@ export const movies: Movie[] = [
     id: 265, title: "Uncut Gems", year: 2019,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Uncut%20Gems",
     overview: "A charismatic New York City jeweler always on the lookout for the next big score makes a series of high-stakes bets.",
     reviews: [
       { text: "The pacing is terrible and the plot makes no sense.", sentiment: "negative", score: -0.35 },
@@ -3510,7 +3510,7 @@ export const movies: Movie[] = [
     id: 266, title: "Tenet", year: 2020,
     genres: ["Action", "Sci-Fi", "Thriller"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Tenet",
     overview: "Armed with only one word, Tenet, and fighting for the survival of the entire world, a protagonist journeys through a twilight world of international espionage.",
     reviews: [
       { text: "Overrated and self-indulgent. Not for everyone.", sentiment: "negative", score: -0.25 },
@@ -3523,7 +3523,7 @@ export const movies: Movie[] = [
     id: 267, title: "Soul", year: 2020,
     genres: ["Animation", "Adventure", "Comedy"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Soul",
     overview: "A musician who has lost his passion for music is transported out of his body and must find his way back with the help of an infant soul.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: 0.22 },
@@ -3535,7 +3535,7 @@ export const movies: Movie[] = [
     id: 268, title: "Nomadland", year: 2020,
     genres: ["Drama"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Nomadland",
     overview: "A woman in her sixties, after losing everything in the Great Recession, embarks on a journey through the American West.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: 0.19 },
@@ -3547,7 +3547,7 @@ export const movies: Movie[] = [
     id: 269, title: "Promising Young Woman", year: 2020,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Promising%20Young%20Woman",
     overview: "A young woman, haunted by a traumatic event, seeks to avenge those who crossed her path.",
     reviews: [
       { text: "Falls flat despite a promising premise.", sentiment: "negative", score: -0.34 },
@@ -3559,7 +3559,7 @@ export const movies: Movie[] = [
     id: 270, title: "Sound of Metal", year: 2019,
     genres: ["Drama", "Music"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Sound%20of%20Metal",
     overview: "A drummer begins to lose his hearing and must come to terms with his new reality.",
     reviews: [
       { text: "Has moments of brilliance mixed with mediocrity.", sentiment: "neutral", score: -0.02 },
@@ -3572,7 +3572,7 @@ export const movies: Movie[] = [
     id: 271, title: "Minari", year: 2020,
     genres: ["Drama"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Minari",
     overview: "A Korean-American family moves to an Arkansas farm in search of the American Dream.",
     reviews: [
       { text: "Pretentious and boring. Style over substance.", sentiment: "negative", score: -0.42 },
@@ -3586,7 +3586,7 @@ export const movies: Movie[] = [
     id: 272, title: "The Father", year: 2020,
     genres: ["Drama", "Mystery"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Father",
     overview: "A man refuses all assistance from his daughter as he ages and begins to doubt his loved ones.",
     reviews: [
       { text: "Good in parts but doesn't fully come together.", sentiment: "neutral", score: 0.05 },
@@ -3598,7 +3598,7 @@ export const movies: Movie[] = [
     id: 273, title: "Dune", year: 2021,
     genres: ["Action", "Adventure", "Drama"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Dune",
     overview: "Feature adaptation of Frank Herbert\'s science fiction novel about the son of a noble family entrusted with the protection of the most valuable asset in the galaxy.",
     reviews: [
       { text: "Brilliantly directed with outstanding performances throughout.", sentiment: "positive", score: 0.82 },
@@ -3611,7 +3611,7 @@ export const movies: Movie[] = [
     id: 274, title: "No Time to Die", year: 2021,
     genres: ["Action", "Adventure", "Thriller"],
     rating: 6.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=No%20Time%20to%20Die",
     overview: "James Bond has left active service. His peace is short-lived when Felix Leiter enlists his help to rescue a kidnapped scientist.",
     reviews: [
       { text: "An ambitious effort that partially succeeds.", sentiment: "neutral", score: -0.06 },
@@ -3623,7 +3623,7 @@ export const movies: Movie[] = [
     id: 275, title: "The Power of the Dog", year: 2021,
     genres: ["Drama", "Romance", "Western"],
     rating: 6.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Power%20of%20the%20Dog",
     overview: "Charismatic rancher Phil Burbank inspires fear and awe in those around him.",
     reviews: [
       { text: "A mixed bag with both strong and weak elements.", sentiment: "neutral", score: 0.18 },
@@ -3635,7 +3635,7 @@ export const movies: Movie[] = [
     id: 276, title: "CODA", year: 2021,
     genres: ["Comedy", "Drama", "Music"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=CODA",
     overview: "As a CODA (Child of Deaf Adults), Ruby is the only hearing person in her deaf family.",
     reviews: [
       { text: "A tour de force of storytelling and visual artistry.", sentiment: "positive", score: 0.78 },
@@ -3649,7 +3649,7 @@ export const movies: Movie[] = [
     id: 277, title: "Licorice Pizza", year: 2021,
     genres: ["Comedy", "Drama", "Romance"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Licorice%20Pizza",
     overview: "The story of Alana Kane and Gary Valentine growing up, running around and going through the treacherous navigation of first love in the San Fernando Valley.",
     reviews: [
       { text: "Exceptional filmmaking at its finest. A must-watch.", sentiment: "positive", score: 0.73 },
@@ -3661,7 +3661,7 @@ export const movies: Movie[] = [
     id: 278, title: "The French Dispatch", year: 2021,
     genres: ["Comedy", "Drama", "Romance"],
     rating: 7.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=The%20French%20Dispatch",
     overview: "A love letter to journalists set in an outpost of an American newspaper in a fictional 20th-century French city.",
     reviews: [
       { text: "An unforgettable cinematic experience. Highly recommended.", sentiment: "positive", score: 0.72 },
@@ -3674,7 +3674,7 @@ export const movies: Movie[] = [
     id: 279, title: "West Side Story", year: 2021,
     genres: ["Crime", "Drama", "Musical"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=West%20Side%20Story",
     overview: "An adaptation of the 1957 musical. A young couple is caught between the hatred and violence of their respective communities.",
     reviews: [
       { text: "Unengaging characters and a predictable storyline.", sentiment: "negative", score: -0.6 },
@@ -3687,7 +3687,7 @@ export const movies: Movie[] = [
     id: 280, title: "Spider-Man: No Way Home", year: 2021,
     genres: ["Action", "Adventure", "Fantasy"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Spider-Man%3A%20No%20Way%20Home",
     overview: "With Spider-Man\'s identity now revealed, Peter asks Doctor Strange for help, but when a spell goes wrong, dangerous foes from other worlds appear.",
     reviews: [
       { text: "Powerful, moving, and beautifully crafted in every way.", sentiment: "positive", score: 0.69 },
@@ -3701,7 +3701,7 @@ export const movies: Movie[] = [
     id: 281, title: "The Batman", year: 2022,
     genres: ["Action", "Crime", "Drama"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=The%20Batman",
     overview: "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city\'s hidden corruption.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.73 },
@@ -3714,7 +3714,7 @@ export const movies: Movie[] = [
     id: 282, title: "Top Gun: Maverick", year: 2022,
     genres: ["Action", "Drama"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Top%20Gun%3A%20Maverick",
     overview: "After thirty years, Maverick is still pushing the envelope as a top naval aviator.",
     reviews: [
       { text: "The pacing is terrible and the plot makes no sense.", sentiment: "negative", score: -0.81 },
@@ -3726,7 +3726,7 @@ export const movies: Movie[] = [
     id: 283, title: "Everything Everywhere All at Once", year: 2022,
     genres: ["Action", "Adventure", "Comedy"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Everything%20Everywhere%20All%20at%20Once",
     overview: "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence.",
     reviews: [
       { text: "Disappointing and forgettable. Expected much more.", sentiment: "negative", score: -0.44 },
@@ -3738,7 +3738,7 @@ export const movies: Movie[] = [
     id: 284, title: "The Banshees of Inisherin", year: 2022,
     genres: ["Comedy", "Drama"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=The%20Banshees%20of%20Inisherin",
     overview: "Two lifelong friends find themselves at an impasse when one abruptly ends their relationship.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.68 },
@@ -3752,7 +3752,7 @@ export const movies: Movie[] = [
     id: 285, title: "Tar", year: 2022,
     genres: ["Drama", "Music"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Tar",
     overview: "Set in the international world of Western classical music, the film centers on Lydia Tár, widely considered one of the greatest living composers.",
     reviews: [
       { text: "A tour de force of storytelling and visual artistry.", sentiment: "positive", score: 0.9 },
@@ -3766,7 +3766,7 @@ export const movies: Movie[] = [
     id: 286, title: "Elvis", year: 2022,
     genres: ["Biography", "Drama", "Music"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Elvis",
     overview: "The life of American music icon Elvis Presley, from his childhood to becoming a rock and movie star.",
     reviews: [
       { text: "A mixed bag with both strong and weak elements.", sentiment: "neutral", score: -0.03 },
@@ -3780,7 +3780,7 @@ export const movies: Movie[] = [
     id: 287, title: "Glass Onion", year: 2022,
     genres: ["Comedy", "Crime", "Drama"],
     rating: 7.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Glass%20Onion",
     overview: "Famed Southern detective Benoit Blanc travels to Greece for his latest case.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: -0.02 },
@@ -3793,7 +3793,7 @@ export const movies: Movie[] = [
     id: 288, title: "Triangle of Sadness", year: 2022,
     genres: ["Comedy", "Drama"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Triangle%20of%20Sadness",
     overview: "A fashion model celebrity couple join an pointless high-profile cruise for the super-rich.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.85 },
@@ -3805,7 +3805,7 @@ export const movies: Movie[] = [
     id: 289, title: "All Quiet on the Western Front", year: 2022,
     genres: ["Action", "Drama", "War"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=All%20Quiet%20on%20the%20Western%20Front",
     overview: "A young German soldier\'s terrifying experiences and disillusionment in the trenches of World War I.",
     reviews: [
       { text: "Groundbreaking and innovative. Sets a new standard.", sentiment: "positive", score: 0.67 },
@@ -3817,7 +3817,7 @@ export const movies: Movie[] = [
     id: 290, title: "Oppenheimer", year: 2023,
     genres: ["Biography", "Drama", "History"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Oppenheimer",
     overview: "The story of J. Robert Oppenheimer and his role in the development of the atomic bomb.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: -0.09 },
@@ -3831,7 +3831,7 @@ export const movies: Movie[] = [
     id: 291, title: "Barbie", year: 2023,
     genres: ["Adventure", "Comedy", "Fantasy"],
     rating: 6.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Barbie",
     overview: "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land.",
     reviews: [
       { text: "Tries too hard to be clever and fails miserably.", sentiment: "negative", score: -0.42 },
@@ -3844,7 +3844,7 @@ export const movies: Movie[] = [
     id: 292, title: "Killers of the Flower Moon", year: 2023,
     genres: ["Crime", "Drama", "History"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Killers%20of%20the%20Flower%20Moon",
     overview: "Members of the Osage tribe in Oklahoma are murdered under mysterious circumstances in the 1920s.",
     reviews: [
       { text: "The dialogue is wooden and the acting is stiff.", sentiment: "negative", score: -0.5 },
@@ -3858,7 +3858,7 @@ export const movies: Movie[] = [
     id: 293, title: "Poor Things", year: 2023,
     genres: ["Comedy", "Drama", "Romance"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Poor%20Things",
     overview: "The incredible tale about the fantastical evolution of Bella Baxter, a young woman brought back to life.",
     reviews: [
       { text: "Good in parts but doesn't fully come together.", sentiment: "neutral", score: -0.12 },
@@ -3872,7 +3872,7 @@ export const movies: Movie[] = [
     id: 294, title: "Past Lives", year: 2023,
     genres: ["Drama", "Romance"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Past%20Lives",
     overview: "Nora and Hae Sung, two deeply connected childhood friends, reconnect and grapple with the paths their lives have taken.",
     reviews: [
       { text: "Unengaging characters and a predictable storyline.", sentiment: "negative", score: -0.62 },
@@ -3884,7 +3884,7 @@ export const movies: Movie[] = [
     id: 295, title: "The Holdovers", year: 2023,
     genres: ["Comedy", "Drama"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=The%20Holdovers",
     overview: "A curmudgeonly instructor at a New England prep school is forced to remain on campus during Christmas break.",
     reviews: [
       { text: "The performances are electric and the script is sharp.", sentiment: "positive", score: 0.88 },
@@ -3897,7 +3897,7 @@ export const movies: Movie[] = [
     id: 296, title: "Anatomy of a Fall", year: 2023,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Anatomy%20of%20a%20Fall",
     overview: "A woman is suspected of her husband\'s murder, and their blind son faces a moral dilemma as the sole witness.",
     reviews: [
       { text: "Overrated and self-indulgent. Not for everyone.", sentiment: "negative", score: -0.43 },
@@ -3911,7 +3911,7 @@ export const movies: Movie[] = [
     id: 297, title: "Saltburn", year: 2023,
     genres: ["Comedy", "Drama", "Thriller"],
     rating: 7.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Saltburn",
     overview: "A student at Oxford University finds himself drawn into the world of a charming and aristocratic classmate.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: -0.15 },
@@ -3923,7 +3923,7 @@ export const movies: Movie[] = [
     id: 298, title: "May December", year: 2023,
     genres: ["Comedy", "Drama"],
     rating: 6.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=May%20December",
     overview: "A Hollywood actress researches a woman who was involved in a scandal to play her in a film.",
     reviews: [
       { text: "A stunning achievement that pushes boundaries.", sentiment: "positive", score: 0.64 },
@@ -3935,7 +3935,7 @@ export const movies: Movie[] = [
     id: 299, title: "The Zone of Interest", year: 2023,
     genres: ["Drama", "History", "War"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Zone%20of%20Interest",
     overview: "The commandant of Auschwitz and his wife strive to build a dream life for their family in a house and garden next to the camp.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: 0.23 },
@@ -3947,7 +3947,7 @@ export const movies: Movie[] = [
     id: 300, title: "American Fiction", year: 2023,
     genres: ["Comedy", "Drama"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=American%20Fiction",
     overview: "A novelist satirizes society\'s expectations of African-American literature.",
     reviews: [
       { text: "The performances are electric and the script is sharp.", sentiment: "positive", score: 0.6 },
@@ -3961,7 +3961,7 @@ export const movies: Movie[] = [
     id: 301, title: "Wonka", year: 2023,
     genres: ["Adventure", "Comedy", "Family"],
     rating: 7.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Wonka",
     overview: "Based on the extraordinary character at the center of Charlie and the Chocolate Factory.",
     reviews: [
       { text: "Shallow and hollow. Lacks any real substance.", sentiment: "negative", score: -0.67 },
@@ -3975,7 +3975,7 @@ export const movies: Movie[] = [
     id: 302, title: "Napoleon", year: 2023,
     genres: ["Action", "Adventure", "Biography"],
     rating: 6.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Napoleon",
     overview: "An epic that details the checkered rise and fall of French Emperor Napoleon Bonaparte.",
     reviews: [
       { text: "Tries too hard to be clever and fails miserably.", sentiment: "negative", score: -0.41 },
@@ -3989,7 +3989,7 @@ export const movies: Movie[] = [
     id: 303, title: "Dune: Part Two", year: 2024,
     genres: ["Action", "Adventure", "Drama"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Dune%3A%20Part%20Two",
     overview: "Paul Atreides unites with the Fremen to seek revenge against the conspirators who destroyed his family.",
     reviews: [
       { text: "The dialogue is wooden and the acting is stiff.", sentiment: "negative", score: -0.82 },
@@ -4003,7 +4003,7 @@ export const movies: Movie[] = [
     id: 304, title: "The Substance", year: 2024,
     genres: ["Drama", "Horror", "Sci-Fi"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Substance",
     overview: "A fading celebrity discovers a black-market drug that temporarily creates a younger version of herself.",
     reviews: [
       { text: "Brilliantly directed with outstanding performances throughout.", sentiment: "positive", score: 0.85 },
@@ -4015,7 +4015,7 @@ export const movies: Movie[] = [
     id: 305, title: "Conclave", year: 2024,
     genres: ["Drama", "Mystery", "Thriller"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Conclave",
     overview: "Following the unexpected death of the Pope, Cardinal Lawrence finds himself at the center of a secret struggle to elect a new one.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: 0.23 },
@@ -4029,7 +4029,7 @@ export const movies: Movie[] = [
     id: 306, title: "Anora", year: 2024,
     genres: ["Comedy", "Drama", "Romance"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Anora",
     overview: "A young sex worker from Brooklyn gets her chance at a Cinderella story when she meets and impulsively marries the son of an oligarch.",
     reviews: [
       { text: "Disappointing and forgettable. Expected much more.", sentiment: "negative", score: -0.25 },
@@ -4042,7 +4042,7 @@ export const movies: Movie[] = [
     id: 307, title: "The Brutalist", year: 2024,
     genres: ["Drama"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Brutalist",
     overview: "A visionary architect who escapes postwar Europe and relocates to America to rebuild his life.",
     reviews: [
       { text: "A mixed bag with both strong and weak elements.", sentiment: "neutral", score: 0.23 },
@@ -4056,7 +4056,7 @@ export const movies: Movie[] = [
     id: 308, title: "Emilia Pérez", year: 2024,
     genres: ["Comedy", "Crime", "Drama"],
     rating: 6.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Emilia%20P%C3%A9rez",
     overview: "An overworked lawyer is offered a dream assignment to help a cartel boss fake his death.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.7 },
@@ -4068,7 +4068,7 @@ export const movies: Movie[] = [
     id: 309, title: "Nosferatu", year: 2024,
     genres: ["Horror"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/991b1b/fef2f2?text=Nosferatu",
     overview: "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her.",
     reviews: [
       { text: "A tedious experience from beginning to end.", sentiment: "negative", score: -0.25 },
@@ -4081,7 +4081,7 @@ export const movies: Movie[] = [
     id: 310, title: "A Complete Unknown", year: 2024,
     genres: ["Biography", "Drama", "Music"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=A%20Complete%20Unknown",
     overview: "The story of Bob Dylan\'s rise in the 1960s folk music scene.",
     reviews: [
       { text: "A tedious experience from beginning to end.", sentiment: "negative", score: -0.55 },
@@ -4093,7 +4093,7 @@ export const movies: Movie[] = [
     id: 311, title: "Wicked", year: 2024,
     genres: ["Adventure", "Fantasy", "Musical"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Wicked",
     overview: "The untold story of the witches of Oz.",
     reviews: [
       { text: "Exceptional filmmaking at its finest. A must-watch.", sentiment: "positive", score: 0.96 },
@@ -4106,7 +4106,7 @@ export const movies: Movie[] = [
     id: 312, title: "Gladiator II", year: 2024,
     genres: ["Action", "Adventure", "Drama"],
     rating: 6.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Gladiator%20II",
     overview: "Lucius is forced into the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: 0.33 },
@@ -4120,7 +4120,7 @@ export const movies: Movie[] = [
     id: 313, title: "Furiosa: A Mad Max Saga", year: 2024,
     genres: ["Action", "Adventure", "Sci-Fi"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Furiosa%3A%20A%20Mad%20Max%20Saga",
     overview: "The origin story of the renegade warrior Furiosa before her encounter with Mad Max.",
     reviews: [
       { text: "Brilliantly directed with outstanding performances throughout.", sentiment: "positive", score: 0.71 },
@@ -4134,7 +4134,7 @@ export const movies: Movie[] = [
     id: 314, title: "Inside Out 2", year: 2024,
     genres: ["Animation", "Adventure", "Comedy"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Inside%20Out%202",
     overview: "Follow Riley in her teenage years as new emotions join the cast inside her mind.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: 0.12 },
@@ -4147,7 +4147,7 @@ export const movies: Movie[] = [
     id: 315, title: "Alien: Romulus", year: 2024,
     genres: ["Horror", "Sci-Fi", "Thriller"],
     rating: 7.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/991b1b/fef2f2?text=Alien%3A%20Romulus",
     overview: "A group of young space colonists come face to face with the most terrifying life form in the universe.",
     reviews: [
       { text: "This film exceeded all expectations. Pure excellence.", sentiment: "positive", score: 0.81 },
@@ -4159,7 +4159,7 @@ export const movies: Movie[] = [
     id: 316, title: "Deadpool & Wolverine", year: 2024,
     genres: ["Action", "Adventure", "Comedy"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Deadpool%20%26%20Wolverine",
     overview: "Deadpool is offered a place in the Marvel Cinematic Universe by the TVA in exchange for Wolverine.",
     reviews: [
       { text: "Flawless execution from the entire cast and crew.", sentiment: "positive", score: 0.86 },
@@ -4172,7 +4172,7 @@ export const movies: Movie[] = [
     id: 317, title: "Civil War", year: 2024,
     genres: ["Action", "Drama", "Sci-Fi"],
     rating: 6.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Civil%20War",
     overview: "A team of journalists travel across a dystopian future America during a rapidly escalating civil war.",
     reviews: [
       { text: "A triumph of cinema. Every frame is perfection.", sentiment: "positive", score: 0.83 },
@@ -4184,7 +4184,7 @@ export const movies: Movie[] = [
     id: 318, title: "Challengers", year: 2024,
     genres: ["Drama", "Romance", "Sport"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Challengers",
     overview: "A former tennis prodigy turned coach transforms her husband from a struggling player into a world-famous champion.",
     reviews: [
       { text: "Flawless execution from the entire cast and crew.", sentiment: "positive", score: 0.9 },
@@ -4198,7 +4198,7 @@ export const movies: Movie[] = [
     id: 319, title: "The Wild Robot", year: 2024,
     genres: ["Animation", "Adventure", "Family"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=The%20Wild%20Robot",
     overview: "A robot must learn to adapt and survive after being shipwrecked on a deserted island.",
     reviews: [
       { text: "Overhyped and underwhelming. Not worth the time.", sentiment: "negative", score: -0.69 },
@@ -4212,7 +4212,7 @@ export const movies: Movie[] = [
     id: 320, title: "Beetlejuice Beetlejuice", year: 2024,
     genres: ["Comedy", "Fantasy", "Horror"],
     rating: 6.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Beetlejuice%20Beetlejuice",
     overview: "After a family tragedy, three generations of the Deetz family return home to Winter River.",
     reviews: [
       { text: "An ambitious effort that partially succeeds.", sentiment: "neutral", score: 0.08 },
@@ -4226,7 +4226,7 @@ export const movies: Movie[] = [
     id: 321, title: "Megalopolis", year: 2024,
     genres: ["Drama", "Fantasy", "Sci-Fi"],
     rating: 4.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Megalopolis",
     overview: "A genius architect pitted against a corrupt mayor over the rebuilding of a utopian city after a devastating disaster.",
     reviews: [
       { text: "Exceptional filmmaking at its finest. A must-watch.", sentiment: "positive", score: 0.72 },
@@ -4240,7 +4240,7 @@ export const movies: Movie[] = [
     id: 322, title: "Kinds of Kindness", year: 2024,
     genres: ["Comedy", "Drama"],
     rating: 6.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Kinds%20of%20Kindness",
     overview: "A triptych fable following a man without choice who tries to take control of his own life.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: -0.01 },
@@ -4252,7 +4252,7 @@ export const movies: Movie[] = [
     id: 323, title: "Monkey Man", year: 2024,
     genres: ["Action", "Drama", "Thriller"],
     rating: 6.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Monkey%20Man",
     overview: "An anonymous young man who scratches out a meager living in an underground fight club.",
     reviews: [
       { text: "The pacing is terrible and the plot makes no sense.", sentiment: "negative", score: -0.45 },
@@ -4265,7 +4265,7 @@ export const movies: Movie[] = [
     id: 324, title: "It Ends with Us", year: 2024,
     genres: ["Drama", "Romance"],
     rating: 6.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=It%20Ends%20with%20Us",
     overview: "A woman overcomes a traumatic childhood to embark on a new life, but meets someone who casts a dark cloud over her.",
     reviews: [
       { text: "Decent film with some good moments but nothing groundbreaking.", sentiment: "neutral", score: 0.26 },
@@ -4277,7 +4277,7 @@ export const movies: Movie[] = [
     id: 325, title: "Twisters", year: 2024,
     genres: ["Action", "Adventure", "Thriller"],
     rating: 6.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Twisters",
     overview: "A retired tornado chaser is persuaded to return to Oklahoma to test a new experimental weather system.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.74 },
@@ -4291,7 +4291,7 @@ export const movies: Movie[] = [
     id: 326, title: "Trap", year: 2024,
     genres: ["Crime", "Horror", "Thriller"],
     rating: 5.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Trap",
     overview: "A father and teen daughter attend a pop concert, where they realize they\'re at the center of a dark event.",
     reviews: [
       { text: "A tedious experience from beginning to end.", sentiment: "negative", score: -0.54 },
@@ -4305,7 +4305,7 @@ export const movies: Movie[] = [
     id: 327, title: "Love Lies Bleeding", year: 2024,
     genres: ["Crime", "Drama", "Romance"],
     rating: 6.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Love%20Lies%20Bleeding",
     overview: "A reclusive gym manager falls for an ambitious bodybuilder passing through town.",
     reviews: [
       { text: "Brilliantly directed with outstanding performances throughout.", sentiment: "positive", score: 0.85 },
@@ -4318,7 +4318,7 @@ export const movies: Movie[] = [
     id: 328, title: "Rebel Ridge", year: 2024,
     genres: ["Action", "Crime", "Thriller"],
     rating: 6.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Rebel%20Ridge",
     overview: "A former Marine confronts corruption in a small town when local law enforcement unjustly seizes the bag of cash he needs to post his cousin\'s bail.",
     reviews: [
       { text: "Pretentious and boring. Style over substance.", sentiment: "negative", score: -0.32 },
@@ -4332,7 +4332,7 @@ export const movies: Movie[] = [
     id: 329, title: "Longlegs", year: 2024,
     genres: ["Crime", "Drama", "Horror"],
     rating: 6.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Longlegs",
     overview: "An FBI agent is assigned to an unsolved serial killer case that involves occult clues.",
     reviews: [
       { text: "A mixed bag with both strong and weak elements.", sentiment: "neutral", score: 0.09 },
@@ -4345,7 +4345,7 @@ export const movies: Movie[] = [
     id: 330, title: "Strange Darling", year: 2024,
     genres: ["Crime", "Horror", "Thriller"],
     rating: 7.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Strange%20Darling",
     overview: "Nothing is as it seems when a one-night stand spirals into a serial murder spree.",
     reviews: [
       { text: "A cinematic gem that deserves all the praise it gets.", sentiment: "positive", score: 0.87 },
@@ -4357,7 +4357,7 @@ export const movies: Movie[] = [
     id: 331, title: "Sing Sing", year: 2024,
     genres: ["Drama"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Sing%20Sing",
     overview: "A group of incarcerated men in a New York prison find purpose by acting in a theatre group.",
     reviews: [
       { text: "Bold and ambitious storytelling done right.", sentiment: "positive", score: 0.66 },
@@ -4370,7 +4370,7 @@ export const movies: Movie[] = [
     id: 332, title: "The Apprentice", year: 2024,
     genres: ["Biography", "Drama"],
     rating: 6.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=The%20Apprentice",
     overview: "A young Donald Trump navigates New York City under the mentorship of lawyer Roy Cohn.",
     reviews: [
       { text: "This film exceeded all expectations. Pure excellence.", sentiment: "positive", score: 0.95 },
@@ -4382,7 +4382,7 @@ export const movies: Movie[] = [
     id: 333, title: "Hundreds of Beavers", year: 2024,
     genres: ["Adventure", "Comedy"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Hundreds%20of%20Beavers",
     overview: "A 19th-century applejack salesman must become the greatest fur trapper in North America.",
     reviews: [
       { text: "Pretentious and boring. Style over substance.", sentiment: "negative", score: -0.24 },
@@ -4401,7 +4401,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 335, title: "The Godfather Part III", year: 1990,
     genres: ["Crime", "Drama"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=The%20Godfather%20Part%20III",
     overview: "In the midst of trying to legitimize his business dealings, Michael Corleone is pulled back into the world of organized crime.",
     reviews: [
       { text: "A cinematic gem that deserves all the praise it gets.", sentiment: "positive", score: 0.67 },
@@ -4414,7 +4414,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 336, title: "Scarface", year: 1983,
     genres: ["Crime", "Drama"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Scarface",
     overview: "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",
     reviews: [
       { text: "A tedious experience from beginning to end.", sentiment: "negative", score: -0.27 },
@@ -4428,7 +4428,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 337, title: "Goodfellas", year: 1990,
     genres: ["Biography", "Crime", "Drama"],
     rating: 8.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Goodfellas",
     overview: "The story of Henry Hill and his life in the mob.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.6 },
@@ -4441,7 +4441,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 338, title: "Casino", year: 1995,
     genres: ["Crime", "Drama"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Casino",
     overview: "A tale of greed, deception, money, power, and murder between two friends in a casino town.",
     reviews: [
       { text: "Riveting and deeply satisfying. Worth every minute.", sentiment: "positive", score: 0.83 },
@@ -4455,7 +4455,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 339, title: "The Untouchables", year: 1987,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=The%20Untouchables",
     overview: "Federal Agent Eliot Ness sets out to stop Al Capone during Prohibition.",
     reviews: [
       { text: "Groundbreaking and innovative. Sets a new standard.", sentiment: "positive", score: 0.65 },
@@ -4469,7 +4469,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 340, title: "Donnie Brasco", year: 1997,
     genres: ["Biography", "Crime", "Drama"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Donnie%20Brasco",
     overview: "An FBI undercover agent infiltrates the mob and finds himself identifying more with the lifestyle.",
     reviews: [
       { text: "The dialogue is wooden and the acting is stiff.", sentiment: "negative", score: -0.79 },
@@ -4483,7 +4483,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 341, title: "A Bronx Tale", year: 1993,
     genres: ["Crime", "Drama", "Romance"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=A%20Bronx%20Tale",
     overview: "A father becomes worried when a local gangster befriends his son in the Bronx in the 1960s.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.67 },
@@ -4496,7 +4496,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 342, title: "Eastern Promises", year: 2007,
     genres: ["Crime", "Drama", "Mystery"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Eastern%20Promises",
     overview: "A midwife discovers a diary that unveils connections to a Russian crime family.",
     reviews: [
       { text: "The pacing is terrible and the plot makes no sense.", sentiment: "negative", score: -0.28 },
@@ -4509,7 +4509,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 343, title: "The Town", year: 2010,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=The%20Town",
     overview: "A proficient group of thieves who rob a bank discover an issue when one of them falls in love with a manager.",
     reviews: [
       { text: "A mess of a film that fails on nearly every level.", sentiment: "negative", score: -0.63 },
@@ -4523,7 +4523,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 344, title: "Public Enemies", year: 2009,
     genres: ["Biography", "Crime", "Drama"],
     rating: 7.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Public%20Enemies",
     overview: "The FBI takes on notorious American gangsters John Dillinger, Baby Face Nelson and Pretty Boy Floyd.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.33 },
@@ -4536,7 +4536,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 345, title: "The Irishman", year: 2019,
     genres: ["Biography", "Crime", "Drama"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=The%20Irishman",
     overview: "An aging hitman recalls his time with the mob and the events that may have led to the disappearance of Jimmy Hoffa.",
     reviews: [
       { text: "Exceptional filmmaking at its finest. A must-watch.", sentiment: "positive", score: 0.73 },
@@ -4549,7 +4549,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 346, title: "Gangs of New York", year: 2002,
     genres: ["Crime", "Drama", "History"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Gangs%20of%20New%20York",
     overview: "In 1862 Amsterdam, a young man returns to the Five Points area seeking revenge against his father's killer.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.85 },
@@ -4563,7 +4563,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 347, title: "The Aviator", year: 2004,
     genres: ["Biography", "Drama"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=The%20Aviator",
     overview: "A biopic depicting the life of Howard Hughes, an aviation pioneer and director.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.8 },
@@ -4577,7 +4577,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 348, title: "Shutter Island", year: 2010,
     genres: ["Mystery", "Thriller"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/4338ca/eef2ff?text=Shutter%20Island",
     overview: "In 1954, a U.S. Marshal investigates the disappearance of a murderer from a hospital for the criminally insane.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.84 },
@@ -4590,7 +4590,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 349, title: "Zodiac", year: 2007,
     genres: ["Crime", "Drama", "Mystery"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Zodiac",
     overview: "A San Francisco cartoonist becomes obsessed with tracking down the Zodiac Killer.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.06 },
@@ -4602,7 +4602,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 350, title: "Nightcrawler", year: 2014,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Nightcrawler",
     overview: "A man stumbles upon the world of LA freelance crime journalism.",
     reviews: [
       { text: "The performances are electric and the script is sharp.", sentiment: "positive", score: 0.82 },
@@ -4616,7 +4616,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 351, title: "Gone Baby Gone", year: 2007,
     genres: ["Crime", "Drama", "Mystery"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Gone%20Baby%20Gone",
     overview: "Two Boston area detectives investigate a little girl's kidnapping.",
     reviews: [
       { text: "Good in parts but doesn't fully come together.", sentiment: "neutral", score: 0.19 },
@@ -4630,7 +4630,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 352, title: "The Place Beyond the Pines", year: 2012,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=The%20Place%20Beyond%20the%20Pines",
     overview: "A motorcycle stunt rider turns to robbing banks as a means to provide for his lover and their newborn child.",
     reviews: [
       { text: "Riveting and deeply satisfying. Worth every minute.", sentiment: "positive", score: 0.62 },
@@ -4643,7 +4643,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 353, title: "Wind River", year: 2017,
     genres: ["Crime", "Drama", "Mystery"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Wind%20River",
     overview: "A veteran tracker with the Fish and Wildlife Service helps to investigate the murder of a young Native American woman.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: 0.2 },
@@ -4655,7 +4655,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 354, title: "Prisoners", year: 2013,
     genres: ["Crime", "Drama", "Mystery"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Prisoners",
     overview: "When the daughters of two families are abducted, a desperate father takes matters into his own hands.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.61 },
@@ -4667,7 +4667,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 355, title: "Snowpiercer", year: 2013,
     genres: ["Action", "Drama", "Sci-Fi"],
     rating: 7.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Snowpiercer",
     overview: "In a future Ice Age, a class system evolves aboard the Snowpiercer, a train that travels around the globe.",
     reviews: [
       { text: "Brilliantly directed with outstanding performances throughout.", sentiment: "positive", score: 0.94 },
@@ -4681,7 +4681,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 356, title: "Edge of Tomorrow", year: 2014,
     genres: ["Action", "Adventure", "Sci-Fi"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Edge%20of%20Tomorrow",
     overview: "A soldier caught in a time loop in a war with aliens gets stronger with each repeat of the day.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: 0.13 },
@@ -4693,7 +4693,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 357, title: "Looper", year: 2012,
     genres: ["Action", "Drama", "Sci-Fi"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Looper",
     overview: "In 2074, when the mob wants to get rid of someone, the target is sent into the past.",
     reviews: [
       { text: "A mixed bag with both strong and weak elements.", sentiment: "neutral", score: -0.02 },
@@ -4705,7 +4705,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 358, title: "Annihilation", year: 2018,
     genres: ["Adventure", "Drama", "Horror"],
     rating: 6.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Annihilation",
     overview: "A biologist signs up for a dangerous, secret expedition into a mysterious zone.",
     reviews: [
       { text: "An ambitious effort that partially succeeds.", sentiment: "neutral", score: -0.0 },
@@ -4717,7 +4717,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 359, title: "The Lighthouse", year: 2019,
     genres: ["Drama", "Fantasy", "Horror"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Lighthouse",
     overview: "Two lighthouse keepers try to maintain their sanity while living on a remote island.",
     reviews: [
       { text: "A mixed bag with both strong and weak elements.", sentiment: "neutral", score: 0.25 },
@@ -4730,7 +4730,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 360, title: "Hereditary", year: 2018,
     genres: ["Drama", "Horror", "Mystery"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Hereditary",
     overview: "A grieving family is haunted by tragic and disturbing occurrences.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.11 },
@@ -4743,7 +4743,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 361, title: "Midsommar", year: 2019,
     genres: ["Drama", "Horror", "Mystery"],
     rating: 7.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Midsommar",
     overview: "A couple travels to Northern Europe to visit a rural hometown's fabled Swedish midsummer festival.",
     reviews: [
       { text: "Bold and ambitious storytelling done right.", sentiment: "positive", score: 0.96 },
@@ -4755,7 +4755,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 362, title: "The Witch", year: 2015,
     genres: ["Drama", "Fantasy", "Horror"],
     rating: 6.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Witch",
     overview: "A New England family in 1630s falls victim to witchcraft, black magic, and possession.",
     reviews: [
       { text: "A stunning achievement that pushes boundaries.", sentiment: "positive", score: 0.66 },
@@ -4768,7 +4768,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 363, title: "It Follows", year: 2014,
     genres: ["Horror", "Mystery", "Thriller"],
     rating: 6.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/991b1b/fef2f2?text=It%20Follows",
     overview: "A young woman is followed by an unknown supernatural force after a sexual encounter.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: 0.03 },
@@ -4781,7 +4781,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 364, title: "Get Out", year: 2017,
     genres: ["Horror", "Mystery", "Thriller"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/991b1b/fef2f2?text=Get%20Out",
     overview: "A young African-American visits his white girlfriend's parents for the weekend.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: 0.27 },
@@ -4795,7 +4795,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 365, title: "Us", year: 2019,
     genres: ["Horror", "Mystery", "Thriller"],
     rating: 6.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/991b1b/fef2f2?text=Us",
     overview: "A family's serene beach vacation turns to chaos when their doppelgängers appear.",
     reviews: [
       { text: "This film exceeded all expectations. Pure excellence.", sentiment: "positive", score: 0.72 },
@@ -4809,7 +4809,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 366, title: "Don't Breathe", year: 2016,
     genres: ["Crime", "Horror", "Thriller"],
     rating: 7.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Don%27t%20Breathe",
     overview: "Hoping to walk away with a massive fortune, a trio of thieves break into the house of a blind man.",
     reviews: [
       { text: "Bold and ambitious storytelling done right.", sentiment: "positive", score: 0.8 },
@@ -4823,7 +4823,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 367, title: "10 Cloverfield Lane", year: 2016,
     genres: ["Action", "Drama", "Horror"],
     rating: 7.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=10%20Cloverfield%20Lane",
     overview: "A young woman is held captive in an underground bunker by a man who insists a chemical attack has made the surface uninhabitable.",
     reviews: [
       { text: "Tries too hard to be clever and fails miserably.", sentiment: "negative", score: -0.3 },
@@ -4835,7 +4835,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 368, title: "Arrival", year: 2016,
     genres: ["Drama", "Mystery", "Sci-Fi"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Arrival",
     overview: "A linguist works with the military to communicate with alien lifeforms.",
     reviews: [
       { text: "Exceptional filmmaking at its finest. A must-watch.", sentiment: "positive", score: 0.68 },
@@ -4847,7 +4847,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 369, title: "Coherence", year: 2013,
     genres: ["Drama", "Mystery", "Sci-Fi"],
     rating: 7.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Coherence",
     overview: "Strange things begin to happen when a group of friends gather for a dinner party on the evening a comet is passing overhead.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.79 },
@@ -4860,7 +4860,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 370, title: "Primer", year: 2004,
     genres: ["Drama", "Sci-Fi", "Thriller"],
     rating: 6.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Primer",
     overview: "Four friends stumble upon the secret of time travel and its consequences.",
     reviews: [
       { text: "Brilliantly directed with outstanding performances throughout.", sentiment: "positive", score: 0.68 },
@@ -4872,7 +4872,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 371, title: "Predestination", year: 2014,
     genres: ["Action", "Drama", "Sci-Fi"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Predestination",
     overview: "The life of a time-traveling agent as he embarks on a final assignment.",
     reviews: [
       { text: "A frustrating watch with no payoff at the end.", sentiment: "negative", score: -0.89 },
@@ -4885,7 +4885,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 372, title: "Source Code", year: 2011,
     genres: ["Action", "Drama", "Mystery"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Source%20Code",
     overview: "A soldier wakes up in someone else's body and discovers he's part of an experimental government program.",
     reviews: [
       { text: "A mess of a film that fails on nearly every level.", sentiment: "negative", score: -0.48 },
@@ -4898,7 +4898,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 373, title: "Midnight in Paris", year: 2011,
     genres: ["Comedy", "Fantasy", "Romance"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Midnight%20in%20Paris",
     overview: "While on a trip to Paris with his fiancée's family, a writer finds himself mysteriously going back to the 1920s every night.",
     reviews: [
       { text: "A cinematic gem that deserves all the praise it gets.", sentiment: "positive", score: 0.63 },
@@ -4911,7 +4911,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 374, title: "Before Sunrise", year: 1995,
     genres: ["Drama", "Romance"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Before%20Sunrise",
     overview: "A young man and woman meet on a train in Europe and wind up spending one evening together in Vienna.",
     reviews: [
       { text: "Groundbreaking and innovative. Sets a new standard.", sentiment: "positive", score: 0.68 },
@@ -4923,7 +4923,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 375, title: "Before Sunset", year: 2004,
     genres: ["Drama", "Romance"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Before%20Sunset",
     overview: "Nine years after Jesse and Celine first met, they encounter each other again on the day before Jesse's book signing in Paris.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: 0.35 },
@@ -4935,7 +4935,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 376, title: "Before Midnight", year: 2013,
     genres: ["Drama", "Romance"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Before%20Midnight",
     overview: "We meet Jesse and Celine nine years on in Greece, where they face questions about love, commitment, and the choices they've made.",
     reviews: [
       { text: "A beautiful, thoughtful film that stays with you.", sentiment: "positive", score: 0.72 },
@@ -4947,7 +4947,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 377, title: "The Before Trilogy Complete", year: 2013,
     genres: ["Drama", "Romance"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Before%20Trilogy%20Complete",
     overview: "The culmination of one of cinema's greatest love stories spanning 18 years.",
     reviews: [
       { text: "Flawless execution from the entire cast and crew.", sentiment: "positive", score: 0.65 },
@@ -4959,7 +4959,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 378, title: "Lost in Translation", year: 2003,
     genres: ["Comedy", "Drama", "Romance"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Lost%20in%20Translation",
     overview: "A faded movie star and a neglected young woman form an unlikely bond in Tokyo.",
     reviews: [
       { text: "This film exceeded all expectations. Pure excellence.", sentiment: "positive", score: 0.84 },
@@ -4972,7 +4972,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 379, title: "In the Mood for Love", year: 2000,
     genres: ["Drama", "Romance"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=In%20the%20Mood%20for%20Love",
     overview: "Two neighbors form a strong bond after both suspect their spouses of having affairs.",
     reviews: [
       { text: "A tedious experience from beginning to end.", sentiment: "negative", score: -0.8 },
@@ -4984,7 +4984,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 380, title: "Eternal Sunshine of the Spotless Mind", year: 2004,
     genres: ["Drama", "Romance", "Sci-Fi"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Eternal%20Sunshine%20of%20the%20Spotless%20Mind",
     overview: "A couple undergoes a procedure to erase each other from their memories.",
     reviews: [
       { text: "A masterpiece of cinema that will be remembered for generations.", sentiment: "positive", score: 0.67 },
@@ -4997,7 +4997,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 381, title: "500 Days of Summer", year: 2009,
     genres: ["Comedy", "Drama", "Romance"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=500%20Days%20of%20Summer",
     overview: "An offbeat romantic comedy about a woman who doesn't believe in true love and the young man who falls for her.",
     reviews: [
       { text: "A tour de force of storytelling and visual artistry.", sentiment: "positive", score: 0.72 },
@@ -5009,7 +5009,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 382, title: "Silver Linings Playbook", year: 2012,
     genres: ["Comedy", "Drama", "Romance"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Silver%20Linings%20Playbook",
     overview: "After a stint in a mental institution, Pat moves back in with his parents and tries to reconcile with his ex-wife.",
     reviews: [
       { text: "A cinematic gem that deserves all the praise it gets.", sentiment: "positive", score: 0.73 },
@@ -5022,7 +5022,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 383, title: "The Notebook", year: 2004,
     genres: ["Drama", "Romance"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Notebook",
     overview: "A poor yet passionate young man falls in love with a rich young woman.",
     reviews: [
       { text: "Unengaging characters and a predictable storyline.", sentiment: "negative", score: -0.4 },
@@ -5036,7 +5036,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 384, title: "Atonement", year: 2007,
     genres: ["Drama", "Mystery", "Romance"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Atonement",
     overview: "Thirteen-year-old Briony irrevocably changes the course of several lives when she accuses her sister's lover.",
     reviews: [
       { text: "Groundbreaking and innovative. Sets a new standard.", sentiment: "positive", score: 0.96 },
@@ -5048,7 +5048,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 385, title: "Pride and Prejudice", year: 2005,
     genres: ["Drama", "Romance"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Pride%20and%20Prejudice",
     overview: "Sparks fly when spirited Elizabeth Bennet meets single, rich, and proud Mr. Darcy.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.71 },
@@ -5062,7 +5062,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 386, title: "Moulin Rouge!", year: 2001,
     genres: ["Drama", "Musical", "Romance"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Moulin%20Rouge%21",
     overview: "A poet falls for a beautiful courtesan in Paris, but their love is threatened by a jealous duke.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: -0.02 },
@@ -5076,7 +5076,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 387, title: "La Vie en Rose", year: 2007,
     genres: ["Biography", "Drama", "Music"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=La%20Vie%20en%20Rose",
     overview: "The story of iconic French singer Édith Piaf's life.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: 0.05 },
@@ -5089,7 +5089,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 388, title: "Whiplash", year: 2014,
     genres: ["Drama", "Music"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Whiplash",
     overview: "A promising drummer enrolls at a music conservatory and faces a terrifying instructor.",
     reviews: [
       { text: "Pretentious and boring. Style over substance.", sentiment: "negative", score: -0.69 },
@@ -5103,7 +5103,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 389, title: "Amadeus", year: 1984,
     genres: ["Biography", "Drama", "Music"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Amadeus",
     overview: "The story of Wolfgang Amadeus Mozart as told by his rival Antonio Salieri.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.95 },
@@ -5115,7 +5115,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 390, title: "Ray", year: 2004,
     genres: ["Biography", "Drama", "Music"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Ray",
     overview: "The story of the life and career of the legendary rhythm and blues musician Ray Charles.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: -0.14 },
@@ -5129,7 +5129,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 391, title: "Bohemian Rhapsody", year: 2018,
     genres: ["Biography", "Drama", "Music"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Bohemian%20Rhapsody",
     overview: "The story of Queen and lead singer Freddie Mercury.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.97 },
@@ -5143,7 +5143,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 392, title: "Rocketman", year: 2019,
     genres: ["Biography", "Drama", "Music"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Rocketman",
     overview: "A musical fantasy about the fantastical human story of Elton John's breakthrough years.",
     reviews: [
       { text: "Has moments of brilliance mixed with mediocrity.", sentiment: "neutral", score: 0.23 },
@@ -5156,7 +5156,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 393, title: "Straight Outta Compton", year: 2015,
     genres: ["Biography", "Drama", "Music"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Straight%20Outta%20Compton",
     overview: "The group NWA emerges from the mean streets of Compton, California.",
     reviews: [
       { text: "Overrated and self-indulgent. Not for everyone.", sentiment: "negative", score: -0.72 },
@@ -5168,7 +5168,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 394, title: "8 Mile", year: 2002,
     genres: ["Drama", "Music"],
     rating: 7.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=8%20Mile",
     overview: "A young rapper in Detroit struggles to launch his career.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: 0.09 },
@@ -5181,7 +5181,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 395, title: "The Perks of Being a Wallflower", year: 2012,
     genres: ["Drama", "Romance"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Perks%20of%20Being%20a%20Wallflower",
     overview: "An introvert freshman is taken under the wings of two seniors.",
     reviews: [
       { text: "A mess of a film that fails on nearly every level.", sentiment: "negative", score: -0.69 },
@@ -5193,7 +5193,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 396, title: "Dead Poets Society", year: 1989,
     genres: ["Comedy", "Drama"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Dead%20Poets%20Society",
     overview: "An English teacher inspires his students through his teaching of poetry.",
     reviews: [
       { text: "Riveting and deeply satisfying. Worth every minute.", sentiment: "positive", score: 0.78 },
@@ -5205,7 +5205,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 397, title: "Good Will Hunting", year: 1997,
     genres: ["Drama", "Romance"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Good%20Will%20Hunting",
     overview: "A janitor at MIT has a gift for mathematics but needs help finding direction in his life.",
     reviews: [
       { text: "Disappointing and forgettable. Expected much more.", sentiment: "negative", score: -0.55 },
@@ -5217,7 +5217,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 398, title: "The Shawshank Redemption", year: 1994,
     genres: ["Drama"],
     rating: 9.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Shawshank%20Redemption",
     overview: "Two imprisoned men find solace and redemption through acts of common decency.",
     reviews: [
       { text: "Groundbreaking and innovative. Sets a new standard.", sentiment: "positive", score: 0.89 },
@@ -5231,7 +5231,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 399, title: "Schindler's List", year: 1993,
     genres: ["Biography", "Drama", "History"],
     rating: 9.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Schindler%27s%20List",
     overview: "Oskar Schindler gradually becomes concerned for his Jewish workforce during WWII.",
     reviews: [
       { text: "An unforgettable cinematic experience. Highly recommended.", sentiment: "positive", score: 0.62 },
@@ -5243,7 +5243,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 400, title: "12 Angry Men", year: 1957,
     genres: ["Crime", "Drama"],
     rating: 9.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=12%20Angry%20Men",
     overview: "A jury holdout attempts to prevent a miscarriage of justice.",
     reviews: [
       { text: "An unforgettable cinematic experience. Highly recommended.", sentiment: "positive", score: 0.85 },
@@ -5257,7 +5257,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 401, title: "One Flew Over the Cuckoo's Nest", year: 1975,
     genres: ["Drama"],
     rating: 8.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=One%20Flew%20Over%20the%20Cuckoo%27s%20Nest",
     overview: "A criminal pleads insanity and is admitted to a mental institution.",
     reviews: [
       { text: "Has moments of brilliance mixed with mediocrity.", sentiment: "neutral", score: 0.08 },
@@ -5269,7 +5269,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 402, title: "Requiem for a Dream", year: 2000,
     genres: ["Drama"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Requiem%20for%20a%20Dream",
     overview: "The drug-induced utopias of four people are shattered when their addictions run deep.",
     reviews: [
       { text: "Has moments of brilliance mixed with mediocrity.", sentiment: "neutral", score: -0.13 },
@@ -5282,7 +5282,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 403, title: "American Psycho", year: 2000,
     genres: ["Comedy", "Crime", "Drama"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=American%20Psycho",
     overview: "A wealthy New York investment banker hides his alternate psychopathic ego.",
     reviews: [
       { text: "A tour de force of storytelling and visual artistry.", sentiment: "positive", score: 0.95 },
@@ -5296,7 +5296,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 404, title: "Eyes Wide Shut", year: 1999,
     genres: ["Drama", "Mystery", "Thriller"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Eyes%20Wide%20Shut",
     overview: "A New York City doctor embarks on a harrowing night-long odyssey of sexual and moral discovery.",
     reviews: [
       { text: "Decent film with some good moments but nothing groundbreaking.", sentiment: "neutral", score: 0.23 },
@@ -5310,7 +5310,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 405, title: "Magnolia", year: 1999,
     genres: ["Drama"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Magnolia",
     overview: "An epic mosaic of interrelated characters in search of love, forgiveness, and meaning in the San Fernando Valley.",
     reviews: [
       { text: "A masterpiece of cinema that will be remembered for generations.", sentiment: "positive", score: 0.85 },
@@ -5323,7 +5323,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 406, title: "Boogie Nights", year: 1997,
     genres: ["Drama"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Boogie%20Nights",
     overview: "The story of a young man's adventures in the porn industry in the late 1970s and early 1980s.",
     reviews: [
       { text: "The performances are electric and the script is sharp.", sentiment: "positive", score: 0.73 },
@@ -5336,7 +5336,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 407, title: "Traffic", year: 2000,
     genres: ["Crime", "Drama", "Thriller"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Traffic",
     overview: "A conservative judge is appointed to head the country's war on drugs, only to discover that his teenage daughter is a drug addict.",
     reviews: [
       { text: "A mixed bag with both strong and weak elements.", sentiment: "neutral", score: 0.19 },
@@ -5348,7 +5348,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 408, title: "Syriana", year: 2005,
     genres: ["Drama", "Thriller"],
     rating: 6.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Syriana",
     overview: "A politically charged epic about the state of the oil industry in the hands of those who control it.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: 0.05 },
@@ -5361,7 +5361,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 409, title: "Michael Clayton", year: 2007,
     genres: ["Crime", "Drama", "Mystery"],
     rating: 7.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Michael%20Clayton",
     overview: "A law firm's fixer tries to rein in a colleague who has gone off the rails while handling a corporate case.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.75 },
@@ -5375,7 +5375,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 410, title: "The Insider", year: 1999,
     genres: ["Biography", "Drama", "Thriller"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=The%20Insider",
     overview: "A research chemist comes under personal and professional attack when he decides to appear in a 60 Minutes exposé.",
     reviews: [
       { text: "The performances are electric and the script is sharp.", sentiment: "positive", score: 0.88 },
@@ -5387,7 +5387,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 411, title: "Spotlight", year: 2015,
     genres: ["Biography", "Crime", "Drama"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Spotlight",
     overview: "The true story of how the Boston Globe uncovered child molestation within the Catholic Archdiocese.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.78 },
@@ -5399,7 +5399,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 412, title: "All the President's Men", year: 1976,
     genres: ["Drama", "History", "Thriller"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=All%20the%20President%27s%20Men",
     overview: "Two reporters uncover the details of the Watergate scandal.",
     reviews: [
       { text: "This film exceeded all expectations. Pure excellence.", sentiment: "positive", score: 0.76 },
@@ -5411,7 +5411,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 413, title: "Network", year: 1976,
     genres: ["Drama"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Network",
     overview: "A television network exploits a deranged former anchor's ravings for ratings.",
     reviews: [
       { text: "The performances are electric and the script is sharp.", sentiment: "positive", score: 0.75 },
@@ -5425,7 +5425,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 414, title: "Dog Day Afternoon", year: 1975,
     genres: ["Biography", "Crime", "Drama"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Dog%20Day%20Afternoon",
     overview: "A man robs a bank to pay for his lover's operation.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: 0.11 },
@@ -5437,7 +5437,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 415, title: "Serpico", year: 1973,
     genres: ["Biography", "Crime", "Drama"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Serpico",
     overview: "An honest New York cop finds himself ostracized by his colleagues when he refuses to go along with corruption.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: -0.13 },
@@ -5451,7 +5451,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 416, title: "Marathon Man", year: 1976,
     genres: ["Crime", "Mystery", "Thriller"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Marathon%20Man",
     overview: "A graduate student is unwittingly caught in the middle of an international conspiracy.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: 0.07 },
@@ -5464,7 +5464,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 417, title: "The French Connection", year: 1971,
     genres: ["Action", "Crime", "Drama"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=The%20French%20Connection",
     overview: "A pair of NYC cops investigate a drug ring that's smuggling heroin from France.",
     reviews: [
       { text: "Good in parts but doesn't fully come together.", sentiment: "neutral", score: -0.13 },
@@ -5478,7 +5478,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 418, title: "Chinatown", year: 1974,
     genres: ["Drama", "Mystery", "Thriller"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Chinatown",
     overview: "A private detective hired to expose an adulterer finds himself caught up in a complex web of deceit.",
     reviews: [
       { text: "A tour de force of storytelling and visual artistry.", sentiment: "positive", score: 0.9 },
@@ -5490,7 +5490,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 419, title: "Blade", year: 1998,
     genres: ["Action", "Horror", "Sci-Fi"],
     rating: 7.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Blade",
     overview: "A half-vampire, half-mortal man becomes a protector of the mortal race while slaying evil vampires.",
     reviews: [
       { text: "Powerful, moving, and beautifully crafted in every way.", sentiment: "positive", score: 0.68 },
@@ -5503,7 +5503,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 420, title: "The Crow", year: 1994,
     genres: ["Action", "Fantasy", "Thriller"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=The%20Crow",
     overview: "A man brutally murdered comes back to life as an undead avenger.",
     reviews: [
       { text: "The pacing is terrible and the plot makes no sense.", sentiment: "negative", score: -0.51 },
@@ -5516,7 +5516,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 421, title: "Darkman", year: 1990,
     genres: ["Action", "Sci-Fi", "Thriller"],
     rating: 6.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Darkman",
     overview: "A scientist who has been left for dead as a result of a horrible lab accident returns to seek vengeance.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.67 },
@@ -5528,7 +5528,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 422, title: "The Rocketeer", year: 1991,
     genres: ["Action", "Adventure", "Family"],
     rating: 6.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=The%20Rocketeer",
     overview: "A young pilot stumbles onto a prototype jet pack that allows him to become a high-flying hero.",
     reviews: [
       { text: "An unforgettable cinematic experience. Highly recommended.", sentiment: "positive", score: 0.86 },
@@ -5540,7 +5540,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 423, title: "Dredd", year: 2012,
     genres: ["Action", "Crime", "Sci-Fi"],
     rating: 7.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Dredd",
     overview: "In a violent, futuristic city, a cop teams with a trainee to take down a gang that deals in a drug that manipulates the user's perception of time.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.84 },
@@ -5553,7 +5553,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 424, title: "District 9", year: 2009,
     genres: ["Action", "Sci-Fi", "Thriller"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=District%209",
     overview: "Violence ensues after an idealist humanitarian worker is exposed to alien biotechnology.",
     reviews: [
       { text: "Overhyped and underwhelming. Not worth the time.", sentiment: "negative", score: -0.39 },
@@ -5567,7 +5567,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 425, title: "Elysium", year: 2013,
     genres: ["Action", "Drama", "Sci-Fi"],
     rating: 6.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Elysium",
     overview: "In 2154, the very wealthy live on a man-made space station while the rest of the population lives on a ruined Earth.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.61 },
@@ -5580,7 +5580,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 426, title: "Chappie", year: 2015,
     genres: ["Action", "Crime", "Drama"],
     rating: 6.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Chappie",
     overview: "In the near future, crime is patrolled by a mechanized police force. When one unit is stolen and programmed with new AI, it becomes the first robot with the ability to think and feel.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.91 },
@@ -5594,7 +5594,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 427, title: "Upgrade", year: 2018,
     genres: ["Action", "Sci-Fi", "Thriller"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Upgrade",
     overview: "A technophobe's body is implanted with a chip that gives him superhuman abilities.",
     reviews: [
       { text: "Too long, too slow, and ultimately pointless.", sentiment: "negative", score: -0.5 },
@@ -5606,7 +5606,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 428, title: "Alita: Battle Angel", year: 2019,
     genres: ["Action", "Adventure", "Sci-Fi"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Alita%3A%20Battle%20Angel",
     overview: "A deactivated cyborg is revived and sets out to learn about her past.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: 0.2 },
@@ -5618,7 +5618,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 429, title: "Ready Player One", year: 2018,
     genres: ["Action", "Adventure", "Sci-Fi"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Ready%20Player%20One",
     overview: "When the creator of a virtual reality called OASIS dies, he makes his fortune available to the first person to find an Easter egg.",
     reviews: [
       { text: "Riveting and deeply satisfying. Worth every minute.", sentiment: "positive", score: 0.92 },
@@ -5630,7 +5630,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 430, title: "The Maze Runner", year: 2014,
     genres: ["Action", "Mystery", "Sci-Fi"],
     rating: 6.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=The%20Maze%20Runner",
     overview: "Thomas is deposited in a community of boys trapped in a massive maze.",
     reviews: [
       { text: "A cinematic gem that deserves all the praise it gets.", sentiment: "positive", score: 0.66 },
@@ -5644,7 +5644,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 431, title: "Divergent", year: 2014,
     genres: ["Action", "Adventure", "Mystery"],
     rating: 6.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Divergent",
     overview: "In a world divided by factions based on virtues, a girl discovers she doesn't fit in.",
     reviews: [
       { text: "Too long, too slow, and ultimately pointless.", sentiment: "negative", score: -0.76 },
@@ -5656,7 +5656,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 432, title: "Ender's Game", year: 2013,
     genres: ["Action", "Adventure", "Sci-Fi"],
     rating: 6.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Ender%27s%20Game",
     overview: "Young Ender Wiggin is recruited by the International Military to lead the fight against an alien race.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.88 },
@@ -5670,7 +5670,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 433, title: "Pacific Rim", year: 2013,
     genres: ["Action", "Adventure", "Sci-Fi"],
     rating: 6.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Pacific%20Rim",
     overview: "As a war between humankind and monstrous creatures wages on, a former pilot teams with a trainee to drive a legendary mech.",
     reviews: [
       { text: "An ambitious effort that partially succeeds.", sentiment: "neutral", score: -0.12 },
@@ -5684,7 +5684,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 434, title: "Godzilla", year: 2014,
     genres: ["Action", "Adventure", "Sci-Fi"],
     rating: 6.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Godzilla",
     overview: "The world's most famous monster is pitted against malevolent creatures who threaten our very existence.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.86 },
@@ -5696,7 +5696,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 435, title: "Kong: Skull Island", year: 2017,
     genres: ["Action", "Adventure", "Fantasy"],
     rating: 6.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Kong%3A%20Skull%20Island",
     overview: "A team of scientists explore an uncharted island in the Pacific and encounter terrifying creatures and the mighty Kong.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: -0.14 },
@@ -5709,7 +5709,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 436, title: "Cloverfield", year: 2008,
     genres: ["Action", "Horror", "Sci-Fi"],
     rating: 7.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Cloverfield",
     overview: "A group of friends venture deep into the streets of New York on a rescue mission during a terrifying attack.",
     reviews: [
       { text: "Decent film with some good moments but nothing groundbreaking.", sentiment: "neutral", score: -0.11 },
@@ -5723,7 +5723,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 437, title: "War of the Worlds", year: 2005,
     genres: ["Adventure", "Sci-Fi", "Thriller"],
     rating: 6.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=War%20of%20the%20Worlds",
     overview: "As Earth is invaded by alien tripod machines, one family fights for survival.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.01 },
@@ -5735,7 +5735,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 438, title: "Signs", year: 2002,
     genres: ["Drama", "Mystery", "Sci-Fi"],
     rating: 6.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Signs",
     overview: "A family living on a farm finds mysterious crop circles in their fields, suggesting something more frightening to come.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.79 },
@@ -5747,7 +5747,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 439, title: "The Village", year: 2004,
     genres: ["Drama", "Mystery", "Thriller"],
     rating: 6.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Village",
     overview: "The inhabitants of an isolated village live in fear of the creatures in the surrounding woods.",
     reviews: [
       { text: "A cinematic gem that deserves all the praise it gets.", sentiment: "positive", score: 0.94 },
@@ -5759,7 +5759,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 440, title: "Unbreakable", year: 2000,
     genres: ["Drama", "Mystery", "Sci-Fi"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Unbreakable",
     overview: "A man learns something extraordinary about himself after a devastating accident.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.84 },
@@ -5771,7 +5771,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 441, title: "Split", year: 2016,
     genres: ["Horror", "Thriller"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/991b1b/fef2f2?text=Split",
     overview: "Three girls are kidnapped by a man with 24 different personalities.",
     reviews: [
       { text: "The performances are electric and the script is sharp.", sentiment: "positive", score: 0.94 },
@@ -5784,7 +5784,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 442, title: "Glass", year: 2019,
     genres: ["Drama", "Sci-Fi", "Thriller"],
     rating: 6.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Glass",
     overview: "Security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb.",
     reviews: [
       { text: "A stunning achievement that pushes boundaries.", sentiment: "positive", score: 0.9 },
@@ -5796,7 +5796,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 443, title: "Chronicle", year: 2012,
     genres: ["Drama", "Sci-Fi", "Thriller"],
     rating: 7.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Chronicle",
     overview: "Three high school friends gain superpowers after making an incredible discovery underground.",
     reviews: [
       { text: "An unforgettable cinematic experience. Highly recommended.", sentiment: "positive", score: 0.83 },
@@ -5808,7 +5808,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 444, title: "Lucy", year: 2014,
     genres: ["Action", "Sci-Fi", "Thriller"],
     rating: 6.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Lucy",
     overview: "A woman accidentally ingests a drug that gives her superhuman abilities and gradually unlocks 100% of her brain capacity.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: -0.08 },
@@ -5822,7 +5822,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 445, title: "Limitless", year: 2011,
     genres: ["Mystery", "Sci-Fi", "Thriller"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/4338ca/eef2ff?text=Limitless",
     overview: "A writer discovers a top-secret drug which bestows him with super human abilities.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.86 },
@@ -5836,7 +5836,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 446, title: "Inception", year: 2010,
     genres: ["Action", "Sci-Fi", "Thriller"],
     rating: 8.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Inception",
     overview: "A thief who steals corporate secrets through dream-sharing technology is given a challenging task.",
     reviews: [
       { text: "Shallow and hollow. Lacks any real substance.", sentiment: "negative", score: -0.2 },
@@ -5850,7 +5850,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 447, title: "The Prestige", year: 2006,
     genres: ["Drama", "Mystery", "Sci-Fi"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Prestige",
     overview: "Two stage magicians engage in a battle to create the ultimate illusion.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: -0.05 },
@@ -5863,7 +5863,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 448, title: "Now You See Me", year: 2013,
     genres: ["Crime", "Mystery", "Thriller"],
     rating: 7.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Now%20You%20See%20Me",
     overview: "An FBI agent and an Interpol detective track a team of illusionists who pull off bank heists during their performances.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.94 },
@@ -5875,7 +5875,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 449, title: "The Illusionist", year: 2006,
     genres: ["Drama", "Mystery", "Romance"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Illusionist",
     overview: "In turn-of-the-century Vienna, a magician uses his abilities to secure the love of a woman far above his social standing.",
     reviews: [
       { text: "A stunning achievement that pushes boundaries.", sentiment: "positive", score: 0.96 },
@@ -5887,7 +5887,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 450, title: "Hugo", year: 2011,
     genres: ["Adventure", "Drama", "Family"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Hugo",
     overview: "An orphan in 1931 Paris is wrapped up in a mystery involving his late father and an automaton.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.67 },
@@ -5900,7 +5900,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 451, title: "The Secret Life of Walter Mitty", year: 2013,
     genres: ["Adventure", "Comedy", "Drama"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=The%20Secret%20Life%20of%20Walter%20Mitty",
     overview: "When his job along with that of his co-worker are threatened, Walter takes action by embarking on an adventure.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.63 },
@@ -5912,7 +5912,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 452, title: "About Time", year: 2013,
     genres: ["Comedy", "Drama", "Fantasy"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=About%20Time",
     overview: "At the age of 21, Tim discovers he can travel in time and sets about to make his world a better place.",
     reviews: [
       { text: "Good in parts but doesn't fully come together.", sentiment: "neutral", score: 0.21 },
@@ -5926,7 +5926,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 453, title: "The Intouchables", year: 2011,
     genres: ["Biography", "Comedy", "Drama"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=The%20Intouchables",
     overview: "After he becomes a quadriplegic, an aristocrat hires a young man from the projects to be his caregiver.",
     reviews: [
       { text: "A mess of a film that fails on nearly every level.", sentiment: "negative", score: -0.39 },
@@ -5940,7 +5940,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 454, title: "Amelie", year: 2001,
     genres: ["Comedy", "Romance"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Amelie",
     overview: "Amélie decides to help those around her and discovers love along the way.",
     reviews: [
       { text: "A tour de force of storytelling and visual artistry.", sentiment: "positive", score: 0.71 },
@@ -5953,7 +5953,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 455, title: "City of God", year: 2002,
     genres: ["Crime", "Drama"],
     rating: 8.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=City%20of%20God",
     overview: "In the slums of Rio, two kids' paths diverge dramatically.",
     reviews: [
       { text: "Good in parts but doesn't fully come together.", sentiment: "neutral", score: 0.08 },
@@ -5965,7 +5965,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 456, title: "Oldboy", year: 2003,
     genres: ["Action", "Drama", "Mystery"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Oldboy",
     overview: "After being kidnapped for fifteen years, a man is released to find his captor in five days.",
     reviews: [
       { text: "Groundbreaking and innovative. Sets a new standard.", sentiment: "positive", score: 0.79 },
@@ -5977,7 +5977,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 457, title: "The Handmaiden", year: 2016,
     genres: ["Drama", "Romance", "Thriller"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Handmaiden",
     overview: "A woman is hired as a handmaiden to a Japanese heiress, but secretly she is involved in a plot to defraud her.",
     reviews: [
       { text: "A tour de force of storytelling and visual artistry.", sentiment: "positive", score: 0.78 },
@@ -5990,7 +5990,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 458, title: "Memories of Murder", year: 2003,
     genres: ["Crime", "Drama", "Mystery"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Memories%20of%20Murder",
     overview: "In a small Korean province in 1986, three detectives struggle with the case of two young women found raped and murdered.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: -0.0 },
@@ -6004,7 +6004,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 459, title: "A Separation", year: 2011,
     genres: ["Drama"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=A%20Separation",
     overview: "A married couple are faced with a difficult decision that could tear their family apart.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.63 },
@@ -6017,7 +6017,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 460, title: "The Secret in Their Eyes", year: 2009,
     genres: ["Drama", "Mystery", "Romance"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Secret%20in%20Their%20Eyes",
     overview: "A retired legal counselor writes a novel hoping to find closure for an unsolved mystery.",
     reviews: [
       { text: "One of the best films I've ever seen. Absolutely stunning.", sentiment: "positive", score: 0.75 },
@@ -6030,7 +6030,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 461, title: "Wild Tales", year: 2014,
     genres: ["Comedy", "Drama", "Thriller"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Wild%20Tales",
     overview: "Six short stories that explore the extremes of human behavior in response to injustice.",
     reviews: [
       { text: "The pacing is terrible and the plot makes no sense.", sentiment: "negative", score: -0.55 },
@@ -6042,7 +6042,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 462, title: "Incendies", year: 2010,
     genres: ["Drama", "Mystery", "War"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Incendies",
     overview: "Twins journey to the Middle East to discover their family history.",
     reviews: [
       { text: "Decent film with some good moments but nothing groundbreaking.", sentiment: "neutral", score: -0.15 },
@@ -6056,7 +6056,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 463, title: "The Lives of Others", year: 2006,
     genres: ["Drama", "Mystery", "Thriller"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Lives%20of%20Others",
     overview: "In 1984 East Berlin, an agent of the secret police is tasked with monitoring a playwright and his lover.",
     reviews: [
       { text: "Decent film with some good moments but nothing groundbreaking.", sentiment: "neutral", score: 0.24 },
@@ -6068,7 +6068,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 464, title: "Downfall", year: 2004,
     genres: ["Biography", "Drama", "History"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=Downfall",
     overview: "Traudl Junge, the final secretary for Adolf Hitler, tells of the Nazi dictator's final days.",
     reviews: [
       { text: "Wasted potential with a weak script and poor direction.", sentiment: "negative", score: -0.75 },
@@ -6081,7 +6081,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 465, title: "Das Boot", year: 1981,
     genres: ["Drama", "War"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Das%20Boot",
     overview: "The claustrophobic world of a WWII German U-boat.",
     reviews: [
       { text: "A cinematic gem that deserves all the praise it gets.", sentiment: "positive", score: 0.86 },
@@ -6095,7 +6095,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 466, title: "Farewell My Concubine", year: 1993,
     genres: ["Drama", "History", "Romance"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Farewell%20My%20Concubine",
     overview: "The story of two Peking Opera actors and their tumultuous lifelong relationship against the backdrop of Chinese history.",
     reviews: [
       { text: "Groundbreaking and innovative. Sets a new standard.", sentiment: "positive", score: 0.61 },
@@ -6109,7 +6109,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 467, title: "Crouching Tiger Hidden Dragon", year: 2000,
     genres: ["Action", "Adventure", "Fantasy"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Crouching%20Tiger%20Hidden%20Dragon",
     overview: "A young Chinese warrior steals a sword from a famed swordsman.",
     reviews: [
       { text: "Disappointing and forgettable. Expected much more.", sentiment: "negative", score: -0.25 },
@@ -6123,7 +6123,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 468, title: "Hero", year: 2002,
     genres: ["Action", "Adventure", "Fantasy"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Hero",
     overview: "A defense officer recounts his battles with three assassins to the King of Qin.",
     reviews: [
       { text: "A beautiful, thoughtful film that stays with you.", sentiment: "positive", score: 0.96 },
@@ -6136,7 +6136,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 469, title: "House of Flying Daggers", year: 2004,
     genres: ["Action", "Adventure", "Drama"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=House%20of%20Flying%20Daggers",
     overview: "A romantic police captain breaks a beautiful dancer out of prison to help her rejoin her underground overseers.",
     reviews: [
       { text: "A tour de force of storytelling and visual artistry.", sentiment: "positive", score: 0.65 },
@@ -6149,7 +6149,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 470, title: "Rashomon", year: 1950,
     genres: ["Crime", "Drama", "Mystery"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Rashomon",
     overview: "The rape of a bride and the murder of her samurai husband are recalled from the perspectives of different witnesses.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: 0.15 },
@@ -6163,7 +6163,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 471, title: "Seven Samurai", year: 1954,
     genres: ["Action", "Drama"],
     rating: 8.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Seven%20Samurai",
     overview: "A poor village hires seven masterless samurai to combat bandits who will return after the harvest.",
     reviews: [
       { text: "Disappointing and forgettable. Expected much more.", sentiment: "negative", score: -0.68 },
@@ -6175,7 +6175,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 472, title: "Yojimbo", year: 1961,
     genres: ["Action", "Drama", "Thriller"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Yojimbo",
     overview: "A crafty ronin comes to a town divided by two criminal gangs and plays both sides against each other.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: -0.1 },
@@ -6189,7 +6189,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 473, title: "Ikiru", year: 1952,
     genres: ["Drama"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Ikiru",
     overview: "A bureaucrat learns he has terminal cancer and seeks meaning in his final days.",
     reviews: [
       { text: "This film exceeded all expectations. Pure excellence.", sentiment: "positive", score: 0.64 },
@@ -6203,7 +6203,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 474, title: "Tokyo Story", year: 1953,
     genres: ["Drama"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Tokyo%20Story",
     overview: "An old couple visit their children and grandchildren in the city but receive a cool reception.",
     reviews: [
       { text: "The pacing is terrible and the plot makes no sense.", sentiment: "negative", score: -0.82 },
@@ -6215,7 +6215,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 475, title: "Stalker", year: 1979,
     genres: ["Drama", "Sci-Fi"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Stalker",
     overview: "A guide leads two men through an area known as the Zone to a room that grants wishes.",
     reviews: [
       { text: "Wasted potential with a weak script and poor direction.", sentiment: "negative", score: -0.58 },
@@ -6227,7 +6227,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 476, title: "Solaris", year: 1972,
     genres: ["Drama", "Mystery", "Sci-Fi"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Solaris",
     overview: "A psychologist is sent to investigate the crew of an isolated research station orbiting a bizarre planet.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.28 },
@@ -6239,7 +6239,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 477, title: "The Mirror", year: 1975,
     genres: ["Biography", "Drama"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=The%20Mirror",
     overview: "A dying man in his forties remembers his past.",
     reviews: [
       { text: "Good in parts but doesn't fully come together.", sentiment: "neutral", score: -0.08 },
@@ -6251,7 +6251,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 478, title: "Come and See", year: 1985,
     genres: ["Drama", "Thriller", "War"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Come%20and%20See",
     overview: "A Belarusian boy watches as his homeland is devastated by the Nazis.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.8 },
@@ -6263,7 +6263,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 479, title: "The Seventh Seal", year: 1957,
     genres: ["Drama", "Fantasy"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Seventh%20Seal",
     overview: "A knight returning from the Crusades plays a game of chess with Death.",
     reviews: [
       { text: "Too long, too slow, and ultimately pointless.", sentiment: "negative", score: -0.3 },
@@ -6276,7 +6276,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 480, title: "Wild Strawberries", year: 1957,
     genres: ["Drama", "Romance"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Wild%20Strawberries",
     overview: "After having a nightmare, an elderly doctor travels with his daughter-in-law and reflects on his life.",
     reviews: [
       { text: "Good in parts but doesn't fully come together.", sentiment: "neutral", score: 0.33 },
@@ -6290,7 +6290,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 481, title: "Persona", year: 1966,
     genres: ["Drama", "Thriller"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Persona",
     overview: "A nurse is put in charge of a mute actress and finds that their identities begin to merge.",
     reviews: [
       { text: "An unforgettable cinematic experience. Highly recommended.", sentiment: "positive", score: 0.9 },
@@ -6303,7 +6303,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 482, title: "8½", year: 1963,
     genres: ["Comedy", "Drama"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=8%C2%BD",
     overview: "A harried movie director retreats into his memories and fantasies.",
     reviews: [
       { text: "An ambitious effort that partially succeeds.", sentiment: "neutral", score: 0.32 },
@@ -6316,7 +6316,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 483, title: "La Dolce Vita", year: 1960,
     genres: ["Comedy", "Drama"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=La%20Dolce%20Vita",
     overview: "A series of stories following a columnist's week in Rome.",
     reviews: [
       { text: "This film exceeded all expectations. Pure excellence.", sentiment: "positive", score: 0.63 },
@@ -6329,7 +6329,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 484, title: "Bicycle Thieves", year: 1948,
     genres: ["Drama"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Bicycle%20Thieves",
     overview: "A poor man searches Rome for his stolen bicycle without which he will lose the job that was to be his salvation.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.6 },
@@ -6342,7 +6342,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 485, title: "The 400 Blows", year: 1959,
     genres: ["Crime", "Drama"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=The%20400%20Blows",
     overview: "A young Parisian boy runs away from home to live on the streets.",
     reviews: [
       { text: "An ambitious effort that partially succeeds.", sentiment: "neutral", score: -0.1 },
@@ -6356,7 +6356,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 486, title: "Breathless", year: 1960,
     genres: ["Crime", "Drama"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Breathless",
     overview: "A small-time thief steals a car and impulsively murders a motorcycle officer.",
     reviews: [
       { text: "Decent film with some good moments but nothing groundbreaking.", sentiment: "neutral", score: -0.05 },
@@ -6369,7 +6369,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 487, title: "Aguirre, the Wrath of God", year: 1972,
     genres: ["Adventure", "Biography", "Drama"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/059669/ecfdf5?text=Aguirre%2C%20the%20Wrath%20of%20God",
     overview: "In the 16th century, a Spanish expedition through the Amazon jungle searches for El Dorado.",
     reviews: [
       { text: "Exquisitely made with attention to every detail.", sentiment: "positive", score: 0.64 },
@@ -6381,7 +6381,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 488, title: "Wings of Desire", year: 1987,
     genres: ["Drama", "Fantasy", "Romance"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Wings%20of%20Desire",
     overview: "An angel watches over Berlin and falls in love with a mortal woman.",
     reviews: [
       { text: "Some interesting ideas but the execution is uneven.", sentiment: "neutral", score: 0.27 },
@@ -6394,7 +6394,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 489, title: "Run Lola Run", year: 1998,
     genres: ["Crime", "Thriller"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Run%20Lola%20Run",
     overview: "After receiving a call from her boyfriend, Lola has twenty minutes to come up with 100,000 Deutschmarks.",
     reviews: [
       { text: "A masterpiece of cinema that will be remembered for generations.", sentiment: "positive", score: 0.85 },
@@ -6408,7 +6408,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 490, title: "Amélie", year: 2001,
     genres: ["Comedy", "Romance"],
     rating: 8.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Am%C3%A9lie",
     overview: "An innocent girl in Paris decides to help those around her.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: 0.02 },
@@ -6422,7 +6422,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 491, title: "The Diving Bell and the Butterfly", year: 2007,
     genres: ["Biography", "Drama"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/0f766e/f0fdfa?text=The%20Diving%20Bell%20and%20the%20Butterfly",
     overview: "The true story of Elle editor Jean-Dominique Bauby who suffered a stroke and could only communicate by blinking one eye.",
     reviews: [
       { text: "Wasted potential with a weak script and poor direction.", sentiment: "negative", score: -0.74 },
@@ -6436,7 +6436,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 492, title: "Blue Is the Warmest Color", year: 2013,
     genres: ["Drama", "Romance"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Blue%20Is%20the%20Warmest%20Color",
     overview: "Adèle's life is changed when she meets Emma, a young woman with blue hair.",
     reviews: [
       { text: "Overrated and self-indulgent. Not for everyone.", sentiment: "negative", score: -0.3 },
@@ -6449,7 +6449,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 493, title: "Portrait of a Lady on Fire", year: 2019,
     genres: ["Drama", "Romance"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Portrait%20of%20a%20Lady%20on%20Fire",
     overview: "On an isolated island in Brittany at the end of the eighteenth century, a female painter is obliged to paint a wedding portrait.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.78 },
@@ -6462,7 +6462,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 494, title: "Capernaum", year: 2018,
     genres: ["Drama"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Capernaum",
     overview: "While serving a five-year sentence for a violent crime, a 12-year-old Lebanese boy sues his parents for giving him life.",
     reviews: [
       { text: "A mixed bag with both strong and weak elements.", sentiment: "neutral", score: 0.32 },
@@ -6475,7 +6475,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 495, title: "Shoplifters", year: 2018,
     genres: ["Crime", "Drama"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Shoplifters",
     overview: "A family of small-time crooks take in a child they find outside in the cold.",
     reviews: [
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: 0.13 },
@@ -6488,7 +6488,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 496, title: "Burning", year: 2018,
     genres: ["Drama", "Mystery"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Burning",
     overview: "A deliveryman from a small town falls for a woman who asks him to look after her cat while she travels to Africa.",
     reviews: [
       { text: "Too long, too slow, and ultimately pointless.", sentiment: "negative", score: -0.82 },
@@ -6502,7 +6502,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 497, title: "Decision to Leave", year: 2022,
     genres: ["Crime", "Drama", "Mystery"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Decision%20to%20Leave",
     overview: "A detective investigating a man's death in the mountains becomes involved with the dead man's mysterious wife.",
     reviews: [
       { text: "Bold and ambitious storytelling done right.", sentiment: "positive", score: 0.93 },
@@ -6515,7 +6515,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 498, title: "Drive My Car", year: 2021,
     genres: ["Drama"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Drive%20My%20Car",
     overview: "A renowned stage actor and director grapples with the death of his wife.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.6 },
@@ -6528,7 +6528,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 499, title: "Parasite", year: 2019,
     genres: ["Comedy", "Drama", "Thriller"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Parasite",
     overview: "Greed and class discrimination threaten the newly formed relationship between the wealthy Park family and the Kim clan.",
     reviews: [
       { text: "An unforgettable cinematic experience. Highly recommended.", sentiment: "positive", score: 0.81 },
@@ -6540,7 +6540,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 500, title: "Train to Busan", year: 2016,
     genres: ["Action", "Horror", "Thriller"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Train%20to%20Busan",
     overview: "While a zombie virus breaks out in South Korea, passengers struggle to survive on the train from Seoul to Busan.",
     reviews: [
       { text: "This film exceeded all expectations. Pure excellence.", sentiment: "positive", score: 0.8 },
@@ -6552,7 +6552,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 501, title: "The Wailing", year: 2016,
     genres: ["Drama", "Fantasy", "Horror"],
     rating: 7.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=The%20Wailing",
     overview: "Soon after a stranger arrives in a little village, a mysterious sickness starts spreading.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.78 },
@@ -6565,7 +6565,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 502, title: "I Saw the Devil", year: 2010,
     genres: ["Action", "Crime", "Drama"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=I%20Saw%20the%20Devil",
     overview: "A secret agent exacts revenge on a serial killer through a series of captures and releases.",
     reviews: [
       { text: "Watchable but unlikely to leave a lasting impression.", sentiment: "neutral", score: -0.03 },
@@ -6579,7 +6579,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 503, title: "Mother", year: 2009,
     genres: ["Crime", "Drama", "Mystery"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/78350f/fffbeb?text=Mother",
     overview: "A mother desperately searches for the true killer who framed her mentally disabled son.",
     reviews: [
       { text: "Has moments of brilliance mixed with mediocrity.", sentiment: "neutral", score: 0.05 },
@@ -6591,7 +6591,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 504, title: "Spring, Summer, Fall, Winter... and Spring", year: 2003,
     genres: ["Drama", "Romance"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Spring%2C%20Summer%2C%20Fall%2C%20Winter...%20and%20Spring",
     overview: "A Buddhist monastery is the setting for a story about the life of a boy who grows to be a man.",
     reviews: [
       { text: "A beautiful, thoughtful film that stays with you.", sentiment: "positive", score: 0.83 },
@@ -6603,7 +6603,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 505, title: "Departures", year: 2008,
     genres: ["Drama", "Music"],
     rating: 8.1,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/1e40af/eff6ff?text=Departures",
     overview: "A newly unemployed cellist takes a job preparing the dead for burial.",
     reviews: [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.85 },
@@ -6616,7 +6616,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 506, title: "Tampopo", year: 1985,
     genres: ["Comedy"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/f59e0b/451a03?text=Tampopo",
     overview: "A comedy about a trucker and a widow who try to make her small ramen noodle shop a success.",
     reviews: [
       { text: "A tedious experience from beginning to end.", sentiment: "negative", score: -0.82 },
@@ -6629,7 +6629,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 507, title: "Battle Royale", year: 2000,
     genres: ["Action", "Adventure", "Drama"],
     rating: 7.6,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/dc2626/fef2f2?text=Battle%20Royale",
     overview: "In the future, the Japanese government forces ninth-grade students to fight each other to the death.",
     reviews: [
       { text: "Exceptional filmmaking at its finest. A must-watch.", sentiment: "positive", score: 0.89 },
@@ -6641,7 +6641,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 508, title: "Your Name", year: 2016,
     genres: ["Animation", "Drama", "Fantasy"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Your%20Name",
     overview: "Two strangers find themselves linked in a bizarre way.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.28 },
@@ -6654,7 +6654,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 509, title: "Perfect Blue", year: 1997,
     genres: ["Animation", "Drama", "Thriller"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Perfect%20Blue",
     overview: "A pop singer gives up her career to become an actress, but her obsessed fan won't let her.",
     reviews: [
       { text: "A mixed bag with both strong and weak elements.", sentiment: "neutral", score: 0.05 },
@@ -6667,7 +6667,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 510, title: "Akira", year: 1988,
     genres: ["Animation", "Action", "Sci-Fi"],
     rating: 8.0,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Akira",
     overview: "A secret military project endangers Neo-Tokyo.",
     reviews: [
       { text: "It has its merits but also some notable flaws.", sentiment: "neutral", score: 0.2 },
@@ -6681,7 +6681,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 511, title: "Ghost in the Shell", year: 1995,
     genres: ["Animation", "Action", "Sci-Fi"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Ghost%20in%20the%20Shell",
     overview: "A cyborg policewoman and her partner hunt a mysterious hacker called the Puppet Master.",
     reviews: [
       { text: "Shallow and hollow. Lacks any real substance.", sentiment: "negative", score: -0.65 },
@@ -6695,7 +6695,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 512, title: "Princess Mononoke", year: 1997,
     genres: ["Animation", "Adventure", "Fantasy"],
     rating: 8.4,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Princess%20Mononoke",
     overview: "On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war.",
     reviews: [
       { text: "A mixed bag with both strong and weak elements.", sentiment: "neutral", score: 0.35 },
@@ -6709,7 +6709,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 513, title: "My Neighbor Totoro", year: 1988,
     genres: ["Animation", "Comedy", "Family"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=My%20Neighbor%20Totoro",
     overview: "When two girls move to the country to be near their ailing mother, they have adventures with friendly wood spirits.",
     reviews: [
       { text: "Pretentious and boring. Style over substance.", sentiment: "negative", score: -0.62 },
@@ -6723,7 +6723,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 514, title: "Howl's Moving Castle", year: 2004,
     genres: ["Animation", "Adventure", "Family"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Howl%27s%20Moving%20Castle",
     overview: "When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance lies with a wizard.",
     reviews: [
       { text: "Emotionally resonant with incredible depth and nuance.", sentiment: "positive", score: 0.86 },
@@ -6735,7 +6735,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 515, title: "Grave of the Fireflies", year: 1988,
     genres: ["Animation", "Drama", "War"],
     rating: 8.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Grave%20of%20the%20Fireflies",
     overview: "A young boy and his little sister struggle to survive in Japan during World War II.",
     reviews: [
       { text: "Neither great nor terrible. Just okay.", sentiment: "neutral", score: 0.13 },
@@ -6749,7 +6749,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 516, title: "Paprika", year: 2006,
     genres: ["Animation", "Drama", "Fantasy"],
     rating: 7.7,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Paprika",
     overview: "When a machine that allows therapists to enter their patients' dreams is stolen, chaos ensues.",
     reviews: [
       { text: "Riveting and deeply satisfying. Worth every minute.", sentiment: "positive", score: 0.7 },
@@ -6761,7 +6761,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 517, title: "Millennium Actress", year: 2001,
     genres: ["Animation", "Drama", "Fantasy"],
     rating: 7.9,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Millennium%20Actress",
     overview: "A TV interviewer travels to meet a reclusive actress and uncover the truth about her past.",
     reviews: [
       { text: "A masterpiece of cinema that will be remembered for generations.", sentiment: "positive", score: 0.63 },
@@ -6773,7 +6773,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 518, title: "Weathering with You", year: 2019,
     genres: ["Animation", "Drama", "Fantasy"],
     rating: 7.5,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Weathering%20with%20You",
     overview: "A high-school boy who has run away to Tokyo befriends a girl who can manipulate the weather.",
     reviews: [
       { text: "Powerful, moving, and beautifully crafted in every way.", sentiment: "positive", score: 0.61 },
@@ -6786,7 +6786,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 519, title: "Suzume", year: 2022,
     genres: ["Animation", "Adventure", "Drama"],
     rating: 7.3,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Suzume",
     overview: "A modern action adventure road story where a 17-year-old girl sets out to close doors from the other side.",
     reviews: [
       { text: "Has moments of brilliance mixed with mediocrity.", sentiment: "neutral", score: -0.06 },
@@ -6800,7 +6800,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 520, title: "Demon Slayer: Mugen Train", year: 2020,
     genres: ["Animation", "Action", "Adventure"],
     rating: 8.2,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Demon%20Slayer%3A%20Mugen%20Train",
     overview: "Tanjiro and his comrades embark on a new mission aboard the Mugen Train.",
     reviews: [
       { text: "A frustrating watch with no payoff at the end.", sentiment: "negative", score: -0.29 },
@@ -6812,7 +6812,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 521, title: "One Piece Film: Red", year: 2022,
     genres: ["Animation", "Action", "Adventure"],
     rating: 6.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=One%20Piece%20Film%3A%20Red",
     overview: "Uta, a world-famous singer, reveals herself to the world at a live concert.",
     reviews: [
       { text: "A masterpiece of cinema that will be remembered for generations.", sentiment: "positive", score: 0.63 },
@@ -6826,7 +6826,7 @@ export function getRecommendations(movieId: number, count = 5): Movie[] {
     id: 522, title: "Dragon Ball Super: Broly", year: 2018,
     genres: ["Animation", "Action", "Adventure"],
     rating: 7.8,
-    poster: "/placeholder.svg",
+    poster: "https://placehold.co/300x450/06b6d4/083344?text=Dragon%20Ball%20Super%3A%20Broly",
     overview: "Goku and Vegeta encounter Broly, a Saiyan warrior of extraordinary power.",
     reviews: [
       { text: "A tedious experience from beginning to end.", sentiment: "negative", score: -0.59 },
