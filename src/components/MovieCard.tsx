@@ -24,9 +24,15 @@ const MovieCard = ({ movie, onClick, index = 0 }: MovieCardProps) => {
           <img
             src={movie.poster}
             alt={movie.title}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            className={`w-full h-full object-cover transition-all duration-500 group-hover:scale-110 ${imgLoaded ? "opacity-100" : "opacity-0"}`}
             loading="lazy"
+            onLoad={() => setImgLoaded(true)}
           />
+          {!imgLoaded && (
+            <div className="absolute inset-0 bg-muted animate-pulse flex items-center justify-center">
+              <span className="text-xs text-muted-foreground font-medium px-2 text-center">{movie.title}</span>
+            </div>
+          )}
           <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           <div className="absolute bottom-3 left-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <div className="flex items-center gap-1.5">
