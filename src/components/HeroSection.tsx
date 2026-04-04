@@ -75,7 +75,7 @@ const HeroSection = ({ onSelectMovie }: HeroSectionProps) => {
                     onClick={() => { onSelectMovie(m); setQuery(""); setShowResults(false); }}
                     className="flex items-start gap-3 w-full px-4 py-3 text-left hover:bg-secondary transition-colors border-b border-border last:border-b-0"
                   >
-                    <img src={m.poster} alt={m.title} className="w-10 h-14 rounded object-cover flex-shrink-0" />
+                    <MoviePoster title={m.title} year={m.year} rating={m.rating} genres={m.genres} className="w-10 h-14 rounded flex-shrink-0" />
                     <div className="flex-1 min-w-0">
                       <p className="text-sm font-medium text-foreground truncate">{m.title}</p>
                       <p className="text-xs text-muted-foreground">{m.year} · {m.genres.join(", ")}</p>

@@ -30,10 +30,12 @@ const MovieDetail = ({ movie, onClose, onSelectMovie }: MovieDetailProps) => {
 
         {/* Header */}
         <div className="flex flex-col sm:flex-row gap-6 p-6 pb-0">
-          <img
-            src={movie.poster}
-            alt={movie.title}
-            className="w-40 h-60 rounded-lg object-cover shadow-lg flex-shrink-0 self-center sm:self-start"
+          <MoviePoster
+            title={movie.title}
+            year={movie.year}
+            rating={movie.rating}
+            genres={movie.genres}
+            className="w-40 h-60 rounded-lg shadow-lg flex-shrink-0 self-center sm:self-start"
           />
           <div className="flex-1 min-w-0">
             <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground">{movie.title}</h2>
