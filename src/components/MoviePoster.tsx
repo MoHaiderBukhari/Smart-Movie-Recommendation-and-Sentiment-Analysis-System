@@ -1,4 +1,5 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
+import { useTmdbPoster } from "@/hooks/use-tmdb-poster";
 
 interface MoviePosterProps {
   title: string;
@@ -36,7 +37,6 @@ const genreGradients: Record<string, [string, string, string]> = {
 
 const defaultGradient: [string, string, string] = ["#4338ca", "#6366f1", "#a5b4fc"];
 
-// Generate a deterministic hash for consistent visuals
 const hashStr = (s: string): number => {
   let h = 0;
   for (let i = 0; i < s.length; i++) {
@@ -46,30 +46,17 @@ const hashStr = (s: string): number => {
 };
 
 const MoviePoster = ({ title, year, rating, genres, className = "" }: MoviePosterProps) => {
-  const { grad, angle, pattern } = useMemo(() => {
+  const posterUrl = useTmdbPoster(title, year);
+  const [imgLoaded, setImgLoaded] = useState(false);
+  const [imgError, setImgError] = useState(false);
+
+  const showImage = posterUrl && !imgError;
+
+  const { grad, angle } = useMemo(() => {
     const hash = hashStr(title);
     const g = genres.length > 0 ? (genreGradients[genres[0]] || defaultGradient) : defaultGradient;
-    return {
-      grad: g,
-      angle: (hash % 360),
-      pattern: hash % 5,
-    };
+    return { grad: g, angle: hash % 360 };
   }, [title, genres]);
-
-  // Generate decorative shapes based on hash
-  const shapes = useMemo(() => {
-    const hash = hashStr(title);
-    const elements: { x: number; y: number; size: number; opacity: number }[] = [];
-    for (let i = 0; i < 6; i++) {
-      elements.push({
-        x: ((hash * (i + 1) * 37) % 80) + 10,
-        y: ((hash * (i + 1) * 53) % 60) + 5,
-        size: ((hash * (i + 1) * 17) % 40) + 20,
-        opacity: 0.06 + (i % 3) * 0.04,
-      });
-    }
-    return elements;
-  }, [title]);
 
   const initials = title
     .split(/[\s:]+/)
@@ -85,54 +72,40 @@ const MoviePoster = ({ title, year, rating, genres, className = "" }: MoviePoste
         background: `linear-gradient(${angle}deg, ${grad[0]}, ${grad[1]} 50%, ${grad[2]})`,
       }}
     >
-      {/* Decorative circles */}
-      {shapes.map((s, i) => (
-        <div
-          key={i}
-          className="absolute rounded-full"
-          style={{
-            left: `${s.x}%`,
-            top: `${s.y}%`,
-            width: `${s.size}px`,
-            height: `${s.size}px`,
-            background: `rgba(255,255,255,${s.opacity})`,
-            transform: "translate(-50%, -50%)",
-          }}
+      {/* TMDB poster image */}
+      {showImage && (
+        <img
+          src={posterUrl}
+          alt={title}
+          loading="lazy"
+          onLoad={() => setImgLoaded(true)}
+          onError={() => setImgError(true)}
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${
+            imgLoaded ? "opacity-100" : "opacity-0"
+          }`}
         />
-      ))}
+      )}
 
-      {/* Film strip decoration */}
-      {pattern < 2 && (
-        <div className="absolute top-0 left-0 right-0 h-3 flex">
-          {Array.from({ length: 12 }).map((_, i) => (
-            <div key={i} className="flex-1 mx-px bg-black/15 rounded-sm" />
-          ))}
+      {/* Gradient fallback content - shown when no image or loading */}
+      {(!showImage || !imgLoaded) && (
+        <div className="absolute inset-0 flex flex-col items-center justify-center p-3 text-center">
+          <div
+            className="text-white/20 font-bold leading-none select-none"
+            style={{ fontSize: `${Math.max(2, 5 - initials.length * 0.5)}rem` }}
+          >
+            {initials}
+          </div>
+          <h3 className="text-white font-bold text-xs sm:text-sm leading-tight mt-2 drop-shadow-lg line-clamp-3 px-1">
+            {title}
+          </h3>
+          <div className="flex items-center gap-2 mt-2">
+            <span className="text-white/70 text-[10px] font-medium">{year}</span>
+            <span className="text-yellow-300 text-[10px] font-semibold">★ {rating}</span>
+          </div>
         </div>
       )}
 
-      {/* Content overlay */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center p-3 text-center">
-        {/* Large initials */}
-        <div
-          className="text-white/20 font-bold leading-none select-none"
-          style={{ fontSize: `${Math.max(2, 5 - initials.length * 0.5)}rem` }}
-        >
-          {initials}
-        </div>
-
-        {/* Title */}
-        <h3 className="text-white font-bold text-xs sm:text-sm leading-tight mt-2 drop-shadow-lg line-clamp-3 px-1">
-          {title}
-        </h3>
-
-        {/* Year & Rating */}
-        <div className="flex items-center gap-2 mt-2">
-          <span className="text-white/70 text-[10px] font-medium">{year}</span>
-          <span className="text-yellow-300 text-[10px] font-semibold">★ {rating}</span>
-        </div>
-      </div>
-
-      {/* Bottom gradient */}
+      {/* Bottom gradient for image posters */}
       <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black/40 to-transparent" />
     </div>
   );
