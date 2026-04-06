@@ -50,6 +50,15 @@ const MoviePoster = ({ title, year, rating, genres, className = "" }: MoviePoste
   const [imgLoaded, setImgLoaded] = useState(false);
   const [imgError, setImgError] = useState(false);
 
+  // Reset image state when movie changes
+  const movieKey = `${title}__${year}`;
+  const prevKeyRef = useRef(movieKey);
+  if (prevKeyRef.current !== movieKey) {
+    prevKeyRef.current = movieKey;
+    setImgLoaded(false);
+    setImgError(false);
+  }
+
   const showImage = posterUrl && !imgError;
 
   const { grad, angle } = useMemo(() => {
