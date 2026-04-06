@@ -10881,6 +10881,7 @@ export const movies: Movie[] = [
 // Simple content-based recommendation using genre overlap
 export function getRecommendations(movieId: number, count = 5): Movie[] {
   const target = movies.find((m) => m.id === movieId);
+  if (!target) return [];
   if (!target) return [  {
     id: 335, title: "The Godfather Part III", year: 1990,
     genres: ["Crime", "Drama"],
