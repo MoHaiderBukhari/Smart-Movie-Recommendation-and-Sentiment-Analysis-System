@@ -33,15 +33,24 @@ export function getPosterUrl(title: string, year: number): string | null {
   return cache[key] || null;
 }
 
+// Listeners for cache updates
+const cacheListeners = new Set<() => void>();
+export function onCacheUpdate(fn: () => void) {
+  cacheListeners.add(fn);
+  return () => { cacheListeners.delete(fn); };
+}
+function notifyCacheListeners() {
+  cacheListeners.forEach((fn) => fn());
+}
+
 export async function fetchPosters(
   movies: { title: string; year: number }[]
 ): Promise<Record<string, string>> {
-  // Filter to only uncached movies
   const needed = movies.filter((m) => !((`${m.title}__${m.year}`) in cache));
   
   if (needed.length === 0) return cache;
 
-  // Batch in groups of 40
+  // Batch in groups of 40, notify after each batch
   for (let i = 0; i < needed.length; i += 40) {
     const batch = needed.slice(i, i + 40);
     const batchKey = batch.map(m => `${m.title}__${m.year}`).join(",");
@@ -58,6 +67,7 @@ export async function fetchPosters(
               if (url) cache[key] = url as string;
             }
             saveCache(cache);
+            notifyCacheListeners();
           }
         } catch (e) {
           console.error("Failed to fetch posters:", e);
