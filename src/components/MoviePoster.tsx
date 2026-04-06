@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useMemo, useState, useRef } from "react";
 import { useTmdbPoster } from "@/hooks/use-tmdb-poster";
 
 interface MoviePosterProps {
