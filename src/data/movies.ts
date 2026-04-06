@@ -4391,7 +4391,7 @@ export const movies: Movie[] = [
       { text: "Captivating from start to finish. Truly remarkable.", sentiment: "positive", score: 0.9 },
       { text: "An average movie that doesn't quite reach its potential.", sentiment: "neutral", score: 0.16 },
     ],
-  },,
+  },
   {
     id: 523, title: "Gladiator II", year: 2024,
     genres: ["Action", "Adventure", "Drama"],
