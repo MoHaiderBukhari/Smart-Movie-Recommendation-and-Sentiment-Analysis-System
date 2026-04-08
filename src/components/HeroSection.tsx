@@ -15,6 +15,7 @@ const HeroSection = ({ onSelectMovie }: HeroSectionProps) => {
 
   const filtered = query.length > 0
     ? movies.filter((m) => m.title.toLowerCase().includes(query.toLowerCase()))
+      .filter((m, i, arr) => arr.findIndex((x) => x.title === m.title && x.year === m.year) === i)
     : [];
 
   useEffect(() => {

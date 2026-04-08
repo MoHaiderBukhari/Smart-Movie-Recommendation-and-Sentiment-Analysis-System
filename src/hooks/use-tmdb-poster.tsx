@@ -27,14 +27,27 @@ function queueFetch(title: string, year: number) {
 export function useTmdbPoster(title: string, year: number): string | null {
   const [url, setUrl] = useState(() => getPosterUrl(title, year));
   const mountedRef = useRef(true);
+  const prevKeyRef = useRef(`${title}__${year}`);
+
+  // Reset URL when movie changes
+  const currentKey = `${title}__${year}`;
+  if (prevKeyRef.current !== currentKey) {
+    prevKeyRef.current = currentKey;
+    const cached = getPosterUrl(title, year);
+    setUrl(cached);
+  }
 
   const refresh = useCallback(() => {
     const cached = getPosterUrl(title, year);
-    if (cached && mountedRef.current) setUrl(cached);
+    if (mountedRef.current) setUrl(cached);
   }, [title, year]);
 
   useEffect(() => {
     mountedRef.current = true;
+    // Check cache immediately on mount/change
+    const cached = getPosterUrl(title, year);
+    if (cached) setUrl(cached);
+    
     const unsub = onCacheUpdate(refresh);
     queueFetch(title, year);
 
