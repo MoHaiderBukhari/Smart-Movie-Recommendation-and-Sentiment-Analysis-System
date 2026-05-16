@@ -1,7 +1,6 @@
 import { Search } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
-import type { Movie } from "@/data/movies";
-import { movies } from "@/data/movies";
+import { useSearch, type Movie } from "@/lib/tmdb-api";
 import MoviePoster from "./MoviePoster";
 
 interface HeroSectionProps {
@@ -12,11 +11,17 @@ const HeroSection = ({ onSelectMovie }: HeroSectionProps) => {
   const [query, setQuery] = useState("");
   const [showResults, setShowResults] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
+  const [debounced, setDebounced] = useState("");
 
-  const filtered = query.length > 0
-    ? movies.filter((m) => m.title.toLowerCase().includes(query.toLowerCase()))
-      .filter((m, i, arr) => arr.findIndex((x) => x.title === m.title && x.year === m.year) === i)
-    : [];
+  useEffect(() => {
+    const t = setTimeout(() => setDebounced(query.trim()), 300);
+    return () => clearTimeout(t);
+  }, [query]);
+
+  const { data: results = [], isFetching } = useSearch(debounced);
+  const filtered = results.filter(
+    (m, i, arr) => arr.findIndex((x) => x.id === m.id) === i
+  );
 
   useEffect(() => {
     const handler = (e: MouseEvent) => {
@@ -56,18 +61,20 @@ const HeroSection = ({ onSelectMovie }: HeroSectionProps) => {
         </div>
         {showResults && query.length > 0 && (
           <div className="absolute top-full mt-2 w-full bg-card border border-border rounded-xl shadow-xl overflow-hidden z-20 max-h-80 overflow-y-auto">
-            {filtered.length > 0 ? (
+            {isFetching && filtered.length === 0 ? (
+              <div className="px-4 py-6 text-center text-sm text-muted-foreground">Searching…</div>
+            ) : filtered.length > 0 ? (
               filtered.slice(0, 8).map((m) => {
-                const sentimentLabel = m.reviews.length > 0
-                  ? m.reviews.filter(r => r.sentiment === "positive").length > m.reviews.length / 2
-                    ? "Mostly Positive"
-                    : m.reviews.filter(r => r.sentiment === "negative").length > m.reviews.length / 2
-                      ? "Mostly Negative"
-                      : "Mixed"
-                  : "No Reviews";
-                const sentimentColor = sentimentLabel === "Mostly Positive"
+                const sentimentLabel = m.rating >= 7
+                  ? "Highly Rated"
+                  : m.rating >= 5
+                    ? "Mixed"
+                    : m.rating > 0
+                      ? "Low Rated"
+                      : "Unrated";
+                const sentimentColor = sentimentLabel === "Highly Rated"
                   ? "text-emerald-400"
-                  : sentimentLabel === "Mostly Negative"
+                  : sentimentLabel === "Low Rated"
                     ? "text-destructive"
                     : "text-primary";
                 return (
@@ -76,10 +83,10 @@ const HeroSection = ({ onSelectMovie }: HeroSectionProps) => {
                     onClick={() => { onSelectMovie(m); setQuery(""); setShowResults(false); }}
                     className="flex items-start gap-3 w-full px-4 py-3 text-left hover:bg-secondary transition-colors border-b border-border last:border-b-0"
                   >
-                    <MoviePoster title={m.title} year={m.year} rating={m.rating} genres={m.genres} className="w-10 h-14 rounded flex-shrink-0" />
+                    <MoviePoster title={m.title} year={m.year} rating={m.rating} genres={[]} posterUrl={m.posterUrl} className="w-10 h-14 rounded flex-shrink-0" />
                     <div className="flex-1 min-w-0">
                       <p className="text-sm font-medium text-foreground truncate">{m.title}</p>
-                      <p className="text-xs text-muted-foreground">{m.year} · {m.genres.join(", ")}</p>
+                      <p className="text-xs text-muted-foreground">{m.year || "—"}</p>
                       <div className="flex items-center gap-2 mt-1">
                         <span className="text-primary text-xs font-semibold">★ {m.rating}</span>
                         <span className={`text-xs font-medium ${sentimentColor}`}>{sentimentLabel}</span>

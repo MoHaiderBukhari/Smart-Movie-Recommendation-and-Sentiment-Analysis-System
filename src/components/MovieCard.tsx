@@ -1,5 +1,6 @@
 import { Bookmark } from "lucide-react";
-import type { Movie } from "@/data/movies";
+import type { Movie } from "@/lib/tmdb-api";
+import { useGenres, genreNames } from "@/lib/tmdb-api";
 import { useWatchlist } from "@/hooks/use-watchlist";
 import MoviePoster from "./MoviePoster";
 
@@ -12,6 +13,8 @@ interface MovieCardProps {
 const MovieCard = ({ movie, onClick, index = 0 }: MovieCardProps) => {
   const { toggle, has } = useWatchlist();
   const saved = has(movie.id);
+  const { data: allGenres } = useGenres();
+  const resolvedGenres = movie.genres ?? genreNames(movie.genreIds, allGenres);
 
   return (
     <div
@@ -24,7 +27,8 @@ const MovieCard = ({ movie, onClick, index = 0 }: MovieCardProps) => {
             title={movie.title}
             year={movie.year}
             rating={movie.rating}
-            genres={movie.genres}
+            genres={resolvedGenres}
+            posterUrl={movie.posterUrl}
             className="w-full h-full"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -38,12 +42,12 @@ const MovieCard = ({ movie, onClick, index = 0 }: MovieCardProps) => {
         <h3 className="font-display text-sm font-medium text-foreground group-hover:text-primary transition-colors line-clamp-1">
           {movie.title}
         </h3>
-        <p className="text-xs text-muted-foreground mt-0.5">{movie.year} · {movie.genres.slice(0, 2).join(", ")}</p>
+        <p className="text-xs text-muted-foreground mt-0.5">{movie.year || "—"} · {resolvedGenres.slice(0, 2).join(", ")}</p>
       </button>
 
       {/* Watchlist bookmark */}
       <button
-        onClick={(e) => { e.stopPropagation(); toggle(movie.id); }}
+        onClick={(e) => { e.stopPropagation(); toggle(movie); }}
         className={`absolute top-2 right-2 z-10 p-1.5 rounded-full transition-all duration-200 ${
           saved
             ? "bg-primary text-primary-foreground opacity-100"

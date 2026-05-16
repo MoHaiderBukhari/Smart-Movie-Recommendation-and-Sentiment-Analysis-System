@@ -1,4 +1,4 @@
-import type { SentimentResult } from "@/data/movies";
+import type { SentimentResult } from "@/lib/tmdb-api";
 
 interface SentimentChartProps {
   sentiment: SentimentResult;
