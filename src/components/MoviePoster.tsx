@@ -1,11 +1,11 @@
 import { useMemo, useState, useRef } from "react";
-import { useTmdbPoster } from "@/hooks/use-tmdb-poster";
 
 interface MoviePosterProps {
   title: string;
   year: number;
   rating: number;
   genres: string[];
+  posterUrl?: string | null;
   className?: string;
 }
 
@@ -45,13 +45,12 @@ const hashStr = (s: string): number => {
   return Math.abs(h);
 };
 
-const MoviePoster = ({ title, year, rating, genres, className = "" }: MoviePosterProps) => {
-  const posterUrl = useTmdbPoster(title, year);
+const MoviePoster = ({ title, year, rating, genres, posterUrl, className = "" }: MoviePosterProps) => {
   const [imgLoaded, setImgLoaded] = useState(false);
   const [imgError, setImgError] = useState(false);
 
   // Reset image state when movie changes
-  const movieKey = `${title}__${year}`;
+  const movieKey = `${title}__${year}__${posterUrl ?? ""}`;
   const prevKeyRef = useRef(movieKey);
   if (prevKeyRef.current !== movieKey) {
     prevKeyRef.current = movieKey;
