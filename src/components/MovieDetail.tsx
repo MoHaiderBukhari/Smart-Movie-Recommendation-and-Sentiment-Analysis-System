@@ -1,22 +1,25 @@
 import { X, Bookmark } from "lucide-react";
 import MoviePoster from "./MoviePoster";
-import type { Movie } from "@/data/movies";
-import { analyzeSentiment, getRecommendations } from "@/data/movies";
+import { analyzeSentiment, useMovieDetail, type Movie } from "@/lib/tmdb-api";
 import { useWatchlist } from "@/hooks/use-watchlist";
 import SentimentChart from "./SentimentChart";
 import MovieCard from "./MovieCard";
 
 interface MovieDetailProps {
-  movie: Movie;
+  movieId: number;
   onClose: () => void;
   onSelectMovie: (movie: Movie) => void;
 }
 
-const MovieDetail = ({ movie, onClose, onSelectMovie }: MovieDetailProps) => {
-  const sentiment = analyzeSentiment(movie);
-  const recommendations = getRecommendations(movie.id, 4);
+const MovieDetail = ({ movieId, onClose, onSelectMovie }: MovieDetailProps) => {
+  const { data, isLoading } = useMovieDetail(movieId);
   const { toggle, has } = useWatchlist();
-  const saved = has(movie.id);
+
+  const movie = data?.movie;
+  const reviews = data?.reviews ?? [];
+  const similar = data?.similar ?? [];
+  const sentiment = analyzeSentiment(reviews);
+  const saved = movie ? has(movie.id) : false;
 
   return (
     <div className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-background/80 backdrop-blur-sm p-4 pt-20 pb-10 animate-fade-in">
@@ -28,20 +31,25 @@ const MovieDetail = ({ movie, onClose, onSelectMovie }: MovieDetailProps) => {
           <X className="w-5 h-5" />
         </button>
 
+        {isLoading || !movie ? (
+          <div className="p-12 text-center text-muted-foreground">Loading…</div>
+        ) : (
+        <>
         {/* Header */}
         <div className="flex flex-col sm:flex-row gap-6 p-6 pb-0">
           <MoviePoster
             title={movie.title}
             year={movie.year}
             rating={movie.rating}
-            genres={movie.genres}
+            genres={movie.genres ?? []}
+            posterUrl={movie.posterUrl}
             className="w-40 h-60 rounded-lg shadow-lg flex-shrink-0 self-center sm:self-start"
           />
           <div className="flex-1 min-w-0">
             <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground">{movie.title}</h2>
-            <p className="text-muted-foreground mt-1">{movie.year}</p>
+            <p className="text-muted-foreground mt-1">{movie.year || ""}</p>
             <div className="flex flex-wrap gap-2 mt-3">
-              {movie.genres.map((g) => (
+              {(movie.genres ?? []).map((g) => (
                 <span key={g} className="px-3 py-1 rounded-full text-xs font-medium bg-secondary text-secondary-foreground">
                   {g}
                 </span>
@@ -53,7 +61,7 @@ const MovieDetail = ({ movie, onClose, onSelectMovie }: MovieDetailProps) => {
             </div>
             <p className="text-sm text-muted-foreground mt-4 leading-relaxed">{movie.overview}</p>
             <button
-              onClick={() => toggle(movie.id)}
+              onClick={() => toggle(movie)}
               className={`mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                 saved
                   ? "bg-primary text-primary-foreground"
@@ -68,39 +76,46 @@ const MovieDetail = ({ movie, onClose, onSelectMovie }: MovieDetailProps) => {
 
         {/* Sentiment */}
         <div className="p-6">
-          <SentimentChart sentiment={sentiment} />
-
-          {/* Reviews */}
-          <div className="mt-6 space-y-3">
-            <h4 className="font-display text-lg text-foreground">Reviews</h4>
-            {movie.reviews.map((review, i) => (
-              <div key={i} className="p-3 rounded-lg bg-muted/50 border border-border">
-                <p className="text-sm text-foreground/90 italic">"{review.text}"</p>
-                <div className="flex items-center gap-2 mt-2">
-                  <span className={`text-xs font-medium px-2 py-0.5 rounded-full ${
-                    review.sentiment === "positive" ? "bg-emerald-500/20 text-emerald-400" :
-                    review.sentiment === "negative" ? "bg-destructive/20 text-destructive" :
-                    "bg-primary/20 text-primary"
-                  }`}>
-                    {review.sentiment}
-                  </span>
-                  <span className="text-xs text-muted-foreground">Score: {review.score}</span>
-                </div>
+          {reviews.length > 0 ? (
+            <>
+              <SentimentChart sentiment={sentiment} />
+              <div className="mt-6 space-y-3">
+                <h4 className="font-display text-lg text-foreground">Reviews</h4>
+                {reviews.map((review, i) => (
+                  <div key={i} className="p-3 rounded-lg bg-muted/50 border border-border">
+                    <p className="text-xs text-muted-foreground mb-1">— {review.author}</p>
+                    <p className="text-sm text-foreground/90 italic">"{review.text}"</p>
+                    <div className="flex items-center gap-2 mt-2">
+                      <span className={`text-xs font-medium px-2 py-0.5 rounded-full ${
+                        review.sentiment === "positive" ? "bg-emerald-500/20 text-emerald-400" :
+                        review.sentiment === "negative" ? "bg-destructive/20 text-destructive" :
+                        "bg-primary/20 text-primary"
+                      }`}>
+                        {review.sentiment}
+                      </span>
+                      <span className="text-xs text-muted-foreground">Score: {review.score}</span>
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            </>
+          ) : (
+            <p className="text-sm text-muted-foreground italic">No reviews available for this movie yet.</p>
+          )}
         </div>
 
-        {/* Recommendations */}
-        {recommendations.length > 0 && (
+        {/* Similar */}
+        {similar.length > 0 && (
           <div className="p-6 pt-0">
             <h4 className="font-display text-lg text-foreground mb-4">Similar Movies</h4>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-              {recommendations.map((m, i) => (
+              {similar.slice(0, 4).map((m, i) => (
                 <MovieCard key={m.id} movie={m} onClick={onSelectMovie} index={i} />
               ))}
             </div>
           </div>
+        )}
+        </>
         )}
       </div>
     </div>
