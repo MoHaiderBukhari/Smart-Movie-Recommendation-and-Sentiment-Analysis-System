@@ -49,7 +49,8 @@ Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') return new Response('ok', { headers: corsHeaders })
 
   try {
-    const body = await req.json() as { action: string; [k: string]: any }
+    const text = await req.text()
+    const body = (text ? JSON.parse(text) : {}) as { action: string; [k: string]: any }
     const { action } = body
 
     let payload: any
