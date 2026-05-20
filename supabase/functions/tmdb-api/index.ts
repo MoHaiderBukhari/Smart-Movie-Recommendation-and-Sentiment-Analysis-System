@@ -50,7 +50,18 @@ Deno.serve(async (req) => {
 
   try {
     const text = await req.text()
-    const body = (text ? JSON.parse(text) : {}) as { action: string; [k: string]: any }
+    let body: { action?: string; [k: string]: any } = {}
+
+    if (text.trim()) {
+      try {
+        body = JSON.parse(text)
+      } catch {
+        return new Response(JSON.stringify({ error: 'Invalid JSON request body' }), {
+          status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+        })
+      }
+    }
+
     const { action } = body
 
     let payload: any
