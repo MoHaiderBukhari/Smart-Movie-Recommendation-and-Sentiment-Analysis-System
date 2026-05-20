@@ -40,9 +40,21 @@ function mapMovie(m: any) {
 
 async function tmdb(path: string, params: Record<string, string> = {}) {
   const usp = new URLSearchParams({ api_key: TMDB_API_KEY, language: 'en-US', ...params })
-  const res = await fetch(`${TMDB_BASE}${path}?${usp}`)
-  if (!res.ok) throw new Error(`TMDB ${path} ${res.status}`)
-  return res.json()
+  const res = await fetch(`${TMDB_BASE}${path}?${usp}`, {
+    headers: {
+      'Accept': 'application/json',
+      'Accept-Encoding': 'identity',
+    },
+  })
+  const text = await res.text()
+  if (!res.ok) throw new Error(`TMDB ${path} ${res.status}: ${text || 'empty response'}`)
+  if (!text.trim()) throw new Error(`TMDB ${path} returned an empty response`)
+
+  try {
+    return JSON.parse(text)
+  } catch {
+    throw new Error(`TMDB ${path} returned invalid JSON`)
+  }
 }
 
 Deno.serve(async (req) => {
@@ -50,7 +62,18 @@ Deno.serve(async (req) => {
 
   try {
     const text = await req.text()
-    const body = (text ? JSON.parse(text) : {}) as { action: string; [k: string]: any }
+    let body: { action?: string; [k: string]: any } = {}
+
+    if (text.trim()) {
+      try {
+        body = JSON.parse(text)
+      } catch {
+        return new Response(JSON.stringify({ error: 'Invalid JSON request body' }), {
+          status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+        })
+      }
+    }
+
     const { action } = body
 
     let payload: any
