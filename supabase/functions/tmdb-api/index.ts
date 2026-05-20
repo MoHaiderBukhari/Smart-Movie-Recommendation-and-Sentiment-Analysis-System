@@ -41,8 +41,15 @@ function mapMovie(m: any) {
 async function tmdb(path: string, params: Record<string, string> = {}) {
   const usp = new URLSearchParams({ api_key: TMDB_API_KEY, language: 'en-US', ...params })
   const res = await fetch(`${TMDB_BASE}${path}?${usp}`)
-  if (!res.ok) throw new Error(`TMDB ${path} ${res.status}`)
-  return res.json()
+  const text = await res.text()
+  if (!res.ok) throw new Error(`TMDB ${path} ${res.status}: ${text || 'empty response'}`)
+  if (!text.trim()) throw new Error(`TMDB ${path} returned an empty response`)
+
+  try {
+    return JSON.parse(text)
+  } catch {
+    throw new Error(`TMDB ${path} returned invalid JSON`)
+  }
 }
 
 Deno.serve(async (req) => {
